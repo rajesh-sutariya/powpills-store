@@ -6,8 +6,8 @@ import { ProductCard } from './ProductCard';
 import type { Product } from '@/lib/types';
 
 /**
- * Horizontally scrollable product rail: five cards per view on desktop,
- * with the prev/next arrows shown on the left and right edges of the row.
+ * Five cards per view on desktop. The arrows fade out at each end instead of
+ * sitting there greyed, and scrolling snaps so a card is never half-visible.
  */
 export function ProductCarousel({ products }: { products: Product[] }) {
   const railRef = useRef<HTMLUListElement>(null);
@@ -46,17 +46,17 @@ export function ProductCarousel({ products }: { products: Product[] }) {
         aria-label="Previous products"
         onClick={() => scrollByPage(-1)}
         disabled={atStart}
-        className="carousel-arrow -left-4"
+        className="carousel-arrow -left-4 lg:-left-5"
       >
-        <ChevronLeft />
+        <ChevronLeft className="h-4.5 w-4.5" />
       </button>
 
       <ul
         ref={railRef}
-        className="grid auto-cols-[minmax(200px,1fr)] grid-flow-col gap-4 overflow-x-auto scroll-smooth pb-1 no-scrollbar sm:auto-cols-[minmax(220px,1fr)] lg:auto-cols-[calc((100%_-_4rem)/5)]"
+        className="grid snap-x snap-mandatory auto-cols-[minmax(210px,1fr)] grid-flow-col gap-5 overflow-x-auto scroll-smooth pb-2 no-scrollbar sm:auto-cols-[minmax(230px,1fr)] lg:auto-cols-[calc((100%_-_5rem)/5)]"
       >
         {products.map((product) => (
-          <li key={product.id} className="min-w-0">
+          <li key={product.id} className="min-w-0 snap-start">
             <ProductCard product={product} />
           </li>
         ))}
@@ -67,9 +67,9 @@ export function ProductCarousel({ products }: { products: Product[] }) {
         aria-label="Next products"
         onClick={() => scrollByPage(1)}
         disabled={atEnd}
-        className="carousel-arrow -right-4"
+        className="carousel-arrow -right-4 lg:-right-5"
       >
-        <ChevronRight />
+        <ChevronRight className="h-4.5 w-4.5" />
       </button>
     </div>
   );

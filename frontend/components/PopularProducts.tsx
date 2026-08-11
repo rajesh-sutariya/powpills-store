@@ -1,9 +1,8 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import Link from 'next/link';
-import { ArrowRight } from './Icon';
 import { ProductCarousel } from './ProductCarousel';
+import { SectionHeading } from './SectionHeading';
 import type { ProductSection } from '@/lib/types';
 
 const ALL_TAB_INDEX = 0;
@@ -20,21 +19,19 @@ export function PopularProducts({ content }: { content: ProductSection }) {
   }, [active, content.products, tabs]);
 
   return (
-    <section className="bg-white py-12">
+    <section className="section bg-surface-soft">
       <div className="shell">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <h2 className="section-title">{content.title}</h2>
-          <Link href={content.viewAllHref} className="link-more">
-            {content.viewAllLabel}
-            <ArrowRight className="h-3.5 w-3.5" />
-          </Link>
-        </div>
+        <SectionHeading
+          title={content.title}
+          align="split"
+          action={{ label: content.viewAllLabel, href: content.viewAllHref }}
+        />
 
         {tabs.length > 0 && (
           <div
             role="tablist"
             aria-label={content.title}
-            className="mt-5 flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar"
+            className="-mt-3 mb-8 flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar"
           >
             {tabs.map((tab) => {
               const isActive = tab === active;
@@ -45,9 +42,9 @@ export function PopularProducts({ content }: { content: ProductSection }) {
                   type="button"
                   aria-selected={isActive}
                   onClick={() => setActive(tab)}
-                  className={`shrink-0 rounded-full border px-4 py-1.5 text-xs font-semibold transition-colors ${
+                  className={`shrink-0 rounded-full border px-4 py-2 text-[0.8125rem] font-semibold transition ${
                     isActive
-                      ? 'border-brand-700 bg-brand-700 text-white'
+                      ? 'border-brand-600 bg-brand-600 text-white shadow-sm'
                       : 'border-line bg-white text-ink-soft hover:border-brand-300 hover:text-brand-700'
                   }`}
                 >
@@ -58,9 +55,7 @@ export function PopularProducts({ content }: { content: ProductSection }) {
           </div>
         )}
 
-        <div className="mt-6">
-          <ProductCarousel products={visible} />
-        </div>
+        <ProductCarousel products={visible} />
       </div>
     </section>
   );

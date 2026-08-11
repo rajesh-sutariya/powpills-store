@@ -1,6 +1,5 @@
-import Link from 'next/link';
-import { ArrowRight } from './Icon';
 import { ProductCarousel } from './ProductCarousel';
+import { SectionHeading } from './SectionHeading';
 import type { ProductSection } from '@/lib/types';
 
 export function ProductRow({
@@ -11,19 +10,15 @@ export function ProductRow({
   background?: 'white' | 'soft';
 }) {
   return (
-    <section className={background === 'soft' ? 'bg-surface-soft py-12' : 'bg-white py-12'}>
+    <section className={`section ${background === 'soft' ? 'bg-surface-soft' : 'bg-white'}`}>
       <div className="shell">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <h2 className="section-title">{content.title}</h2>
-          <Link href={content.viewAllHref} className="link-more">
-            {content.viewAllLabel}
-            <ArrowRight className="h-3.5 w-3.5" />
-          </Link>
-        </div>
+        <SectionHeading
+          title={content.title}
+          align="split"
+          action={{ label: content.viewAllLabel, href: content.viewAllHref }}
+        />
 
-        <div className="mt-6">
-          <ProductCarousel products={content.products} />
-        </div>
+        <ProductCarousel products={content.products} />
       </div>
     </section>
   );

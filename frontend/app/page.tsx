@@ -16,62 +16,48 @@ import { SupportBanner } from '@/components/SupportBanner';
 import { Testimonials } from '@/components/Testimonials';
 import { getHomepageContent } from '@/lib/wp';
 
+/**
+ * Surface rhythm down the page. No two adjacent sections share a background,
+ * and the two tinted bands (stats, support) plus the dark close act as anchors
+ * so the page reads as one document:
+ *
+ *   dark → white chrome → hero tint → soft → white → soft → white
+ *        → brand tint → white → soft → white → mint tint → soft → white
+ *        → dark → darker
+ */
 export default async function HomePage() {
   const { content } = await getHomepageContent();
 
   return (
     <>
-      {/* 1. Utility bar */}
       <AnnouncementBar content={content.announcement} />
-
-      {/* 2. Logo, search, account, cart */}
       <SiteHeader content={content.header} />
-
-      {/* 3. Category navigation */}
       <MainNav content={content.nav} categories={content.categorySection.categories} />
 
       <main>
-        {/* 4. Hero */}
+        {/* Hero tint, with the assurance strip overlapping up into it. */}
         <Hero content={content.hero} />
-
-        {/* 5. Quality / price / shipping / payment / returns strip */}
         <AssuranceStrip items={content.assurances} />
 
-        {/* 6. Shop by Category */}
         <CategoryGrid content={content.categorySection} />
-
-        {/* 7. Popular Products Across Our Store (tabs + rail) */}
         <PopularProducts content={content.popularProducts} />
-
-        {/* 8. Three promo cards */}
         <PromoCards cards={content.promos} />
 
-        {/* 9. Trust stats + featured review */}
+        {/* First tinted anchor. */}
         <StatsAndReview stats={content.stats} review={content.reviewCard} />
 
-        {/* 10. How It Works */}
         <HowItWorks content={content.howItWorks} />
+        <ProductRow content={content.productRows[0]} background="soft" />
+        <ProductRow content={content.productRows[1]} background="white" />
 
-        {/* 11. Best Sellers in Men's Health */}
-        <ProductRow content={content.productRows[0]} />
-
-        {/* 12. Wellness, Hair & Skin Essentials */}
-        <ProductRow content={content.productRows[1]} />
-
-        {/* 13. Support banner */}
+        {/* Second tinted anchor. */}
         <SupportBanner content={content.supportBanner} />
 
-        {/* 14. What Our Customers Say */}
         <Testimonials content={content.testimonials} />
-
-        {/* 15. Frequently Asked Questions */}
         <Faq content={content.faq} />
-
-        {/* 16. Newsletter */}
         <Newsletter content={content.newsletter} />
       </main>
 
-      {/* 17. Footer */}
       <SiteFooter content={content.footer} />
     </>
   );

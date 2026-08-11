@@ -5,6 +5,10 @@ import { Icon } from './Icon';
 import { subscribeToNewsletter } from '@/lib/wp-client';
 import type { NewsletterSection } from '@/lib/types';
 
+/**
+ * Dark band that closes the content and leads into the footer, so the page ends
+ * deliberately instead of just stopping.
+ */
 export function Newsletter({ content }: { content: NewsletterSection }) {
   const [email, setEmail] = useState('');
   const [state, setState] = useState<'idle' | 'sending' | 'done' | 'error'>('idle');
@@ -18,19 +22,28 @@ export function Newsletter({ content }: { content: NewsletterSection }) {
   }
 
   return (
-    <section className="bg-brand-800 py-9">
-      <div className="shell grid items-center gap-6 lg:grid-cols-[1.3fr_1fr]">
-        <div className="flex items-start gap-3">
-          <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/10 text-white">
-            <Icon name="mail" className="h-5 w-5" />
+    <section className="relative overflow-hidden bg-brand-800 py-12 lg:py-14">
+      <span
+        aria-hidden="true"
+        className="pointer-events-none absolute -left-20 -top-24 h-72 w-72 rounded-full bg-brand-700/60 blur-3xl"
+      />
+
+      <div className="shell relative grid items-center gap-8 lg:grid-cols-[1.25fr_1fr]">
+        <div className="flex items-start gap-4">
+          <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+            <Icon name="mail" className="h-6 w-6" strokeWidth={1.7} />
           </span>
           <div>
-            <h2 className="text-base font-bold text-white sm:text-lg">{content.title}</h2>
-            <p className="mt-1 text-2xs text-brand-100 sm:text-xs">{content.description}</p>
+            <h2 className="text-xl font-bold tracking-tight text-white sm:text-2xl">
+              {content.title}
+            </h2>
+            <p className="mt-2 max-w-md text-sm leading-relaxed text-brand-100">
+              {content.description}
+            </p>
           </div>
         </div>
 
-        <form onSubmit={handleSubmit} className="flex w-full items-center gap-2">
+        <form onSubmit={handleSubmit} className="flex w-full flex-col gap-3 sm:flex-row">
           <label htmlFor="newsletter-email" className="sr-only">
             {content.placeholder}
           </label>
@@ -41,12 +54,12 @@ export function Newsletter({ content }: { content: NewsletterSection }) {
             value={email}
             onChange={(event) => setEmail(event.target.value)}
             placeholder={content.placeholder}
-            className="h-11 w-full rounded-md border border-white/20 bg-white px-4 text-sm text-ink placeholder:text-ink-faint focus:border-brand-300 focus:outline-none"
+            className="h-12 w-full rounded-xl border border-white/15 bg-white/95 px-4 text-sm text-ink placeholder:text-ink-faint focus:border-white focus:bg-white focus:outline-none focus:ring-4 focus:ring-white/15"
           />
           <button
             type="submit"
             disabled={state === 'sending'}
-            className="btn h-11 shrink-0 bg-brand-500 px-6 text-white hover:bg-brand-600 disabled:opacity-70"
+            className="btn h-12 shrink-0 bg-brand-500 px-8 text-15 text-white hover:bg-brand-400 disabled:opacity-70"
           >
             {content.buttonLabel}
           </button>

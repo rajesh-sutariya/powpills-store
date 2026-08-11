@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight, Stars } from './Icon';
+import { SectionHeading } from './SectionHeading';
 import type { TestimonialSection } from '@/lib/types';
 
 export function Testimonials({ content }: { content: TestimonialSection }) {
@@ -36,43 +37,45 @@ export function Testimonials({ content }: { content: TestimonialSection }) {
   };
 
   return (
-    <section className="bg-surface-soft py-12">
+    <section className="section bg-surface-soft">
       <div className="shell">
-        <h2 className="section-title text-center">{content.title}</h2>
+        <SectionHeading title={content.title} />
 
-        <div className="relative mt-8">
+        <div className="relative">
           <button
             type="button"
             aria-label="Previous reviews"
             onClick={() => scrollByPage(-1)}
             disabled={atStart}
-            className="carousel-arrow -left-4"
+            className="carousel-arrow -left-4 lg:-left-5"
           >
-            <ChevronLeft />
+            <ChevronLeft className="h-4.5 w-4.5" />
           </button>
 
           <ul
             ref={railRef}
-            className="grid auto-cols-[minmax(240px,1fr)] grid-flow-col gap-4 overflow-x-auto scroll-smooth pb-1 no-scrollbar lg:auto-cols-[calc((100%_-_3rem)/4)]"
+            className="grid snap-x snap-mandatory auto-cols-[minmax(255px,1fr)] grid-flow-col gap-5 overflow-x-auto scroll-smooth pb-2 no-scrollbar lg:auto-cols-[calc((100%_-_3.75rem)/4)]"
           >
             {content.items.map((item) => (
-              <li key={item.name} className="min-w-0">
-                <figure className="card flex h-full flex-col px-5 py-5">
-                  <Stars rating={5} />
-                  <blockquote className="mt-3 flex-1 text-2xs leading-relaxed text-ink-soft">
+              <li key={item.name} className="min-w-0 snap-start">
+                <figure className="card flex h-full flex-col p-6">
+                  <Stars rating={5} className="h-4 w-4" />
+
+                  <blockquote className="mt-4 flex-1 text-sm leading-relaxed text-ink-soft">
                     {item.quote}
                   </blockquote>
-                  <figcaption className="mt-4 flex items-center gap-2.5">
+
+                  <figcaption className="mt-5 flex items-center gap-3 border-t border-line pt-4">
                     <Image
                       src={item.avatar}
                       alt={item.name}
                       width={96}
                       height={96}
-                      className="h-8 w-8 rounded-full object-cover"
+                      className="h-10 w-10 rounded-full object-cover"
                     />
                     <span className="leading-tight">
-                      <span className="block text-2xs font-bold text-ink">{item.name}</span>
-                      <span className="block text-2xs text-ink-muted">{item.role}</span>
+                      <span className="block text-[0.8125rem] font-bold text-ink">{item.name}</span>
+                      <span className="mt-0.5 block text-xs text-ink-muted">{item.role}</span>
                     </span>
                   </figcaption>
                 </figure>
@@ -85,9 +88,9 @@ export function Testimonials({ content }: { content: TestimonialSection }) {
             aria-label="Next reviews"
             onClick={() => scrollByPage(1)}
             disabled={atEnd}
-            className="carousel-arrow -right-4"
+            className="carousel-arrow -right-4 lg:-right-5"
           >
-            <ChevronRight />
+            <ChevronRight className="h-4.5 w-4.5" />
           </button>
         </div>
       </div>

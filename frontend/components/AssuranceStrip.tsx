@@ -1,23 +1,35 @@
 import { Icon } from './Icon';
 import type { Assurance } from '@/lib/types';
 
+/**
+ * Overlaps the hero above it (negative top margin) so the two sections read as
+ * a single unit — this is the seam that stops the page feeling like a stack of
+ * disconnected strips.
+ */
 export function AssuranceStrip({ items }: { items: Assurance[] }) {
   return (
-    <section className="bg-white py-8">
+    <section className="relative z-10 bg-surface-soft pb-14 sm:pb-16 lg:pb-20">
       <div className="shell">
-        <div className="card grid gap-6 px-6 py-6 sm:grid-cols-2 lg:grid-cols-5">
-          {items.map((item) => (
-            <div key={item.title} className="flex items-start gap-3">
-              <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-700">
-                <Icon name={item.icon} className="h-4.5 w-4.5" />
+        <ul className="-mt-20 grid gap-x-6 gap-y-7 rounded-3xl border border-line bg-white px-7 py-8 shadow-lift sm:grid-cols-2 lg:-mt-24 lg:grid-cols-5 lg:gap-x-4 lg:px-8">
+          {items.map((item, index) => (
+            <li
+              key={item.title}
+              className={`flex items-start gap-3.5 lg:px-2 ${
+                index > 0 ? 'lg:border-l lg:border-line' : ''
+              }`}
+            >
+              <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600">
+                <Icon name={item.icon} className="h-5 w-5" strokeWidth={1.7} />
               </span>
-              <span className="leading-tight">
-                <span className="block text-xs font-bold text-ink">{item.title}</span>
-                <span className="mt-1 block text-2xs text-ink-muted">{item.description}</span>
+              <span className="min-w-0">
+                <span className="block text-sm font-bold leading-snug text-ink">{item.title}</span>
+                <span className="mt-1 block text-[0.8125rem] leading-snug text-ink-muted">
+                  {item.description}
+                </span>
               </span>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </section>
   );
