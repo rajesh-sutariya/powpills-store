@@ -66,6 +66,24 @@ export function ProductCard({ product }: { product: CatalogProduct }) {
           {product.subtitle}
         </p>
 
+        {/* Category-specific attributes: strength and available pack range.
+            Listing research is clear that shoppers compare on these without
+            opening each product — showing only a name and price forces a click. */}
+        <dl className="mt-2.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-2xs text-ink-muted">
+          {product.specs.Strength && (
+            <div className="flex gap-1">
+              <dt className="font-medium">{labels.product.strengthLabel}:</dt>
+              <dd className="font-semibold text-ink-soft">{product.specs.Strength}</dd>
+            </div>
+          )}
+          {product.packs.length > 1 && (
+            <div className="flex gap-1">
+              <dt className="font-medium">{labels.product.packsLabel}:</dt>
+              <dd className="font-semibold text-ink-soft">{product.packs.length}</dd>
+            </div>
+          )}
+        </dl>
+
         <div className="mt-2.5 flex items-center gap-2">
           <Stars rating={product.rating} className="h-3.5 w-3.5" />
           <span className="text-xs font-medium text-ink-muted">

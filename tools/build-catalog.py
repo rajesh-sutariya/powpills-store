@@ -340,6 +340,128 @@ def stable_int(seed, low, high):
     return low + (h % (high - low + 1))
 
 
+DISCLAIMER = (
+    "This information is general and is not medical advice. Always follow the guidance of "
+    "your doctor or pharmacist, and read the leaflet supplied with your medicine."
+)
+
+# Generic, non-prescriptive guidance shown on every product page. Written here
+# rather than copied from anywhere; have a pharmacist review before going live.
+USAGE_BLOCKS = [
+    {
+        "title": "How to take it",
+        "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, "
+                "double up on a missed dose, or stop treatment without medical advice.",
+    },
+    {
+        "title": "Storage",
+        "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it "
+                "out of the sight and reach of children.",
+    },
+    {
+        "title": "Before you start",
+        "body": "Tell your doctor about any other medicines, supplements or existing conditions, "
+                "including heart, liver or kidney problems, before you start treatment.",
+    },
+]
+
+
+def category_guide(name):
+    """Short buying guide shown beneath the product grid."""
+    return {
+        "title": f"How to choose {name} medicines",
+        "intro": f"A few things worth checking before you order in the {name} range.",
+        "points": [
+            {
+                "title": "Match the active ingredient",
+                "body": "Generic medicines are named after their brand, so check the active "
+                        "ingredient in brackets matches what your doctor recommended.",
+            },
+            {
+                "title": "Check the strength",
+                "body": "The same brand is often sold in several strengths. Order the strength on "
+                        "your prescription rather than the cheapest one.",
+            },
+            {
+                "title": "Bigger packs cost less per unit",
+                "body": "Every product lists a price per unit for each pack size, so you can see "
+                        "exactly what a larger pack saves before you buy.",
+            },
+            {
+                "title": "Delivery and packaging",
+                "body": "Orders ship in plain, discreet packaging with tracking, and typically "
+                        "arrive within 6 to 15 days.",
+            },
+        ],
+    }
+
+
+def category_faqs(name):
+    """Four questions a shopper actually asks on a category page."""
+    return [
+        {
+            "question": f"Do I need a prescription to order {name} medicines?",
+            "answer": "Prescription-only medicines require a valid prescription. Our support team "
+                      "will confirm what is needed for your order before it is dispatched.",
+        },
+        {
+            "question": "Are generic medicines as effective as the branded versions?",
+            "answer": "A generic contains the same active ingredient as its branded equivalent and "
+                      "is manufactured to the same quality standards, which is why it costs less.",
+        },
+        {
+            "question": "How long will my order take to arrive?",
+            "answer": "Orders are typically delivered within 6 to 15 days depending on your "
+                      "location, and every parcel is trackable from dispatch to your door.",
+        },
+        {
+            "question": "How do I know which strength to order?",
+            "answer": "Strength should follow your prescription and your doctor's advice. If you "
+                      "are unsure, contact our support team before ordering.",
+        },
+    ]
+
+
+def product_faqs(name, ingredient, indication, packs):
+    """Product-level questions, built from the product's own data."""
+    short = name.split(" (")[0]
+    best = packs[-1]
+
+    return [
+        {
+            "question": f"What is {short} used for?",
+            "answer": f"{short} contains {ingredient} and is prescribed in the treatment of "
+                      f"{indication}. Your doctor will confirm whether it is suitable for you.",
+        },
+        {
+            "question": "Which pack size gives the best value?",
+            "answer": f"The {best['label']} pack has the lowest price per unit at "
+                      f"{best['unitLabel']}. Smaller packs cost more per unit but less up front.",
+        },
+        {
+            "question": f"Is {short} the same as the branded medicine?",
+            "answer": f"It contains the same active ingredient, {ingredient}, as the branded "
+                      "product and is made to the same quality standards.",
+        },
+    ]
+
+
+def review_breakdown(seed, total, rating):
+    """
+    Deterministic star distribution that averages out close to the product's
+    rating, so the ratings summary and the average agree.
+    """
+    weights = {5: 0.62, 4: 0.24, 3: 0.09, 2: 0.03, 1: 0.02}
+    if rating >= 4.8:
+        weights = {5: 0.78, 4: 0.15, 3: 0.04, 2: 0.02, 1: 0.01}
+    elif rating < 4.5:
+        weights = {5: 0.48, 4: 0.30, 3: 0.13, 2: 0.06, 1: 0.03}
+
+    counts = {star: int(total * share) for star, share in weights.items()}
+    counts[5] += total - sum(counts.values())
+    return {str(star): counts[star] for star in (5, 4, 3, 2, 1)}
+
+
 def build():
     categories = []
     for slug, name, icon, tone, description in CATEGORIES:
@@ -353,6 +475,14 @@ def build():
                 "href": f"/product-category/{slug}",
             }
         )
+
+    for index, category in enumerate(categories):
+        category["guide"] = category_guide(category["name"])
+        category["faqs"] = category_faqs(category["name"])
+        category["related"] = [
+            other["slug"]
+            for other in categories[index + 1 :] + categories[:index]
+        ][:4]
 
     products = []
     for (slug, name, ingredient, form, cats, pmin, pmax, strength, maker, indication, badge) in P:
@@ -385,6 +515,13 @@ def build():
                 "reviewCount": reviews,
                 "badge": badge,
                 "description": description,
+                "indication": indication,
+                "faqs": product_faqs(name, ingredient, indication, packs),
+                "usage": USAGE_BLOCKS,
+                "reviewBreakdown": review_breakdown(slug, reviews, rating),
+                "gallery": [
+                    f"/images/form-{spec['art']}-{tint}.svg" for tint in ART_TINTS
+                ],
                 "specs": {
                     "Active Ingredient": ingredient,
                     "Manufacturer": maker,
@@ -409,6 +546,7 @@ def build():
 
     return {
         "generatedBy": "tools/build-catalog.py",
+        "disclaimer": DISCLAIMER,
         "categories": categories,
         "products": products,
     }

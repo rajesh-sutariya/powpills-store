@@ -18,7 +18,7 @@ export function PromoCards({ cards }: { cards: PromoCard[] }) {
         {cards.map((card) => (
           <div
             key={card.title}
-            className={`flex items-end justify-between gap-4 overflow-hidden rounded-2xl border p-6 ${toneClasses[card.tone]}`}
+            className={`flex flex-col items-start gap-4 overflow-hidden rounded-2xl border p-5 sm:flex-row sm:items-end sm:justify-between sm:p-6 ${toneClasses[card.tone]}`}
           >
             <div className="flex min-w-0 flex-col self-stretch">
               <h3 className="text-base font-bold leading-snug text-ink">{card.title}</h3>
@@ -41,7 +41,7 @@ export function PromoCards({ cards }: { cards: PromoCard[] }) {
               alt={card.image.alt}
               width={300}
               height={240}
-              className="h-28 w-auto shrink-0 self-end object-contain"
+              className="h-24 w-auto shrink-0 self-end object-contain sm:h-28"
             />
           </div>
         ))}

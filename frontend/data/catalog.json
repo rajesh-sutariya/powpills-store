@@ -1,5 +1,6 @@
 {
   "generatedBy": "tools/build-catalog.py",
+  "disclaimer": "This information is general and is not medical advice. Always follow the guidance of your doctor or pharmacist, and read the leaflet supplied with your medicine.",
   "categories": [
     {
       "slug": "erectile-dysfunction",
@@ -8,6 +9,52 @@
       "tone": "sky",
       "description": "Generic sildenafil, tadalafil and vardenafil tablets for erectile dysfunction, in a range of strengths and pack sizes.",
       "href": "/product-category/erectile-dysfunction",
+      "guide": {
+        "title": "How to choose Erectile Dysfunction medicines",
+        "intro": "A few things worth checking before you order in the Erectile Dysfunction range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order Erectile Dysfunction medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "premature-ejaculation",
+        "hair-loss",
+        "skin-care",
+        "womens-health"
+      ],
       "productCount": 15
     },
     {
@@ -17,6 +64,52 @@
       "tone": "sky",
       "description": "Dapoxetine tablets and combination tablets that pair an ED ingredient with dapoxetine in a single dose.",
       "href": "/product-category/premature-ejaculation",
+      "guide": {
+        "title": "How to choose Premature Ejaculation medicines",
+        "intro": "A few things worth checking before you order in the Premature Ejaculation range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order Premature Ejaculation medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "hair-loss",
+        "skin-care",
+        "womens-health",
+        "pain"
+      ],
       "productCount": 6
     },
     {
@@ -26,6 +119,52 @@
       "tone": "mint",
       "description": "Finasteride tablets, minoxidil solutions and topical serums used to slow hair loss and support regrowth.",
       "href": "/product-category/hair-loss",
+      "guide": {
+        "title": "How to choose Hair Loss medicines",
+        "intro": "A few things worth checking before you order in the Hair Loss range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order Hair Loss medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "skin-care",
+        "womens-health",
+        "pain",
+        "benign-prostatic-hyperplasia"
+      ],
       "productCount": 5
     },
     {
@@ -35,6 +174,52 @@
       "tone": "rose",
       "description": "Prescription creams, gels and tablets for acne, pigmentation and everyday skin concerns.",
       "href": "/product-category/skin-care",
+      "guide": {
+        "title": "How to choose Skin Care medicines",
+        "intro": "A few things worth checking before you order in the Skin Care range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order Skin Care medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "womens-health",
+        "pain",
+        "benign-prostatic-hyperplasia",
+        "fungal-infections"
+      ],
       "productCount": 6
     },
     {
@@ -44,6 +229,52 @@
       "tone": "rose",
       "description": "Progesterone capsules, gels and injections along with other medicines prescribed in women's health.",
       "href": "/product-category/womens-health",
+      "guide": {
+        "title": "How to choose Women's Health medicines",
+        "intro": "A few things worth checking before you order in the Women's Health range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order Women's Health medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "pain",
+        "benign-prostatic-hyperplasia",
+        "fungal-infections",
+        "diabetes"
+      ],
       "productCount": 6
     },
     {
@@ -53,6 +284,52 @@
       "tone": "cream",
       "description": "Anti-inflammatory tablets, enzyme preparations and nerve pain medicines for joint, muscle and back pain.",
       "href": "/product-category/pain",
+      "guide": {
+        "title": "How to choose Pain Relief medicines",
+        "intro": "A few things worth checking before you order in the Pain Relief range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order Pain Relief medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "benign-prostatic-hyperplasia",
+        "fungal-infections",
+        "diabetes",
+        "anti-viral"
+      ],
       "productCount": 4
     },
     {
@@ -62,6 +339,52 @@
       "tone": "sky",
       "description": "Alpha blockers and combination tablets used to relieve the urinary symptoms of an enlarged prostate.",
       "href": "/product-category/benign-prostatic-hyperplasia",
+      "guide": {
+        "title": "How to choose Benign Prostatic Hyperplasia medicines",
+        "intro": "A few things worth checking before you order in the Benign Prostatic Hyperplasia range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order Benign Prostatic Hyperplasia medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "fungal-infections",
+        "diabetes",
+        "anti-viral",
+        "high-cholesterol"
+      ],
       "productCount": 5
     },
     {
@@ -71,6 +394,52 @@
       "tone": "mint",
       "description": "Oral antifungal tablets and topical creams for skin, scalp and nail fungal infections.",
       "href": "/product-category/fungal-infections",
+      "guide": {
+        "title": "How to choose Fungal Infections medicines",
+        "intro": "A few things worth checking before you order in the Fungal Infections range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order Fungal Infections medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "diabetes",
+        "anti-viral",
+        "high-cholesterol",
+        "eyes-ear-care"
+      ],
       "productCount": 4
     },
     {
@@ -80,6 +449,52 @@
       "tone": "mint",
       "description": "Metformin, gliptins and SGLT2 inhibitors used to control blood sugar in type 2 diabetes.",
       "href": "/product-category/diabetes",
+      "guide": {
+        "title": "How to choose Diabetes medicines",
+        "intro": "A few things worth checking before you order in the Diabetes range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order Diabetes medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "anti-viral",
+        "high-cholesterol",
+        "eyes-ear-care",
+        "erectile-dysfunction"
+      ],
       "productCount": 4
     },
     {
@@ -89,6 +504,52 @@
       "tone": "sky",
       "description": "Antiviral tablets prescribed for herpes, shingles and other viral infections.",
       "href": "/product-category/anti-viral",
+      "guide": {
+        "title": "How to choose Anti Viral medicines",
+        "intro": "A few things worth checking before you order in the Anti Viral range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order Anti Viral medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "high-cholesterol",
+        "eyes-ear-care",
+        "erectile-dysfunction",
+        "premature-ejaculation"
+      ],
       "productCount": 4
     },
     {
@@ -98,6 +559,52 @@
       "tone": "cream",
       "description": "Statins and fibrates used to lower cholesterol and triglycerides.",
       "href": "/product-category/high-cholesterol",
+      "guide": {
+        "title": "How to choose High Cholesterol medicines",
+        "intro": "A few things worth checking before you order in the High Cholesterol range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order High Cholesterol medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "eyes-ear-care",
+        "erectile-dysfunction",
+        "premature-ejaculation",
+        "hair-loss"
+      ],
       "productCount": 3
     },
     {
@@ -107,6 +614,52 @@
       "tone": "sky",
       "description": "Medicated eye and ear drops, including glaucoma and antibiotic preparations.",
       "href": "/product-category/eyes-ear-care",
+      "guide": {
+        "title": "How to choose Eyes & Ear Care medicines",
+        "intro": "A few things worth checking before you order in the Eyes & Ear Care range.",
+        "points": [
+          {
+            "title": "Match the active ingredient",
+            "body": "Generic medicines are named after their brand, so check the active ingredient in brackets matches what your doctor recommended."
+          },
+          {
+            "title": "Check the strength",
+            "body": "The same brand is often sold in several strengths. Order the strength on your prescription rather than the cheapest one."
+          },
+          {
+            "title": "Bigger packs cost less per unit",
+            "body": "Every product lists a price per unit for each pack size, so you can see exactly what a larger pack saves before you buy."
+          },
+          {
+            "title": "Delivery and packaging",
+            "body": "Orders ship in plain, discreet packaging with tracking, and typically arrive within 6 to 15 days."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do I need a prescription to order Eyes & Ear Care medicines?",
+          "answer": "Prescription-only medicines require a valid prescription. Our support team will confirm what is needed for your order before it is dispatched."
+        },
+        {
+          "question": "Are generic medicines as effective as the branded versions?",
+          "answer": "A generic contains the same active ingredient as its branded equivalent and is manufactured to the same quality standards, which is why it costs less."
+        },
+        {
+          "question": "How long will my order take to arrive?",
+          "answer": "Orders are typically delivered within 6 to 15 days depending on your location, and every parcel is trackable from dispatch to your door."
+        },
+        {
+          "question": "How do I know which strength to order?",
+          "answer": "Strength should follow your prescription and your doctor's advice. If you are unsure, contact our support team before ordering."
+        }
+      ],
+      "related": [
+        "erectile-dysfunction",
+        "premature-ejaculation",
+        "hair-loss",
+        "skin-care"
+      ],
       "productCount": 3
     }
   ],
@@ -164,6 +717,47 @@
       "reviewCount": 466,
       "badge": "sale",
       "description": "Cenforce 100 Mg contains Sildenafil Citrate and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is Cenforce 100 Mg used for?",
+          "answer": "Cenforce 100 Mg contains Sildenafil Citrate and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.60 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Cenforce 100 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Sildenafil Citrate, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 292,
+        "4": 111,
+        "3": 41,
+        "2": 13,
+        "1": 9
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Sildenafil Citrate",
         "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
@@ -231,6 +825,47 @@
       "reviewCount": 44,
       "badge": "",
       "description": "Cenforce 120 Mg contains Sildenafil Citrate and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 120 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is Cenforce 120 Mg used for?",
+          "answer": "Cenforce 120 Mg contains Sildenafil Citrate and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.38 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Cenforce 120 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Sildenafil Citrate, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 37,
+        "4": 6,
+        "3": 1,
+        "2": 0,
+        "1": 0
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Sildenafil Citrate",
         "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
@@ -298,6 +933,47 @@
       "reviewCount": 145,
       "badge": "hot",
       "description": "Cenforce 200 Mg contains Sildenafil Citrate and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is Cenforce 200 Mg used for?",
+          "answer": "Cenforce 200 Mg contains Sildenafil Citrate and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.64 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Cenforce 200 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Sildenafil Citrate, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 116,
+        "4": 21,
+        "3": 5,
+        "2": 2,
+        "1": 1
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Sildenafil Citrate",
         "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
@@ -365,6 +1041,47 @@
       "reviewCount": 230,
       "badge": "",
       "description": "Fildena 150 Mg contains Sildenafil Citrate and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 150 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is Fildena 150 Mg used for?",
+          "answer": "Fildena 150 Mg contains Sildenafil Citrate and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.68 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Fildena 150 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Sildenafil Citrate, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 145,
+        "4": 55,
+        "3": 20,
+        "2": 6,
+        "1": 4
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Sildenafil Citrate",
         "Manufacturer": "Fortune Healthcare Pvt. Ltd.",
@@ -432,6 +1149,47 @@
       "reviewCount": 154,
       "badge": "",
       "description": "Vidalista 10 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 10 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is Vidalista 10 Mg used for?",
+          "answer": "Vidalista 10 Mg contains Tadalafil and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.30 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Vidalista 10 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tadalafil, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 75,
+        "4": 46,
+        "3": 20,
+        "2": 9,
+        "1": 4
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tadalafil",
         "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
@@ -499,6 +1257,47 @@
       "reviewCount": 400,
       "badge": "sale",
       "description": "Vidalista 20 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 20 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is Vidalista 20 Mg used for?",
+          "answer": "Vidalista 20 Mg contains Tadalafil and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.67 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Vidalista 20 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tadalafil, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 248,
+        "4": 96,
+        "3": 36,
+        "2": 12,
+        "1": 8
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tadalafil",
         "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
@@ -566,6 +1365,47 @@
       "reviewCount": 435,
       "badge": "",
       "description": "Vidalista 40 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 40 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is Vidalista 40 Mg used for?",
+          "answer": "Vidalista 40 Mg contains Tadalafil and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.51 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Vidalista 40 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tadalafil, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 271,
+        "4": 104,
+        "3": 39,
+        "2": 13,
+        "1": 8
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tadalafil",
         "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
@@ -633,6 +1473,47 @@
       "reviewCount": 470,
       "badge": "",
       "description": "Vidalista 60 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 60 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is Vidalista 60 Mg used for?",
+          "answer": "Vidalista 60 Mg contains Tadalafil and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.55 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Vidalista 60 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tadalafil, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 369,
+        "4": 70,
+        "3": 18,
+        "2": 9,
+        "1": 4
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tadalafil",
         "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
@@ -700,6 +1581,47 @@
       "reviewCount": 165,
       "badge": "",
       "description": "Vidalista Black 80 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 80 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is Vidalista Black 80 Mg used for?",
+          "answer": "Vidalista Black 80 Mg contains Tadalafil and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.59 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Vidalista Black 80 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tadalafil, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 105,
+        "4": 39,
+        "3": 14,
+        "2": 4,
+        "1": 3
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tadalafil",
         "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
@@ -767,6 +1689,47 @@
       "reviewCount": 231,
       "badge": "",
       "description": "Vidalista Professional contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 20 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is Vidalista Professional used for?",
+          "answer": "Vidalista Professional contains Tadalafil and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.36 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Vidalista Professional the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tadalafil, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 146,
+        "4": 55,
+        "3": 20,
+        "2": 6,
+        "1": 4
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tadalafil",
         "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
@@ -834,6 +1797,47 @@
       "reviewCount": 116,
       "badge": "",
       "description": "Tadalista 20 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 20 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is Tadalista 20 Mg used for?",
+          "answer": "Tadalista 20 Mg contains Tadalafil and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.52 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Tadalista 20 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tadalafil, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 58,
+        "4": 34,
+        "3": 15,
+        "2": 6,
+        "1": 3
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tadalafil",
         "Manufacturer": "Fortune Healthcare Pvt. Ltd.",
@@ -901,6 +1905,47 @@
       "reviewCount": 270,
       "badge": "new",
       "description": "ED Trial Pack contains Sildenafil, Tadalafil and Vardenafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of Mixed. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction",
+      "faqs": [
+        {
+          "question": "What is ED Trial Pack used for?",
+          "answer": "ED Trial Pack contains Sildenafil, Tadalafil and Vardenafil and is prescribed in the treatment of erectile dysfunction. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.23 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is ED Trial Pack the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Sildenafil, Tadalafil and Vardenafil, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 213,
+        "4": 40,
+        "3": 10,
+        "2": 5,
+        "1": 2
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Sildenafil, Tadalafil and Vardenafil",
         "Manufacturer": "Assorted",
@@ -969,6 +2014,47 @@
       "reviewCount": 34,
       "badge": "hot",
       "description": "Super Vidalista contains Tadalafil and Dapoxetine and is used in the treatment of erectile dysfunction with premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 20 mg + 60 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction with premature ejaculation",
+      "faqs": [
+        {
+          "question": "What is Super Vidalista used for?",
+          "answer": "Super Vidalista contains Tadalafil and Dapoxetine and is prescribed in the treatment of erectile dysfunction with premature ejaculation. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.47 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Super Vidalista the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tadalafil and Dapoxetine, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 17,
+        "4": 10,
+        "3": 4,
+        "2": 2,
+        "1": 1
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tadalafil and Dapoxetine",
         "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
@@ -1037,6 +2123,47 @@
       "reviewCount": 434,
       "badge": "",
       "description": "Super Fildena contains Sildenafil Citrate and Dapoxetine and is used in the treatment of erectile dysfunction with premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 100 mg + 60 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction with premature ejaculation",
+      "faqs": [
+        {
+          "question": "What is Super Fildena used for?",
+          "answer": "Super Fildena contains Sildenafil Citrate and Dapoxetine and is prescribed in the treatment of erectile dysfunction with premature ejaculation. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.44 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Super Fildena the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Sildenafil Citrate and Dapoxetine, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 270,
+        "4": 104,
+        "3": 39,
+        "2": 13,
+        "1": 8
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Sildenafil Citrate and Dapoxetine",
         "Manufacturer": "Fortune Healthcare Pvt. Ltd.",
@@ -1105,6 +2232,47 @@
       "reviewCount": 270,
       "badge": "",
       "description": "Super Vardalast contains Vardenafil and Dapoxetine and is used in the treatment of erectile dysfunction with premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 20 mg + 60 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "erectile dysfunction with premature ejaculation",
+      "faqs": [
+        {
+          "question": "What is Super Vardalast used for?",
+          "answer": "Super Vardalast contains Vardenafil and Dapoxetine and is prescribed in the treatment of erectile dysfunction with premature ejaculation. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.60 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Super Vardalast the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Vardenafil and Dapoxetine, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 169,
+        "4": 64,
+        "3": 24,
+        "2": 8,
+        "1": 5
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Vardenafil and Dapoxetine",
         "Manufacturer": "Sunrise Remedies Pvt. Ltd.",
@@ -1172,6 +2340,47 @@
       "reviewCount": 272,
       "badge": "",
       "description": "Extra Super Nitfire 100 Mg contains Tadalafil and Dapoxetine and is used in the treatment of premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 100 mg + 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "premature ejaculation",
+      "faqs": [
+        {
+          "question": "What is Extra Super Nitfire 100 Mg used for?",
+          "answer": "Extra Super Nitfire 100 Mg contains Tadalafil and Dapoxetine and is prescribed in the treatment of premature ejaculation. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.24 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Extra Super Nitfire 100 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tadalafil and Dapoxetine, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 215,
+        "4": 40,
+        "3": 10,
+        "2": 5,
+        "1": 2
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tadalafil and Dapoxetine",
         "Manufacturer": "Aurochem Laboratories",
@@ -1239,6 +2448,47 @@
       "reviewCount": 27,
       "badge": "",
       "description": "Sildalip Gold Tablet contains Sildenafil Citrate and Dapoxetine and is used in the treatment of premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 100 mg + 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "premature ejaculation",
+      "faqs": [
+        {
+          "question": "What is Sildalip Gold Tablet used for?",
+          "answer": "Sildalip Gold Tablet contains Sildenafil Citrate and Dapoxetine and is prescribed in the treatment of premature ejaculation. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.42 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Sildalip Gold Tablet the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Sildenafil Citrate and Dapoxetine, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 19,
+        "4": 6,
+        "3": 2,
+        "2": 0,
+        "1": 0
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Sildenafil Citrate and Dapoxetine",
         "Manufacturer": "Aurochem Laboratories",
@@ -1306,6 +2556,47 @@
       "reviewCount": 121,
       "badge": "",
       "description": "Duratia 60 Mg contains Dapoxetine and is used in the treatment of premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 60 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "premature ejaculation",
+      "faqs": [
+        {
+          "question": "What is Duratia 60 Mg used for?",
+          "answer": "Duratia 60 Mg contains Dapoxetine and is prescribed in the treatment of premature ejaculation. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.29 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Duratia 60 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Dapoxetine, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 60,
+        "4": 36,
+        "3": 15,
+        "2": 7,
+        "1": 3
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Dapoxetine",
         "Manufacturer": "Fortune Healthcare Pvt. Ltd.",
@@ -1366,6 +2657,47 @@
       "reviewCount": 250,
       "badge": "new",
       "description": "Xgain Hair Serum contains Herbal actives and is used in the treatment of thinning hair and hair fall. Supplied as 1 bottle in 1 carton in a strength of 60 ml. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "thinning hair and hair fall",
+      "faqs": [
+        {
+          "question": "What is Xgain Hair Serum used for?",
+          "answer": "Xgain Hair Serum contains Herbal actives and is prescribed in the treatment of thinning hair and hair fall. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 bottles pack has the lowest price per unit at $12.00 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Xgain Hair Serum the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Herbal actives, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 196,
+        "4": 37,
+        "3": 10,
+        "2": 5,
+        "1": 2
+      },
+      "gallery": [
+        "/images/form-dropper-a.svg",
+        "/images/form-dropper-b.svg",
+        "/images/form-dropper-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Herbal actives",
         "Manufacturer": "Zydus Wellness",
@@ -1433,6 +2765,47 @@
       "reviewCount": 403,
       "badge": "sale",
       "description": "Finpecia 1 Mg contains Finasteride and is used in the treatment of androgenetic alopecia in men. Supplied as 10 tablets in 1 strip in a strength of 1 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "androgenetic alopecia in men",
+      "faqs": [
+        {
+          "question": "What is Finpecia 1 Mg used for?",
+          "answer": "Finpecia 1 Mg contains Finasteride and is prescribed in the treatment of androgenetic alopecia in men. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.16 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Finpecia 1 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Finasteride, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 251,
+        "4": 96,
+        "3": 36,
+        "2": 12,
+        "1": 8
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Finasteride",
         "Manufacturer": "Cipla Ltd.",
@@ -1493,6 +2866,47 @@
       "reviewCount": 180,
       "badge": "",
       "description": "Tugain 5% Solution contains Minoxidil and is used in the treatment of pattern hair loss. Supplied as 1 bottle in 1 carton in a strength of 5% w/v. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "pattern hair loss",
+      "faqs": [
+        {
+          "question": "What is Tugain 5% Solution used for?",
+          "answer": "Tugain 5% Solution contains Minoxidil and is prescribed in the treatment of pattern hair loss. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 bottles pack has the lowest price per unit at $13.11 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Tugain 5% Solution the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Minoxidil, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 88,
+        "4": 54,
+        "3": 23,
+        "2": 10,
+        "1": 5
+      },
+      "gallery": [
+        "/images/form-dropper-a.svg",
+        "/images/form-dropper-b.svg",
+        "/images/form-dropper-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Minoxidil",
         "Manufacturer": "Cipla Ltd.",
@@ -1553,6 +2967,47 @@
       "reviewCount": 211,
       "badge": "",
       "description": "Tugain 10% Solution contains Minoxidil and is used in the treatment of pattern hair loss. Supplied as 1 bottle in 1 carton in a strength of 10% w/v. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "pattern hair loss",
+      "faqs": [
+        {
+          "question": "What is Tugain 10% Solution used for?",
+          "answer": "Tugain 10% Solution contains Minoxidil and is prescribed in the treatment of pattern hair loss. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 bottles pack has the lowest price per unit at $15.78 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Tugain 10% Solution the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Minoxidil, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 166,
+        "4": 31,
+        "3": 8,
+        "2": 4,
+        "1": 2
+      },
+      "gallery": [
+        "/images/form-dropper-a.svg",
+        "/images/form-dropper-b.svg",
+        "/images/form-dropper-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Minoxidil",
         "Manufacturer": "Cipla Ltd.",
@@ -1621,6 +3076,47 @@
       "reviewCount": 469,
       "badge": "",
       "description": "Dutas 0.5 Mg contains Dutasteride and is used in the treatment of hair loss and enlarged prostate. Supplied as 10 tablets in 1 strip in a strength of 0.5 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "hair loss and enlarged prostate",
+      "faqs": [
+        {
+          "question": "What is Dutas 0.5 Mg used for?",
+          "answer": "Dutas 0.5 Mg contains Dutasteride and is prescribed in the treatment of hair loss and enlarged prostate. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.21 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Dutas 0.5 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Dutasteride, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 292,
+        "4": 112,
+        "3": 42,
+        "2": 14,
+        "1": 9
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Dutasteride",
         "Manufacturer": "Dr. Reddy's Laboratories",
@@ -1681,6 +3177,47 @@
       "reviewCount": 413,
       "badge": "",
       "description": "Papulex Cream contains Nicotinamide and Zinc and is used in the treatment of acne-prone skin. Supplied as 1 tube in 1 carton in a strength of 30 g. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "acne-prone skin",
+      "faqs": [
+        {
+          "question": "What is Papulex Cream used for?",
+          "answer": "Papulex Cream contains Nicotinamide and Zinc and is prescribed in the treatment of acne-prone skin. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 tubes pack has the lowest price per unit at $9.11 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Papulex Cream the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Nicotinamide and Zinc, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 201,
+        "4": 123,
+        "3": 53,
+        "2": 24,
+        "1": 12
+      },
+      "gallery": [
+        "/images/form-tube-a.svg",
+        "/images/form-tube-b.svg",
+        "/images/form-tube-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Nicotinamide and Zinc",
         "Manufacturer": "Menarini India Pvt. Ltd.",
@@ -1741,6 +3278,47 @@
       "reviewCount": 25,
       "badge": "sale",
       "description": "Aziderm 20% Cream contains Azelaic Acid and is used in the treatment of acne and post-acne marks. Supplied as 1 tube in 1 carton in a strength of 15 g. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "acne and post-acne marks",
+      "faqs": [
+        {
+          "question": "What is Aziderm 20% Cream used for?",
+          "answer": "Aziderm 20% Cream contains Azelaic Acid and is prescribed in the treatment of acne and post-acne marks. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 tubes pack has the lowest price per unit at $8.22 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Aziderm 20% Cream the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Azelaic Acid, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 17,
+        "4": 6,
+        "3": 2,
+        "2": 0,
+        "1": 0
+      },
+      "gallery": [
+        "/images/form-tube-a.svg",
+        "/images/form-tube-b.svg",
+        "/images/form-tube-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Azelaic Acid",
         "Manufacturer": "Micro Labs Ltd.",
@@ -1801,6 +3379,47 @@
       "reviewCount": 292,
       "badge": "",
       "description": "Melalite Forte Cream contains Hydroquinone and is used in the treatment of melasma and pigmentation. Supplied as 1 tube in 1 carton in a strength of 30 g. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "melasma and pigmentation",
+      "faqs": [
+        {
+          "question": "What is Melalite Forte Cream used for?",
+          "answer": "Melalite Forte Cream contains Hydroquinone and is prescribed in the treatment of melasma and pigmentation. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 tubes pack has the lowest price per unit at $7.56 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Melalite Forte Cream the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Hydroquinone, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 143,
+        "4": 87,
+        "3": 37,
+        "2": 17,
+        "1": 8
+      },
+      "gallery": [
+        "/images/form-tube-a.svg",
+        "/images/form-tube-b.svg",
+        "/images/form-tube-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Hydroquinone",
         "Manufacturer": "Abbott India Ltd.",
@@ -1861,6 +3480,47 @@
       "reviewCount": 342,
       "badge": "",
       "description": "A-Ret Gel 0.025% contains Tretinoin and is used in the treatment of acne and skin texture. Supplied as 1 tube in 1 carton in a strength of 20 g. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "acne and skin texture",
+      "faqs": [
+        {
+          "question": "What is A-Ret Gel 0.025% used for?",
+          "answer": "A-Ret Gel 0.025% contains Tretinoin and is prescribed in the treatment of acne and skin texture. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 tubes pack has the lowest price per unit at $8.67 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is A-Ret Gel 0.025% the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tretinoin, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 269,
+        "4": 51,
+        "3": 13,
+        "2": 6,
+        "1": 3
+      },
+      "gallery": [
+        "/images/form-tube-a.svg",
+        "/images/form-tube-b.svg",
+        "/images/form-tube-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tretinoin",
         "Manufacturer": "Menarini India Pvt. Ltd.",
@@ -1929,6 +3589,47 @@
       "reviewCount": 447,
       "badge": "",
       "description": "Cephalexin Dispersible 250 Mg contains Cephalexin and is used in the treatment of bacterial skin infections. Supplied as 10 tablets in 1 strip in a strength of 250 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "bacterial skin infections",
+      "faqs": [
+        {
+          "question": "What is Cephalexin Dispersible 250 Mg used for?",
+          "answer": "Cephalexin Dispersible 250 Mg contains Cephalexin and is prescribed in the treatment of bacterial skin infections. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.16 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Cephalexin Dispersible 250 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Cephalexin, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 216,
+        "4": 134,
+        "3": 58,
+        "2": 26,
+        "1": 13
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Cephalexin",
         "Manufacturer": "Alkem Laboratories Ltd.",
@@ -1996,6 +3697,47 @@
       "reviewCount": 354,
       "badge": "",
       "description": "Progesterone 100 Mg contains Progesterone and is used in the treatment of progesterone support. Supplied as 10 capsules in 1 strip in a strength of 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "progesterone support",
+      "faqs": [
+        {
+          "question": "What is Progesterone 100 Mg used for?",
+          "answer": "Progesterone 100 Mg contains Progesterone and is prescribed in the treatment of progesterone support. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 360 capsules pack has the lowest price per unit at $0.14 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Progesterone 100 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Progesterone, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 171,
+        "4": 106,
+        "3": 46,
+        "2": 21,
+        "1": 10
+      },
+      "gallery": [
+        "/images/form-blister-a.svg",
+        "/images/form-blister-b.svg",
+        "/images/form-blister-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Progesterone",
         "Manufacturer": "Sun Pharmaceutical Industries Ltd.",
@@ -2063,6 +3805,47 @@
       "reviewCount": 440,
       "badge": "",
       "description": "Progesterone 200 Mg contains Progesterone and is used in the treatment of progesterone support. Supplied as 10 capsules in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "progesterone support",
+      "faqs": [
+        {
+          "question": "What is Progesterone 200 Mg used for?",
+          "answer": "Progesterone 200 Mg contains Progesterone and is prescribed in the treatment of progesterone support. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 360 capsules pack has the lowest price per unit at $0.28 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Progesterone 200 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Progesterone, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 275,
+        "4": 105,
+        "3": 39,
+        "2": 13,
+        "1": 8
+      },
+      "gallery": [
+        "/images/form-blister-a.svg",
+        "/images/form-blister-b.svg",
+        "/images/form-blister-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Progesterone",
         "Manufacturer": "Sun Pharmaceutical Industries Ltd.",
@@ -2123,6 +3906,47 @@
       "reviewCount": 354,
       "badge": "",
       "description": "Progesterone 100 Mg Injection contains Progesterone and is used in the treatment of progesterone support. Supplied as 1 vial in 1 carton in a strength of 100 mg/2 ml. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "progesterone support",
+      "faqs": [
+        {
+          "question": "What is Progesterone 100 Mg Injection used for?",
+          "answer": "Progesterone 100 Mg Injection contains Progesterone and is prescribed in the treatment of progesterone support. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 10 vials pack has the lowest price per unit at $11.25 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Progesterone 100 Mg Injection the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Progesterone, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 171,
+        "4": 106,
+        "3": 46,
+        "2": 21,
+        "1": 10
+      },
+      "gallery": [
+        "/images/form-jar-a.svg",
+        "/images/form-jar-b.svg",
+        "/images/form-jar-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Progesterone",
         "Manufacturer": "Emcure Pharmaceuticals Ltd.",
@@ -2183,6 +4007,47 @@
       "reviewCount": 152,
       "badge": "",
       "description": "Progesterone Vaginal Gel 1.125 g contains Progesterone and is used in the treatment of progesterone support. Supplied as 1 tube in 1 carton in a strength of 1.125 g. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "progesterone support",
+      "faqs": [
+        {
+          "question": "What is Progesterone Vaginal Gel 1.125 g used for?",
+          "answer": "Progesterone Vaginal Gel 1.125 g contains Progesterone and is prescribed in the treatment of progesterone support. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 tubes pack has the lowest price per unit at $13.11 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Progesterone Vaginal Gel 1.125 g the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Progesterone, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 96,
+        "4": 36,
+        "3": 13,
+        "2": 4,
+        "1": 3
+      },
+      "gallery": [
+        "/images/form-tube-a.svg",
+        "/images/form-tube-b.svg",
+        "/images/form-tube-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Progesterone",
         "Manufacturer": "Emcure Pharmaceuticals Ltd.",
@@ -2250,6 +4115,47 @@
       "reviewCount": 333,
       "badge": "",
       "description": "Ulipristal Acetate 5 Mg contains Ulipristal Acetate and is used in the treatment of uterine fibroids. Supplied as 10 tablets in 1 strip in a strength of 5 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "uterine fibroids",
+      "faqs": [
+        {
+          "question": "What is Ulipristal Acetate 5 Mg used for?",
+          "answer": "Ulipristal Acetate 5 Mg contains Ulipristal Acetate and is prescribed in the treatment of uterine fibroids. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.30 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Ulipristal Acetate 5 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Ulipristal Acetate, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 262,
+        "4": 49,
+        "3": 13,
+        "2": 6,
+        "1": 3
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Ulipristal Acetate",
         "Manufacturer": "Torrent Pharmaceuticals Ltd.",
@@ -2317,6 +4223,47 @@
       "reviewCount": 133,
       "badge": "",
       "description": "Gestone Capsules USA contains Progesterone and is used in the treatment of progesterone support. Supplied as 10 capsules in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "progesterone support",
+      "faqs": [
+        {
+          "question": "What is Gestone Capsules USA used for?",
+          "answer": "Gestone Capsules USA contains Progesterone and is prescribed in the treatment of progesterone support. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 360 capsules pack has the lowest price per unit at $0.26 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Gestone Capsules USA the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Progesterone, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 67,
+        "4": 39,
+        "3": 17,
+        "2": 7,
+        "1": 3
+      },
+      "gallery": [
+        "/images/form-blister-a.svg",
+        "/images/form-blister-b.svg",
+        "/images/form-blister-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Progesterone",
         "Manufacturer": "Ferring Pharmaceuticals",
@@ -2384,6 +4331,47 @@
       "reviewCount": 402,
       "badge": "",
       "description": "Chymoral Forte 100000 AU contains Trypsin and Chymotrypsin and is used in the treatment of swelling and post-operative inflammation. Supplied as 10 tablets in 1 strip in a strength of 100000 AU. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "swelling and post-operative inflammation",
+      "faqs": [
+        {
+          "question": "What is Chymoral Forte 100000 AU used for?",
+          "answer": "Chymoral Forte 100000 AU contains Trypsin and Chymotrypsin and is prescribed in the treatment of swelling and post-operative inflammation. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.14 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Chymoral Forte 100000 AU the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Trypsin and Chymotrypsin, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 250,
+        "4": 96,
+        "3": 36,
+        "2": 12,
+        "1": 8
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Trypsin and Chymotrypsin",
         "Manufacturer": "Torrent Pharmaceuticals Ltd.",
@@ -2451,6 +4439,47 @@
       "reviewCount": 439,
       "badge": "hot",
       "description": "Zerodol SP contains Aceclofenac, Paracetamol and Serratiopeptidase and is used in the treatment of joint and muscle pain. Supplied as 10 tablets in 1 strip in a strength of 100 mg + 325 mg + 15 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "joint and muscle pain",
+      "faqs": [
+        {
+          "question": "What is Zerodol SP used for?",
+          "answer": "Zerodol SP contains Aceclofenac, Paracetamol and Serratiopeptidase and is prescribed in the treatment of joint and muscle pain. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.10 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Zerodol SP the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Aceclofenac, Paracetamol and Serratiopeptidase, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 274,
+        "4": 105,
+        "3": 39,
+        "2": 13,
+        "1": 8
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Aceclofenac, Paracetamol and Serratiopeptidase",
         "Manufacturer": "Ipca Laboratories Ltd.",
@@ -2518,6 +4547,47 @@
       "reviewCount": 432,
       "badge": "",
       "description": "Pregeb 75 Mg contains Pregabalin and is used in the treatment of nerve pain. Supplied as 10 capsules in 1 strip in a strength of 75 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "nerve pain",
+      "faqs": [
+        {
+          "question": "What is Pregeb 75 Mg used for?",
+          "answer": "Pregeb 75 Mg contains Pregabalin and is prescribed in the treatment of nerve pain. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 360 capsules pack has the lowest price per unit at $0.21 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Pregeb 75 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Pregabalin, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 210,
+        "4": 129,
+        "3": 56,
+        "2": 25,
+        "1": 12
+      },
+      "gallery": [
+        "/images/form-blister-a.svg",
+        "/images/form-blister-b.svg",
+        "/images/form-blister-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Pregabalin",
         "Manufacturer": "Systopic Laboratories Pvt. Ltd.",
@@ -2585,6 +4655,47 @@
       "reviewCount": 40,
       "badge": "",
       "description": "Hifenac MR contains Aceclofenac and Paracetamol and is used in the treatment of back and muscular pain. Supplied as 10 tablets in 1 strip in a strength of 100 mg + 325 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "back and muscular pain",
+      "faqs": [
+        {
+          "question": "What is Hifenac MR used for?",
+          "answer": "Hifenac MR contains Aceclofenac and Paracetamol and is prescribed in the treatment of back and muscular pain. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.11 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Hifenac MR the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Aceclofenac and Paracetamol, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 20,
+        "4": 12,
+        "3": 5,
+        "2": 2,
+        "1": 1
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Aceclofenac and Paracetamol",
         "Manufacturer": "Intas Pharmaceuticals Ltd.",
@@ -2652,6 +4763,47 @@
       "reviewCount": 388,
       "badge": "",
       "description": "Urimax 0.2 Mg contains Tamsulosin and is used in the treatment of an enlarged prostate. Supplied as 10 capsules in 1 strip in a strength of 0.2 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "an enlarged prostate",
+      "faqs": [
+        {
+          "question": "What is Urimax 0.2 Mg used for?",
+          "answer": "Urimax 0.2 Mg contains Tamsulosin and is prescribed in the treatment of an enlarged prostate. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 360 capsules pack has the lowest price per unit at $0.13 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Urimax 0.2 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tamsulosin, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 305,
+        "4": 58,
+        "3": 15,
+        "2": 7,
+        "1": 3
+      },
+      "gallery": [
+        "/images/form-blister-a.svg",
+        "/images/form-blister-b.svg",
+        "/images/form-blister-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tamsulosin",
         "Manufacturer": "Cipla Ltd.",
@@ -2719,6 +4871,47 @@
       "reviewCount": 192,
       "badge": "",
       "description": "Urimax D contains Tamsulosin and Dutasteride and is used in the treatment of an enlarged prostate. Supplied as 10 tablets in 1 strip in a strength of 0.4 mg + 0.5 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "an enlarged prostate",
+      "faqs": [
+        {
+          "question": "What is Urimax D used for?",
+          "answer": "Urimax D contains Tamsulosin and Dutasteride and is prescribed in the treatment of an enlarged prostate. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.09 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Urimax D the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tamsulosin and Dutasteride, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 153,
+        "4": 28,
+        "3": 7,
+        "2": 3,
+        "1": 1
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tamsulosin and Dutasteride",
         "Manufacturer": "Cipla Ltd.",
@@ -2786,6 +4979,47 @@
       "reviewCount": 234,
       "badge": "",
       "description": "Veltam Plus contains Tamsulosin and Dutasteride and is used in the treatment of an enlarged prostate. Supplied as 10 tablets in 1 strip in a strength of 0.4 mg + 0.5 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "an enlarged prostate",
+      "faqs": [
+        {
+          "question": "What is Veltam Plus used for?",
+          "answer": "Veltam Plus contains Tamsulosin and Dutasteride and is prescribed in the treatment of an enlarged prostate. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.08 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Veltam Plus the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tamsulosin and Dutasteride, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 113,
+        "4": 70,
+        "3": 30,
+        "2": 14,
+        "1": 7
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tamsulosin and Dutasteride",
         "Manufacturer": "Intas Pharmaceuticals Ltd.",
@@ -2853,6 +5087,47 @@
       "reviewCount": 299,
       "badge": "",
       "description": "Veltam F contains Tamsulosin and Finasteride and is used in the treatment of an enlarged prostate. Supplied as 10 tablets in 1 strip in a strength of 0.4 mg + 5 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "an enlarged prostate",
+      "faqs": [
+        {
+          "question": "What is Veltam F used for?",
+          "answer": "Veltam F contains Tamsulosin and Finasteride and is prescribed in the treatment of an enlarged prostate. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.07 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Veltam F the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Tamsulosin and Finasteride, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 189,
+        "4": 71,
+        "3": 26,
+        "2": 8,
+        "1": 5
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Tamsulosin and Finasteride",
         "Manufacturer": "Intas Pharmaceuticals Ltd.",
@@ -2920,6 +5195,47 @@
       "reviewCount": 389,
       "badge": "",
       "description": "Zocon DT 100 Mg contains Fluconazole and is used in the treatment of fungal infections. Supplied as 10 tablets in 1 strip in a strength of 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "fungal infections",
+      "faqs": [
+        {
+          "question": "What is Zocon DT 100 Mg used for?",
+          "answer": "Zocon DT 100 Mg contains Fluconazole and is prescribed in the treatment of fungal infections. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.12 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Zocon DT 100 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Fluconazole, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 306,
+        "4": 58,
+        "3": 15,
+        "2": 7,
+        "1": 3
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Fluconazole",
         "Manufacturer": "FDC Ltd.",
@@ -2981,6 +5297,47 @@
       "reviewCount": 196,
       "badge": "sale",
       "description": "KZ Cream contains Ketoconazole and is used in the treatment of fungal skin infections. Supplied as 1 tube in 1 carton in a strength of 2% w/w. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "fungal skin infections",
+      "faqs": [
+        {
+          "question": "What is KZ Cream used for?",
+          "answer": "KZ Cream contains Ketoconazole and is prescribed in the treatment of fungal skin infections. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 tubes pack has the lowest price per unit at $9.09 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is KZ Cream the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Ketoconazole, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 97,
+        "4": 58,
+        "3": 25,
+        "2": 11,
+        "1": 5
+      },
+      "gallery": [
+        "/images/form-tube-a.svg",
+        "/images/form-tube-b.svg",
+        "/images/form-tube-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Ketoconazole",
         "Manufacturer": "Glenmark Pharmaceuticals Ltd.",
@@ -3048,6 +5405,47 @@
       "reviewCount": 251,
       "badge": "",
       "description": "Vorier 200 Mg contains Voriconazole and is used in the treatment of serious fungal infections. Supplied as 10 tablets in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "serious fungal infections",
+      "faqs": [
+        {
+          "question": "What is Vorier 200 Mg used for?",
+          "answer": "Vorier 200 Mg contains Voriconazole and is prescribed in the treatment of serious fungal infections. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.10 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Vorier 200 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Voriconazole, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 122,
+        "4": 75,
+        "3": 32,
+        "2": 15,
+        "1": 7
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Voriconazole",
         "Manufacturer": "Cipla Ltd.",
@@ -3115,6 +5513,47 @@
       "reviewCount": 126,
       "badge": "",
       "description": "Candiforce 200 Mg contains Itraconazole and is used in the treatment of fungal infections of the skin and nails. Supplied as 10 capsules in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "fungal infections of the skin and nails",
+      "faqs": [
+        {
+          "question": "What is Candiforce 200 Mg used for?",
+          "answer": "Candiforce 200 Mg contains Itraconazole and is prescribed in the treatment of fungal infections of the skin and nails. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 360 capsules pack has the lowest price per unit at $0.29 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Candiforce 200 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Itraconazole, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 63,
+        "4": 37,
+        "3": 16,
+        "2": 7,
+        "1": 3
+      },
+      "gallery": [
+        "/images/form-blister-a.svg",
+        "/images/form-blister-b.svg",
+        "/images/form-blister-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Itraconazole",
         "Manufacturer": "Mankind Pharma Ltd.",
@@ -3182,6 +5621,47 @@
       "reviewCount": 206,
       "badge": "",
       "description": "Glycomet 500 Mg contains Metformin and is used in the treatment of type 2 diabetes. Supplied as 10 tablets in 1 strip in a strength of 500 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "type 2 diabetes",
+      "faqs": [
+        {
+          "question": "What is Glycomet 500 Mg used for?",
+          "answer": "Glycomet 500 Mg contains Metformin and is prescribed in the treatment of type 2 diabetes. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.09 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Glycomet 500 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Metformin, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 129,
+        "4": 49,
+        "3": 18,
+        "2": 6,
+        "1": 4
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Metformin",
         "Manufacturer": "USV Pvt. Ltd.",
@@ -3249,6 +5729,47 @@
       "reviewCount": 477,
       "badge": "",
       "description": "Januvia 100 Mg contains Sitagliptin and is used in the treatment of type 2 diabetes. Supplied as 10 tablets in 1 strip in a strength of 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "type 2 diabetes",
+      "faqs": [
+        {
+          "question": "What is Januvia 100 Mg used for?",
+          "answer": "Januvia 100 Mg contains Sitagliptin and is prescribed in the treatment of type 2 diabetes. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.25 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Januvia 100 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Sitagliptin, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 374,
+        "4": 71,
+        "3": 19,
+        "2": 9,
+        "1": 4
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Sitagliptin",
         "Manufacturer": "MSD Pharmaceuticals",
@@ -3316,6 +5837,47 @@
       "reviewCount": 169,
       "badge": "new",
       "description": "Jardiance 10 Mg contains Empagliflozin and is used in the treatment of type 2 diabetes. Supplied as 10 tablets in 1 strip in a strength of 10 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "type 2 diabetes",
+      "faqs": [
+        {
+          "question": "What is Jardiance 10 Mg used for?",
+          "answer": "Jardiance 10 Mg contains Empagliflozin and is prescribed in the treatment of type 2 diabetes. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.27 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Jardiance 10 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Empagliflozin, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 134,
+        "4": 25,
+        "3": 6,
+        "2": 3,
+        "1": 1
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Empagliflozin",
         "Manufacturer": "Boehringer Ingelheim",
@@ -3383,6 +5945,47 @@
       "reviewCount": 202,
       "badge": "",
       "description": "Glimepiride 2 Mg contains Glimepiride and is used in the treatment of type 2 diabetes. Supplied as 10 tablets in 1 strip in a strength of 2 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "type 2 diabetes",
+      "faqs": [
+        {
+          "question": "What is Glimepiride 2 Mg used for?",
+          "answer": "Glimepiride 2 Mg contains Glimepiride and is prescribed in the treatment of type 2 diabetes. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.08 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Glimepiride 2 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Glimepiride, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 98,
+        "4": 60,
+        "3": 26,
+        "2": 12,
+        "1": 6
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Glimepiride",
         "Manufacturer": "Sanofi India Ltd.",
@@ -3450,6 +6053,47 @@
       "reviewCount": 295,
       "badge": "",
       "description": "Acivir 400 DT contains Acyclovir and is used in the treatment of herpes simplex infections. Supplied as 10 tablets in 1 strip in a strength of 400 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "herpes simplex infections",
+      "faqs": [
+        {
+          "question": "What is Acivir 400 DT used for?",
+          "answer": "Acivir 400 DT contains Acyclovir and is prescribed in the treatment of herpes simplex infections. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.13 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Acivir 400 DT the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Acyclovir, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 144,
+        "4": 88,
+        "3": 38,
+        "2": 17,
+        "1": 8
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Acyclovir",
         "Manufacturer": "Cipla Ltd.",
@@ -3517,6 +6161,47 @@
       "reviewCount": 154,
       "badge": "",
       "description": "Valcivir 500 Mg contains Valacyclovir and is used in the treatment of herpes zoster and genital herpes. Supplied as 10 tablets in 1 strip in a strength of 500 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "herpes zoster and genital herpes",
+      "faqs": [
+        {
+          "question": "What is Valcivir 500 Mg used for?",
+          "answer": "Valcivir 500 Mg contains Valacyclovir and is prescribed in the treatment of herpes zoster and genital herpes. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.30 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Valcivir 500 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Valacyclovir, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 121,
+        "4": 23,
+        "3": 6,
+        "2": 3,
+        "1": 1
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Valacyclovir",
         "Manufacturer": "Cipla Ltd.",
@@ -3584,6 +6269,47 @@
       "reviewCount": 309,
       "badge": "",
       "description": "Molnupiravir 200 Mg contains Molnupiravir and is used in the treatment of mild to moderate viral infection. Supplied as 10 capsules in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "mild to moderate viral infection",
+      "faqs": [
+        {
+          "question": "What is Molnupiravir 200 Mg used for?",
+          "answer": "Molnupiravir 200 Mg contains Molnupiravir and is prescribed in the treatment of mild to moderate viral infection. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 360 capsules pack has the lowest price per unit at $0.59 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Molnupiravir 200 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Molnupiravir, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 193,
+        "4": 74,
+        "3": 27,
+        "2": 9,
+        "1": 6
+      },
+      "gallery": [
+        "/images/form-blister-a.svg",
+        "/images/form-blister-b.svg",
+        "/images/form-blister-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Molnupiravir",
         "Manufacturer": "Hetero Drugs Ltd.",
@@ -3651,6 +6377,47 @@
       "reviewCount": 352,
       "badge": "",
       "description": "Lipicard 160 Mg contains Fenofibrate and is used in the treatment of high triglycerides. Supplied as 10 capsules in 1 strip in a strength of 160 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "high triglycerides",
+      "faqs": [
+        {
+          "question": "What is Lipicard 160 Mg used for?",
+          "answer": "Lipicard 160 Mg contains Fenofibrate and is prescribed in the treatment of high triglycerides. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 360 capsules pack has the lowest price per unit at $0.24 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Lipicard 160 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Fenofibrate, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 276,
+        "4": 52,
+        "3": 14,
+        "2": 7,
+        "1": 3
+      },
+      "gallery": [
+        "/images/form-blister-a.svg",
+        "/images/form-blister-b.svg",
+        "/images/form-blister-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Fenofibrate",
         "Manufacturer": "USV Pvt. Ltd.",
@@ -3718,6 +6485,47 @@
       "reviewCount": 86,
       "badge": "",
       "description": "Rosuvas 10 Mg contains Rosuvastatin and is used in the treatment of high cholesterol. Supplied as 10 tablets in 1 strip in a strength of 10 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "high cholesterol",
+      "faqs": [
+        {
+          "question": "What is Rosuvas 10 Mg used for?",
+          "answer": "Rosuvas 10 Mg contains Rosuvastatin and is prescribed in the treatment of high cholesterol. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.13 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Rosuvas 10 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Rosuvastatin, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 43,
+        "4": 25,
+        "3": 11,
+        "2": 5,
+        "1": 2
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Rosuvastatin",
         "Manufacturer": "Sun Pharmaceutical Industries Ltd.",
@@ -3785,6 +6593,47 @@
       "reviewCount": 44,
       "badge": "",
       "description": "Atorlip 10 Mg contains Atorvastatin and is used in the treatment of high cholesterol. Supplied as 10 tablets in 1 strip in a strength of 10 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "high cholesterol",
+      "faqs": [
+        {
+          "question": "What is Atorlip 10 Mg used for?",
+          "answer": "Atorlip 10 Mg contains Atorvastatin and is prescribed in the treatment of high cholesterol. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 600 tablets pack has the lowest price per unit at $0.11 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Atorlip 10 Mg the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Atorvastatin, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 30,
+        "4": 10,
+        "3": 3,
+        "2": 1,
+        "1": 0
+      },
+      "gallery": [
+        "/images/form-box-a.svg",
+        "/images/form-box-b.svg",
+        "/images/form-box-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Atorvastatin",
         "Manufacturer": "Cipla Ltd.",
@@ -3845,6 +6694,47 @@
       "reviewCount": 43,
       "badge": "",
       "description": "9 PM Eye Drop contains Latanoprost and is used in the treatment of raised eye pressure in glaucoma. Supplied as 1 bottle in 1 carton in a strength of 0.005% w/v. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "raised eye pressure in glaucoma",
+      "faqs": [
+        {
+          "question": "What is 9 PM Eye Drop used for?",
+          "answer": "9 PM Eye Drop contains Latanoprost and is prescribed in the treatment of raised eye pressure in glaucoma. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 bottles pack has the lowest price per unit at $10.67 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is 9 PM Eye Drop the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Latanoprost, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 29,
+        "4": 10,
+        "3": 3,
+        "2": 1,
+        "1": 0
+      },
+      "gallery": [
+        "/images/form-dropper-a.svg",
+        "/images/form-dropper-b.svg",
+        "/images/form-dropper-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Latanoprost",
         "Manufacturer": "Intas Pharmaceuticals Ltd.",
@@ -3905,6 +6795,47 @@
       "reviewCount": 199,
       "badge": "hot",
       "description": "Careprost 3 ml contains Bimatoprost and is used in the treatment of raised eye pressure and lash growth. Supplied as 1 bottle in 1 carton in a strength of 0.03% w/v. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "raised eye pressure and lash growth",
+      "faqs": [
+        {
+          "question": "What is Careprost 3 ml used for?",
+          "answer": "Careprost 3 ml contains Bimatoprost and is prescribed in the treatment of raised eye pressure and lash growth. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 bottles pack has the lowest price per unit at $13.11 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Careprost 3 ml the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Bimatoprost, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 99,
+        "4": 59,
+        "3": 25,
+        "2": 11,
+        "1": 5
+      },
+      "gallery": [
+        "/images/form-dropper-a.svg",
+        "/images/form-dropper-b.svg",
+        "/images/form-dropper-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Bimatoprost",
         "Manufacturer": "Sun Pharmaceutical Industries Ltd.",
@@ -3965,6 +6896,47 @@
       "reviewCount": 427,
       "badge": "",
       "description": "Ciplox Eye/Ear Drops contains Ciprofloxacin and is used in the treatment of bacterial eye and ear infections. Supplied as 1 bottle in 1 carton in a strength of 0.3% w/v. Choose a pack size below — the price per unit falls on larger packs.",
+      "indication": "bacterial eye and ear infections",
+      "faqs": [
+        {
+          "question": "What is Ciplox Eye/Ear Drops used for?",
+          "answer": "Ciplox Eye/Ear Drops contains Ciprofloxacin and is prescribed in the treatment of bacterial eye and ear infections. Your doctor will confirm whether it is suitable for you."
+        },
+        {
+          "question": "Which pack size gives the best value?",
+          "answer": "The 9 bottles pack has the lowest price per unit at $6.67 / unit. Smaller packs cost more per unit but less up front."
+        },
+        {
+          "question": "Is Ciplox Eye/Ear Drops the same as the branded medicine?",
+          "answer": "It contains the same active ingredient, Ciprofloxacin, as the branded product and is made to the same quality standards."
+        }
+      ],
+      "usage": [
+        {
+          "title": "How to take it",
+          "body": "Take this medicine exactly as prescribed by your doctor. Do not change the dose, double up on a missed dose, or stop treatment without medical advice."
+        },
+        {
+          "title": "Storage",
+          "body": "Store below 30°C in a dry place, keep it in the original packaging, and keep it out of the sight and reach of children."
+        },
+        {
+          "title": "Before you start",
+          "body": "Tell your doctor about any other medicines, supplements or existing conditions, including heart, liver or kidney problems, before you start treatment."
+        }
+      ],
+      "reviewBreakdown": {
+        "5": 267,
+        "4": 102,
+        "3": 38,
+        "2": 12,
+        "1": 8
+      },
+      "gallery": [
+        "/images/form-dropper-a.svg",
+        "/images/form-dropper-b.svg",
+        "/images/form-dropper-c.svg"
+      ],
       "specs": {
         "Active Ingredient": "Ciprofloxacin",
         "Manufacturer": "Cipla Ltd.",

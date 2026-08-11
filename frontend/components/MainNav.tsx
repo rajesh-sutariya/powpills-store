@@ -26,7 +26,7 @@ export function MainNav({
   return (
     <nav
       aria-label="Main"
-      className="sticky top-0 z-40 border-y border-line bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80"
+      className="sticky top-0 z-40 hidden border-y border-line bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 lg:block"
     >
       <div className="shell flex items-center gap-3">
         {/* Shop by Category dropdown */}
@@ -52,7 +52,7 @@ export function MainNav({
           {open && (
             /* Two-column mega panel: a 12-item single column would run off the
                fold, and the product counts help a shopper choose. */
-            <div className="absolute left-0 top-full z-30 w-[34rem] overflow-hidden rounded-2xl border border-line bg-white shadow-lift">
+            <div className="absolute left-0 top-full z-30 w-[min(34rem,calc(100vw-3rem))] overflow-hidden rounded-2xl border border-line bg-white shadow-lift">
               <div className="grid grid-cols-2 gap-1 p-2">
                 {categories.map((category) => (
                   <Link

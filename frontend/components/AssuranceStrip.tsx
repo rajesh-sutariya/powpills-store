@@ -10,7 +10,7 @@ export function AssuranceStrip({ items }: { items: Assurance[] }) {
   return (
     <section className="relative z-10 bg-surface-soft pb-14 sm:pb-16 lg:pb-20">
       <div className="shell">
-        <ul className="-mt-20 grid gap-x-6 gap-y-7 rounded-3xl border border-line bg-white px-7 py-8 shadow-lift sm:grid-cols-2 lg:-mt-24 lg:grid-cols-5 lg:gap-x-4 lg:px-8">
+        <ul className="-mt-14 grid grid-cols-1 gap-x-6 gap-y-6 rounded-3xl border border-line bg-white px-5 py-6 shadow-lift sm:-mt-20 sm:grid-cols-2 sm:px-7 sm:py-8 lg:-mt-24 lg:grid-cols-5 lg:gap-x-4 lg:px-8">
           {items.map((item, index) => (
             <li
               key={item.title}

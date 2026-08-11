@@ -23,6 +23,27 @@ export interface Pack {
   unitLabel: string;
 }
 
+export interface GuidePoint {
+  title: string;
+  body: string;
+}
+
+export interface CategoryGuide {
+  title: string;
+  intro: string;
+  points: GuidePoint[];
+}
+
+export interface FaqEntry {
+  question: string;
+  answer: string;
+}
+
+export interface UsageBlock {
+  title: string;
+  body: string;
+}
+
 export interface CatalogCategory {
   slug: string;
   name: string;
@@ -31,6 +52,11 @@ export interface CatalogCategory {
   description: string;
   href: string;
   productCount: number;
+  /** Buying guide rendered beneath the product grid. */
+  guide: CategoryGuide;
+  faqs: FaqEntry[];
+  /** Sibling category slugs for cross-navigation. */
+  related: string[];
 }
 
 export interface CatalogProduct {
@@ -52,6 +78,14 @@ export interface CatalogProduct {
   badge: string;
   description: string;
   specs: Record<string, string>;
+  /** What the medicine is prescribed for, reused in page copy. */
+  indication: string;
+  faqs: FaqEntry[];
+  usage: UsageBlock[];
+  /** Star rating counts keyed '5'..'1'. */
+  reviewBreakdown: Record<string, number>;
+  /** Thumbnail gallery. */
+  gallery: string[];
   href: string;
   image: { src: string; alt: string };
 }
@@ -59,6 +93,19 @@ export interface CatalogProduct {
 export interface Catalog {
   categories: CatalogCategory[];
   products: CatalogProduct[];
+  /** Shown wherever medical guidance appears. */
+  disclaimer: string;
 }
+
+/** Multi-select facets derived from the catalogue. */
+export interface Facet {
+  key: FacetKey;
+  label: string;
+  options: { value: string; count: number }[];
+}
+
+export type FacetKey = 'ingredient' | 'form' | 'manufacturer';
+
+export type FacetState = Record<FacetKey, string[]>;
 
 export type SortKey = 'popular' | 'rating' | 'price-asc' | 'price-desc' | 'name';

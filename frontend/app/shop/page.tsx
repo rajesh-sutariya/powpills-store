@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { CatalogBrowser } from '@/components/CatalogBrowser';
-import { CategorySidebar } from '@/components/CategorySidebar';
 import { PageHeader } from '@/components/PageHeader';
 import { products } from '@/lib/catalog';
 import labels from '@/lib/ui-labels';
@@ -20,9 +19,8 @@ export default function ShopPage() {
         meta={`${products.length} ${labels.toolbar.resultsMany}`}
       />
 
-      <section className="section bg-white">
-        <div className="shell grid gap-8 lg:grid-cols-[16rem_1fr] lg:gap-10">
-          <CategorySidebar />
+      <section className="bg-white py-10 lg:py-12">
+        <div className="shell">
           <CatalogBrowser products={products} />
         </div>
       </section>

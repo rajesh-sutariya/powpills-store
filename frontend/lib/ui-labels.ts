@@ -36,6 +36,17 @@ export const labels = {
     ],
   },
 
+  filters: {
+    title: 'Filters',
+    clearAll: 'Clear all',
+    priceTitle: 'Price',
+    priceUpTo: 'Up to',
+    remove: 'Remove filter',
+    loadMore: 'Load more products',
+    of: 'of',
+    showResults: 'Show {count} products',
+  },
+
   sidebar: {
     categoriesTitle: 'Categories',
     allProducts: 'All Products',
@@ -52,8 +63,31 @@ export const labels = {
     } as Record<string, string>,
   },
 
+  category: {
+    guideDisclaimer: 'General information only, not medical advice.',
+    relatedTitle: 'Related Categories',
+    faqTitle: 'Frequently Asked Questions',
+  },
+
   product: {
     packSizeTitle: 'Pack Size',
+    strengthLabel: 'Strength',
+    packsLabel: 'Pack sizes',
+    galleryLabel: 'Product images',
+    deliveryTitle: 'Delivery & Returns',
+    deliveryTime: 'Delivered in 6 to 15 days, with tracking',
+    deliveryDiscreet: 'Plain, discreet packaging on every order',
+    deliveryReturns: 'Hassle-free returns if something is wrong',
+    paymentTitle: 'Secure payment',
+    prescriptionNotice:
+      'Prescription medicine. Our team will confirm the prescription required for your order before it ships.',
+    usageTitle: 'Safety & Usage Information',
+    alternativesTitle: 'Same Active Ingredient',
+    faqTitle: 'Product FAQs',
+    reviewsTitle: 'Customer Ratings',
+    stars: 'stars',
+    outOf5: 'out of 5',
+    stickyCta: 'Add to Cart',
     packHeaderPack: 'Pack',
     packHeaderPrice: 'Price',
     packHeaderUnit: 'Unit Price',

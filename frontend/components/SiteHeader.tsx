@@ -1,20 +1,33 @@
 import Link from 'next/link';
 import { BrandMark } from './BrandMark';
 import { Icon } from './Icon';
-import type { HeaderContent } from '@/lib/types';
+import { MobileNav } from './MobileNav';
+import type { CatalogCategory } from '@/lib/catalog-types';
+import type { HeaderContent, NavContent } from '@/lib/types';
 
-export function SiteHeader({ content }: { content: HeaderContent }) {
+export function SiteHeader({
+  content,
+  nav,
+  categories,
+}: {
+  content: HeaderContent;
+  nav: NavContent;
+  categories: CatalogCategory[];
+}) {
   return (
     <div className="bg-white">
-      <div className="shell flex flex-wrap items-center gap-x-8 gap-y-4 py-5">
+      <div className="shell flex flex-wrap items-center gap-x-8 gap-y-3 py-3.5 lg:py-5">
+        {/* Menu (mobile only) */}
+        <MobileNav nav={nav} header={content} categories={categories} />
+
         {/* Brand */}
-        <Link href="/" className="flex shrink-0 items-center gap-3">
-          <BrandMark className="h-11 w-11" />
+        <Link href="/" className="flex shrink-0 items-center gap-2.5 lg:gap-3">
+          <BrandMark className="h-9 w-9 lg:h-11 lg:w-11" />
           <span className="leading-tight">
-            <span className="block text-[1.375rem] font-extrabold tracking-tight text-brand-800">
+            <span className="block text-lg font-extrabold tracking-tight text-brand-800 lg:text-[1.375rem]">
               {content.brand.name}
             </span>
-            <span className="mt-0.5 block text-xs font-medium text-ink-muted">
+            <span className="mt-0.5 hidden text-xs font-medium text-ink-muted sm:block">
               {content.brand.tagline}
             </span>
           </span>
@@ -24,7 +37,7 @@ export function SiteHeader({ content }: { content: HeaderContent }) {
         <form
           action="/search"
           role="search"
-          className="order-3 w-full flex-1 md:order-none md:w-auto md:max-w-xl"
+          className="order-last w-full flex-1 lg:order-none lg:w-auto lg:max-w-xl"
         >
           <div className="flex items-center rounded-xl border border-line bg-surface-soft transition focus-within:border-brand-400 focus-within:bg-white focus-within:ring-4 focus-within:ring-brand-50">
             <label htmlFor="site-search" className="sr-only">

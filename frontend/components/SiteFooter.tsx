@@ -15,9 +15,9 @@ export function SiteFooter({ content }: { content: FooterContent }) {
   return (
     <footer className="bg-brand-900 text-brand-100">
       <div className="shell py-14 lg:py-16">
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1.1fr_1fr_1.25fr] lg:gap-8">
+        <div className="grid grid-cols-2 gap-x-6 gap-y-9 md:grid-cols-3 lg:grid-cols-[1.6fr_1fr_1fr_1.1fr_1fr_1.25fr] lg:gap-8">
           {/* Brand */}
-          <div className="md:col-span-2 lg:col-span-1">
+          <div className="col-span-2 md:col-span-3 lg:col-span-1">
             <div className="flex items-center gap-3">
               <BrandMark className="h-11 w-11" />
               <span className="leading-tight">

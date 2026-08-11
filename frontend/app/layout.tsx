@@ -28,7 +28,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en">
       <body className="flex min-h-screen flex-col">
         <AnnouncementBar content={content.announcement} />
-        <SiteHeader content={content.header} />
+        <SiteHeader
+          content={content.header}
+          nav={content.nav}
+          categories={content.categorySection.categories}
+        />
         <MainNav content={content.nav} categories={content.categorySection.categories} />
 
         <main className="flex-1">{children}</main>

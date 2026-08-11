@@ -10,11 +10,11 @@ import type { HeroContent } from '@/lib/types';
  */
 export function Hero({ content }: { content: HeroContent }) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-brand-50 via-brand-50 to-surface-soft pb-32 pt-12 lg:pb-40 lg:pt-16">
+    <section className="relative overflow-hidden bg-gradient-to-b from-brand-50 via-brand-50 to-surface-soft pb-24 pt-9 sm:pb-32 sm:pt-12 lg:pb-40 lg:pt-16">
       {/* Soft decorative wash, keeps the flat tint from looking like a grey box. */}
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute -right-24 -top-24 h-[26rem] w-[26rem] rounded-full bg-brand-100/60 blur-3xl"
+        className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-brand-100/60 blur-3xl sm:h-96 sm:w-96"
       />
 
       <div className="shell relative">

@@ -6,8 +6,15 @@ export function AnnouncementBar({ content }: { content: AnnouncementBarContent }
     <div className="bg-brand-900 text-white">
       <div className="shell flex h-10 items-center justify-between gap-6">
         <ul className="flex items-center gap-5 overflow-x-auto whitespace-nowrap text-xs font-medium no-scrollbar sm:gap-7">
-          {content.items.map((item) => (
-            <li key={item.label} className="flex items-center gap-2">
+          {content.items.map((item, index) => (
+            <li
+              key={item.label}
+              /* Four items overflow a phone; show the two strongest and reveal
+                 the rest as the viewport allows. */
+              className={`flex items-center gap-2 ${index > 1 ? 'hidden sm:flex' : ''} ${
+                index > 2 ? 'sm:hidden md:flex' : ''
+              }`}
+            >
               <Icon name={item.icon} className="h-4 w-4 text-brand-300" strokeWidth={1.7} />
               <span className="text-brand-50">{item.label}</span>
             </li>

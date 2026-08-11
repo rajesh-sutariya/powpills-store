@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { CatalogBrowser } from '@/components/CatalogBrowser';
-import { CategorySidebar } from '@/components/CategorySidebar';
+import { CategoryContent } from '@/components/CategoryContent';
 import { PageHeader } from '@/components/PageHeader';
 import { categories, getCategory, getProductsByCategory } from '@/lib/catalog';
 import labels from '@/lib/ui-labels';
@@ -51,12 +51,13 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         }`}
       />
 
-      <section className="section bg-white">
-        <div className="shell grid gap-8 lg:grid-cols-[16rem_1fr] lg:gap-10">
-          <CategorySidebar activeSlug={slug} />
-          <CatalogBrowser products={categoryProducts} />
+      <section className="bg-white py-10 lg:py-12">
+        <div className="shell">
+          <CatalogBrowser products={categoryProducts} activeSlug={slug} />
         </div>
       </section>
+
+      <CategoryContent category={category} />
     </>
   );
 }
