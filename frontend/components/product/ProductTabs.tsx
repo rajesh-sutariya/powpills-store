@@ -1,11 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import { ReviewSummary } from './ReviewSummary';
 import labels from '@/lib/ui-labels';
 import type { CatalogProduct } from '@/lib/catalog-types';
 
-type TabKey = 'description' | 'specs' | 'reviews';
+type TabKey = 'description' | 'specs';
 
 /** Description / additional information / reviews, as a product page is expected to have. */
 export function ProductTabs({ product }: { product: CatalogProduct }) {
@@ -14,7 +13,6 @@ export function ProductTabs({ product }: { product: CatalogProduct }) {
   const tabs: { key: TabKey; label: string }[] = [
     { key: 'description', label: labels.product.descriptionTab },
     { key: 'specs', label: labels.product.specsTab },
-    { key: 'reviews', label: `${labels.product.reviewsTab} (${product.reviewCount})` },
   ];
 
   return (
@@ -65,14 +63,6 @@ export function ProductTabs({ product }: { product: CatalogProduct }) {
           </dl>
         )}
 
-        {active === 'reviews' && (
-          <div className="max-w-3xl">
-            <ReviewSummary product={product} />
-            <p className="mt-6 border-t border-line pt-5 text-sm leading-relaxed text-ink-muted">
-              {labels.product.reviewsEmpty}
-            </p>
-          </div>
-        )}
       </div>
     </div>
   );

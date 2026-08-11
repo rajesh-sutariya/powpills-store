@@ -7,6 +7,7 @@ import { Icon, Stars } from '@/components/Icon';
 import { PackSelector } from '@/components/product/PackSelector';
 import { ProductGallery } from '@/components/product/ProductGallery';
 import { ProductTabs } from '@/components/product/ProductTabs';
+import { ReviewSummary } from '@/components/product/ReviewSummary';
 import { StickyBuyBar } from '@/components/product/StickyBuyBar';
 import { TrustPanel } from '@/components/product/TrustPanel';
 import { ProductGrid } from '@/components/ProductGrid';
@@ -161,14 +162,30 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       </section>
 
       {/* Tabs */}
-      <section id="reviews" className="border-t border-line bg-surface-soft py-10 lg:py-12">
+      <section className="border-t border-line bg-surface-soft py-10 lg:py-12">
         <div className="shell">
           <ProductTabs product={product} />
         </div>
       </section>
 
+      {/* Ratings. Rendered up front rather than behind a tab: the distribution
+          summary is the most-used part of a reviews section, and an average
+          alone hides whether it came from consistent 5s or a split verdict. */}
+      <section id="reviews" className="bg-white py-12 lg:py-14">
+        <div className="shell">
+          <h2 className="h-panel">{labels.product.reviewsTitle}</h2>
+
+          <div className="mt-6 max-w-3xl">
+            <ReviewSummary product={product} />
+            <p className="mt-6 border-t border-line pt-5 text-sm leading-relaxed text-ink-muted">
+              {labels.product.reviewsEmpty}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Safety and usage */}
-      <section className="bg-white py-12 lg:py-14">
+      <section className="border-t border-line bg-surface-soft py-12 lg:py-14">
         <div className="shell">
           <h2 className="h-panel">{labels.product.usageTitle}</h2>
 
@@ -186,7 +203,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       </section>
 
       {/* Product FAQs */}
-      <section className="border-t border-line bg-surface-soft py-12 lg:py-14">
+      <section className="bg-white py-12 lg:py-14">
         <div className="shell">
           <SectionHeading title={labels.product.faqTitle} />
           <FaqAccordion items={product.faqs} />
