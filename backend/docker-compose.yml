@@ -1,0 +1,57 @@
+services:
+  db:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: powpills
+      MYSQL_USER: powpills
+      MYSQL_PASSWORD: powpills
+      MYSQL_ROOT_PASSWORD: powpills
+    volumes:
+      - db-data:/var/lib/mysql
+    healthcheck:
+      test: ['CMD', 'mysqladmin', 'ping', '-h', 'localhost', '-ppowpills']
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  wordpress:
+    image: wordpress:6.7-php8.3-apache
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - '8080:80'
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: powpills
+      WORDPRESS_DB_USER: powpills
+      WORDPRESS_DB_PASSWORD: powpills
+      WORDPRESS_DEBUG: 1
+      WORDPRESS_CONFIG_EXTRA: |
+        /* Origin allowed to read the REST API from the browser. */
+        define( 'POWPILLS_FRONTEND_ORIGIN', 'http://localhost:3000' );
+    volumes:
+      - wp-data:/var/www/html
+      # Only the plugin is mounted, so WordPress core stays inside the volume.
+      - ./wp-content/plugins/powpills-core:/var/www/html/wp-content/plugins/powpills-core
+
+  wpcli:
+    image: wordpress:cli-php8.3
+    depends_on:
+      - wordpress
+    user: '33:33'
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: powpills
+      WORDPRESS_DB_USER: powpills
+      WORDPRESS_DB_PASSWORD: powpills
+    volumes:
+      - wp-data:/var/www/html
+      - ./wp-content/plugins/powpills-core:/var/www/html/wp-content/plugins/powpills-core
+    entrypoint: ['tail', '-f', '/dev/null']
+
+volumes:
+  db-data:
+  wp-data:
