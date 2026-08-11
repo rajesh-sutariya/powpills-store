@@ -7,6 +7,8 @@
  * storefront renders even when WordPress is unreachable.
  */
 
+import type { CatalogCategory, CatalogProduct } from './catalog-types';
+
 export type IconName =
   | 'shield-check'
   | 'lock'
@@ -102,41 +104,12 @@ export interface Assurance {
   description: string;
 }
 
-export interface Category {
-  name: string;
-  icon: IconName;
-  tone: Tone;
-  ctaLabel: string;
-  href: string;
-}
-
 export interface CategorySection {
   title: string;
   subtitle: string;
-  categories: Category[];
-}
-
-export interface Product {
-  id: string;
-  name: string;
-  subtitle: string;
-  category: string;
-  badge?: {
-    label: string;
-    tone: 'sale' | 'hot' | 'new' | 'save';
-  };
-  /** Tab labels this product belongs to, used by the tabbed product grid. */
-  tabs?: string[];
-  rating: number;
-  reviewCount: number;
-  price: string;
-  compareAtPrice?: string;
+  /** Shared call to action rendered on every category card. */
   ctaLabel: string;
-  href: string;
-  image: {
-    src: string;
-    alt: string;
-  };
+  categories: CatalogCategory[];
 }
 
 export interface ProductSection {
@@ -144,7 +117,7 @@ export interface ProductSection {
   viewAllLabel: string;
   viewAllHref: string;
   tabs?: string[];
-  products: Product[];
+  products: CatalogProduct[];
 }
 
 export interface PromoCard {

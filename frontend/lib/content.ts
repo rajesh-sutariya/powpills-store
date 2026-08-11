@@ -1,299 +1,45 @@
-import type { HomepageContent, Product } from './types';
+import { categories, getProducts, getProductsByCategory, products } from './catalog';
+import type { HomepageContent } from './types';
 
 /**
  * ---------------------------------------------------------------------------
- * SINGLE SOURCE OF TRUTH FOR ALL COPY ON THE HOMEPAGE
+ * HOMEPAGE COPY
  * ---------------------------------------------------------------------------
- * Every visible string of the design lives in this file, and the WordPress
- * seeder (backend/wp-content/plugins/powpills-core/includes/class-seeder.php)
- * mirrors it one-to-one. Change a string here and in the seeder and it changes
- * everywhere on the page.
+ * Every visible string of the homepage design lives here, and the WordPress
+ * seeder (class-powpills-content.php) mirrors it one-to-one — tools/check-copy-parity.py
+ * enforces that.
+ *
+ * Products and categories are NOT duplicated here: they are resolved from the
+ * shared catalogue (data/catalog.json) so the homepage rails, the category
+ * pages and WordPress can never disagree.
  */
 
-// Placeholder image folder. NEXT_PUBLIC_BASE_PATH is only set when the site is
-// served from a sub-path (the GitHub Pages preview); locally it resolves to /images.
 const IMG = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/images`;
 
-const popularProducts: Product[] = [
-  {
-    id: 'tadapox-10mg',
-    name: 'Tadapox 10 mg',
-    subtitle: 'Tadalafil Tablets',
-    category: "Men's Health",
-    badge: { label: 'Sale', tone: 'sale' },
-    tabs: ['Best Sellers', "Men's Health"],
-    rating: 4.8,
-    reviewCount: 126,
-    price: '$32.00 – $148.00',
-    compareAtPrice: '$40.00',
-    ctaLabel: 'View Options',
-    href: '/product/tadapox-10mg',
-    image: { src: `${IMG}/product-tadapox.svg`, alt: 'Tadapox 10 mg tablets pack' },
-  },
-  {
-    id: 'minoxidil-5-solution',
-    name: 'Minoxidil 5% Solution',
-    subtitle: 'Hair Regrowth Treatment',
-    category: 'Hair Care',
-    badge: { label: 'Sale', tone: 'sale' },
-    tabs: ['Best Sellers', 'Wellness'],
-    rating: 4.7,
-    reviewCount: 98,
-    price: '$24.00 – $96.00',
-    compareAtPrice: '$30.00',
-    ctaLabel: 'View Options',
-    href: '/product/minoxidil-5-solution',
-    image: { src: `${IMG}/product-minoxidil.svg`, alt: 'Minoxidil 5% solution bottle' },
-  },
-  {
-    id: 'beto-400',
-    name: 'Beto 400',
-    subtitle: 'Paracetamol Tablets',
-    category: 'Pain Relief',
-    badge: { label: 'Hot', tone: 'hot' },
-    tabs: ['Best Sellers', 'Pain Relief'],
-    rating: 4.6,
-    reviewCount: 204,
-    price: '$12.00 – $58.00',
-    compareAtPrice: '$15.00',
-    ctaLabel: 'View Options',
-    href: '/product/beto-400',
-    image: { src: `${IMG}/product-beto.svg`, alt: 'Beto 400 tablets pack' },
-  },
-  {
-    id: 'biotin-tablets',
-    name: 'Biotin Tablets',
-    subtitle: 'Hair & Nail Support',
-    category: 'Wellness',
-    tabs: ['New Arrivals', 'Wellness'],
-    rating: 4.9,
-    reviewCount: 152,
-    price: '$16.00 – $72.00',
-    compareAtPrice: '$20.00',
-    ctaLabel: 'View Options',
-    href: '/product/biotin-tablets',
-    image: { src: `${IMG}/product-biotin.svg`, alt: 'Biotin tablets bottle' },
-  },
-  {
-    id: 'aceclofen-gel',
-    name: 'Aceclofen Gel',
-    subtitle: 'Topical Pain Relief',
-    category: 'Pain Relief',
-    badge: { label: 'New', tone: 'new' },
-    tabs: ['New Arrivals', 'Pain Relief'],
-    rating: 4.5,
-    reviewCount: 76,
-    price: '$9.00 – $42.00',
-    compareAtPrice: '$12.00',
-    ctaLabel: 'View Options',
-    href: '/product/aceclofen-gel',
-    image: { src: `${IMG}/product-aceclofen.svg`, alt: 'Aceclofen gel tube' },
-  },
-  {
-    id: 'vitamin-c-serum',
-    name: 'Vitamin C Serum',
-    subtitle: 'Brightening Face Serum',
-    category: 'Skin Care',
-    badge: { label: 'New', tone: 'new' },
-    tabs: ['New Arrivals', 'Skin Care'],
-    rating: 4.7,
-    reviewCount: 88,
-    price: '$18.00 – $64.00',
-    ctaLabel: 'View Options',
-    href: '/product/vitamin-c-serum',
-    image: { src: `${IMG}/product-serum.svg`, alt: 'Vitamin C serum bottle' },
-  },
-  {
-    id: 'salicylic-acid-face-wash',
-    name: 'Salicylic Acid Face Wash',
-    subtitle: 'Acne & Oil Control',
-    category: 'Skin Care',
-    tabs: ['Skin Care', 'Wellness'],
-    rating: 4.6,
-    reviewCount: 64,
-    price: '$11.00 – $38.00',
-    ctaLabel: 'View Options',
-    href: '/product/salicylic-acid-face-wash',
-    image: { src: `${IMG}/product-facewash.svg`, alt: 'Salicylic acid face wash bottle' },
-  },
-  {
-    id: 'sildenafil-100mg',
-    name: 'Sildenafil 100 mg',
-    subtitle: 'Erectile Dysfunction',
-    category: "Men's Health",
-    badge: { label: 'Sale', tone: 'sale' },
-    tabs: ['Best Sellers', "Men's Health"],
-    rating: 4.9,
-    reviewCount: 318,
-    price: '$28.00 – $132.00',
-    compareAtPrice: '$36.00',
-    ctaLabel: 'View Options',
-    href: '/product/sildenafil-100mg',
-    image: { src: `${IMG}/product-sildenafil.svg`, alt: 'Sildenafil 100 mg tablets pack' },
-  },
-  {
-    id: 'ibuprofen-400mg',
-    name: 'Ibuprofen 400 mg',
-    subtitle: 'Anti-Inflammatory Tablets',
-    category: 'Pain Relief',
-    tabs: ['Pain Relief', 'Best Sellers'],
-    rating: 4.6,
-    reviewCount: 176,
-    price: '$8.00 – $34.00',
-    ctaLabel: 'View Options',
-    href: '/product/ibuprofen-400mg',
-    image: { src: `${IMG}/product-ibuprofen.svg`, alt: 'Ibuprofen 400 mg tablets pack' },
-  },
-  {
-    id: 'multivitamin-daily',
-    name: 'Daily Multivitamin',
-    subtitle: 'Complete Wellness Formula',
-    category: 'Vitamins & Supplements',
-    tabs: ['Wellness', 'New Arrivals'],
-    rating: 4.8,
-    reviewCount: 142,
-    price: '$14.00 – $56.00',
-    ctaLabel: 'View Options',
-    href: '/product/multivitamin-daily',
-    image: { src: `${IMG}/product-multivitamin.svg`, alt: 'Daily multivitamin bottle' },
-  },
-];
+/** Homepage category strip: the real store categories, in nav order. */
+const homepageCategories = categories;
 
-const mensHealthProducts: Product[] = [
-  {
-    id: 'sildenafil-100mg',
-    name: 'Sildenafil 100 mg',
-    subtitle: 'Erectile Dysfunction',
-    category: "Men's Health",
-    rating: 4.9,
-    reviewCount: 318,
-    price: '$28.00 – $132.00',
-    compareAtPrice: '$36.00',
-    ctaLabel: 'View Options',
-    href: '/product/sildenafil-100mg',
-    image: { src: `${IMG}/product-sildenafil.svg`, alt: 'Sildenafil 100 mg tablets pack' },
-  },
-  {
-    id: 'vardenafil-20mg',
-    name: 'Vardenafil 20 mg',
-    subtitle: 'Fast Acting Tablets',
-    category: "Men's Health",
-    rating: 4.7,
-    reviewCount: 164,
-    price: '$34.00 – $146.00',
-    compareAtPrice: '$42.00',
-    ctaLabel: 'View Options',
-    href: '/product/vardenafil-20mg',
-    image: { src: `${IMG}/product-vardenafil.svg`, alt: 'Vardenafil 20 mg tablets pack' },
-  },
-  {
-    id: 'finasteride-1mg',
-    name: 'Finasteride 1 mg',
-    subtitle: 'Hair Loss Treatment',
-    category: "Men's Health",
-    rating: 4.6,
-    reviewCount: 121,
-    price: '$19.00 – $88.00',
-    compareAtPrice: '$24.00',
-    ctaLabel: 'View Options',
-    href: '/product/finasteride-1mg',
-    image: { src: `${IMG}/product-finasteride.svg`, alt: 'Finasteride 1 mg tablets pack' },
-  },
-  {
-    id: 'dapoxetine-60mg',
-    name: 'Dapoxetine 60 mg',
-    subtitle: 'Premature Ejaculation',
-    category: "Men's Health",
-    rating: 4.5,
-    reviewCount: 96,
-    price: '$26.00 – $118.00',
-    compareAtPrice: '$32.00',
-    ctaLabel: 'View Options',
-    href: '/product/dapoxetine-60mg',
-    image: { src: `${IMG}/product-dapoxetine.svg`, alt: 'Dapoxetine 60 mg tablets pack' },
-  },
-  {
-    id: 'testosterone-booster',
-    name: 'Testosterone Booster',
-    subtitle: 'Stamina & Strength',
-    category: "Men's Health",
-    rating: 4.7,
-    reviewCount: 134,
-    price: '$21.00 – $94.00',
-    compareAtPrice: '$26.00',
-    ctaLabel: 'View Options',
-    href: '/product/testosterone-booster',
-    image: { src: `${IMG}/product-testosterone.svg`, alt: 'Testosterone booster jar' },
-  },
-];
+/** Popular rail — a spread across categories, with the tab filters below. */
+const popularRail = getProducts([
+  'cenforce-100-mg',
+  'vidalista-20-mg',
+  'super-vidalista',
+  'finpecia-1-mg',
+  'kz-cream',
+  'careprost-3-ml',
+  'zerodol-sp',
+  'cenforce-200-mg',
+  'tugain-5-solution',
+  'aziderm-20-cream',
+  'jardiance-10-mg',
+  'urimax-d',
+]);
 
-const wellnessProducts: Product[] = [
-  {
-    id: 'collagen-peptides',
-    name: 'Collagen Peptides',
-    subtitle: 'Skin, Hair & Nails',
-    category: 'Vitamins & Supplements',
-    rating: 4.8,
-    reviewCount: 188,
-    price: '$22.00 – $92.00',
-    compareAtPrice: '$28.00',
-    ctaLabel: 'View Options',
-    href: '/product/collagen-peptides',
-    image: { src: `${IMG}/product-collagen.svg`, alt: 'Collagen peptides tub' },
-  },
-  {
-    id: 'vitamin-d3-5000iu',
-    name: 'Vitamin D3 5000 IU',
-    subtitle: 'Bone & Immunity Support',
-    category: 'Vitamins & Supplements',
-    rating: 4.9,
-    reviewCount: 246,
-    price: '$13.00 – $52.00',
-    compareAtPrice: '$16.00',
-    ctaLabel: 'View Options',
-    href: '/product/vitamin-d3-5000iu',
-    image: { src: `${IMG}/product-vitamind3.svg`, alt: 'Vitamin D3 5000 IU softgels bottle' },
-  },
-  {
-    id: 'omega-3-1000mg',
-    name: 'Omega-3 1000 mg',
-    subtitle: 'Heart Health',
-    category: 'Vitamins & Supplements',
-    rating: 4.7,
-    reviewCount: 173,
-    price: '$17.00 – $68.00',
-    compareAtPrice: '$21.00',
-    ctaLabel: 'View Options',
-    href: '/product/omega-3-1000mg',
-    image: { src: `${IMG}/product-omega3.svg`, alt: 'Omega-3 1000 mg softgels bottle' },
-  },
-  {
-    id: 'ketoconazole-shampoo',
-    name: 'Ketoconazole Shampoo',
-    subtitle: 'Anti-Dandruff Care',
-    category: 'Hair Care',
-    rating: 4.6,
-    reviewCount: 112,
-    price: '$15.00 – $58.00',
-    compareAtPrice: '$19.00',
-    ctaLabel: 'View Options',
-    href: '/product/ketoconazole-shampoo',
-    image: { src: `${IMG}/product-shampoo.svg`, alt: 'Ketoconazole shampoo bottle' },
-  },
-  {
-    id: 'niacinamide-serum',
-    name: 'Niacinamide Serum',
-    subtitle: 'Blemish & Pore Care',
-    category: 'Skin Care',
-    rating: 4.8,
-    reviewCount: 129,
-    price: '$18.00 – $64.00',
-    compareAtPrice: '$23.00',
-    ctaLabel: 'View Options',
-    href: '/product/niacinamide-serum',
-    image: { src: `${IMG}/product-niacinamide.svg`, alt: 'Niacinamide serum bottle' },
-  },
-];
+const erectileDysfunctionRail = getProductsByCategory('erectile-dysfunction').slice(0, 8);
+const skinAndHairRail = [
+  ...getProductsByCategory('hair-loss'),
+  ...getProductsByCategory('skin-care'),
+].slice(0, 8);
 
 export const homepageContent: HomepageContent = {
   announcement: {
@@ -334,14 +80,14 @@ export const homepageContent: HomepageContent = {
   nav: {
     categoriesLabel: 'Shop by Category',
     links: [
-      { label: 'Best Sellers', href: '/best-sellers' },
-      { label: "Men's Health", href: '/category/mens-health' },
-      { label: "Women's Health", href: '/category/womens-health' },
-      { label: 'Pain Relief', href: '/category/pain-relief' },
-      { label: 'Hair Care', href: '/category/hair-care' },
-      { label: 'Skin Care', href: '/category/skin-care' },
-      { label: 'Vitamins & Supplements', href: '/category/vitamins-supplements' },
-      { label: 'All Categories', href: '/categories' },
+      { label: 'Best Sellers', href: '/shop' },
+      { label: 'Erectile Dysfunction', href: '/product-category/erectile-dysfunction' },
+      { label: 'Premature Ejaculation', href: '/product-category/premature-ejaculation' },
+      { label: 'Hair Loss', href: '/product-category/hair-loss' },
+      { label: 'Skin Care', href: '/product-category/skin-care' },
+      { label: "Women's Health", href: '/product-category/womens-health' },
+      { label: 'Pain Relief', href: '/product-category/pain' },
+      { label: 'All Categories', href: '/all-categories' },
     ],
   },
 
@@ -356,7 +102,7 @@ export const homepageContent: HomepageContent = {
       { icon: 'headset', label: '24/7 Support' },
     ],
     primaryCta: { label: 'Shop All Meds', href: '/shop' },
-    secondaryCta: { label: 'Browse Categories', href: '/categories' },
+    secondaryCta: { label: 'Browse Categories', href: '/all-categories' },
     image: {
       src: `${IMG}/hero-products.svg`,
       alt: 'PowPills medicines, supplements and healthcare products',
@@ -364,87 +110,18 @@ export const homepageContent: HomepageContent = {
   },
 
   assurances: [
-    {
-      icon: 'shield-check',
-      title: 'Quality Assured',
-      description: 'Sourced from trusted suppliers',
-    },
-    {
-      icon: 'tag',
-      title: 'Affordable Prices',
-      description: 'Best prices on all medicines',
-    },
-    {
-      icon: 'globe',
-      title: 'Worldwide Shipping',
-      description: 'Delivering to 100+ countries',
-    },
-    {
-      icon: 'credit-card',
-      title: 'Multiple Payment Options',
-      description: 'Safe & secure payments',
-    },
-    {
-      icon: 'refresh',
-      title: 'Easy Returns',
-      description: 'Hassle-free return policy',
-    },
+    { icon: 'shield-check', title: 'Quality Assured', description: 'Sourced from trusted suppliers' },
+    { icon: 'tag', title: 'Affordable Prices', description: 'Best prices on all medicines' },
+    { icon: 'globe', title: 'Worldwide Shipping', description: 'Delivering to 100+ countries' },
+    { icon: 'credit-card', title: 'Multiple Payment Options', description: 'Safe & secure payments' },
+    { icon: 'refresh', title: 'Easy Returns', description: 'Hassle-free return policy' },
   ],
 
   categorySection: {
     title: 'Shop by Category',
     subtitle: 'Find the right healthcare and wellness products for you',
-    categories: [
-      {
-        name: "Men's Health",
-        icon: 'male',
-        tone: 'sky',
-        ctaLabel: 'View Products',
-        href: '/category/mens-health',
-      },
-      {
-        name: "Women's Health",
-        icon: 'female',
-        tone: 'rose',
-        ctaLabel: 'View Products',
-        href: '/category/womens-health',
-      },
-      {
-        name: 'Pain Relief',
-        icon: 'bandage',
-        tone: 'cream',
-        ctaLabel: 'View Products',
-        href: '/category/pain-relief',
-      },
-      {
-        name: 'Hair Care',
-        icon: 'hair',
-        tone: 'mint',
-        ctaLabel: 'View Products',
-        href: '/category/hair-care',
-      },
-      {
-        name: 'Skin Care',
-        icon: 'skin',
-        tone: 'sky',
-        ctaLabel: 'View Products',
-        href: '/category/skin-care',
-      },
-      {
-        name: 'Vitamins & Supplements',
-        icon: 'pill',
-        tone: 'mint',
-        ctaLabel: 'View Products',
-        href: '/category/vitamins-supplements',
-      },
-      {
-        name: 'All Categories',
-        icon: 'grid',
-        tone: 'soft',
-        ctaLabel: 'View Products',
-        href: '/categories',
-      },
-    ],
+    ctaLabel: 'View Products',
+    categories: homepageCategories,
   },
 
   popularProducts: {
@@ -453,14 +130,14 @@ export const homepageContent: HomepageContent = {
     viewAllHref: '/shop',
     tabs: [
       'All Products',
-      'Best Sellers',
-      'New Arrivals',
-      "Men's Health",
-      'Pain Relief',
+      'Erectile Dysfunction',
+      'Premature Ejaculation',
+      'Hair Loss',
       'Skin Care',
-      'Wellness',
+      'Pain Relief',
+      'Diabetes',
     ],
-    products: popularProducts,
+    products: popularRail,
   },
 
   promos: [
@@ -502,11 +179,7 @@ export const homepageContent: HomepageContent = {
     score: '4.8',
     scoreLabel: 'Excellent',
     quote: 'Excellent service, genuine products and very fast discreet delivery. Highly recommended!',
-    author: {
-      name: 'Michael R.',
-      role: 'Verified Buyer',
-      avatar: `${IMG}/avatar-michael.svg`,
-    },
+    author: { name: 'Michael R.', role: 'Verified Buyer', avatar: `${IMG}/avatar-michael.svg` },
   },
 
   howItWorks: {
@@ -542,16 +215,16 @@ export const homepageContent: HomepageContent = {
 
   productRows: [
     {
-      title: "Best Sellers in Men's Health",
+      title: 'Best Sellers in Erectile Dysfunction',
       viewAllLabel: 'View All',
-      viewAllHref: '/category/mens-health',
-      products: mensHealthProducts,
+      viewAllHref: '/product-category/erectile-dysfunction',
+      products: erectileDysfunctionRail,
     },
     {
-      title: 'Wellness, Hair & Skin Essentials',
+      title: 'Hair & Skin Care Essentials',
       viewAllLabel: 'View All',
-      viewAllHref: '/category/vitamins-supplements',
-      products: wellnessProducts,
+      viewAllHref: '/product-category/skin-care',
+      products: skinAndHairRail,
     },
   ],
 
@@ -571,29 +244,25 @@ export const homepageContent: HomepageContent = {
     title: 'What Our Customers Say',
     items: [
       {
-        quote:
-          'Great prices and fast delivery. The packaging is always discreet and professional.',
+        quote: 'Great prices and fast delivery. The packaging is always discreet and professional.',
         name: 'Daniel L.',
         role: 'Verified Buyer',
         avatar: `${IMG}/avatar-daniel.svg`,
       },
       {
-        quote:
-          'Excellent customer service and a wide range of products. Highly trusted store.',
+        quote: 'Excellent customer service and a wide range of products. Highly trusted store.',
         name: 'Sarah K.',
         role: 'Verified Buyer',
         avatar: `${IMG}/avatar-sarah.svg`,
       },
       {
-        quote:
-          'Ordering was simple, the medicine arrived quickly and exactly as described.',
+        quote: 'Ordering was simple, the medicine arrived quickly and exactly as described.',
         name: 'James T.',
         role: 'Verified Buyer',
         avatar: `${IMG}/avatar-james.svg`,
       },
       {
-        quote:
-          'Everything arrived on time and in perfect condition. Very happy with the service.',
+        quote: 'Everything arrived on time and in perfect condition. Very happy with the service.',
         name: 'Priya M.',
         role: 'Verified Buyer',
         avatar: `${IMG}/avatar-priya.svg`,
@@ -681,13 +350,13 @@ export const homepageContent: HomepageContent = {
       {
         title: 'Categories',
         links: [
-          { label: "Men's Health", href: '/category/mens-health' },
-          { label: "Women's Health", href: '/category/womens-health' },
-          { label: 'Pain Relief', href: '/category/pain-relief' },
-          { label: 'Hair Care', href: '/category/hair-care' },
-          { label: 'Skin Care', href: '/category/skin-care' },
-          { label: 'Vitamins & Supplements', href: '/category/vitamins-supplements' },
-          { label: 'All Categories', href: '/categories' },
+          { label: 'Erectile Dysfunction', href: '/product-category/erectile-dysfunction' },
+          { label: 'Premature Ejaculation', href: '/product-category/premature-ejaculation' },
+          { label: 'Hair Loss', href: '/product-category/hair-loss' },
+          { label: 'Skin Care', href: '/product-category/skin-care' },
+          { label: "Women's Health", href: '/product-category/womens-health' },
+          { label: 'Pain Relief', href: '/product-category/pain' },
+          { label: 'All Categories', href: '/all-categories' },
         ],
       },
       {
@@ -718,5 +387,8 @@ export const homepageContent: HomepageContent = {
     copyright: '© 2024 PowPills. All rights reserved.',
   },
 };
+
+/** Total catalogue size, used by the shop page header. */
+export const catalogueSize = products.length;
 
 export default homepageContent;

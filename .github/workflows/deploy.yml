@@ -35,6 +35,16 @@ jobs:
           php tools/dump-wp-copy.php
           python3 tools/check-copy-parity.py
 
+      # The catalogue is generated once and consumed by both runtimes, so the
+      # two copies must be identical and must still match the generator.
+      - name: Catalogue must be in sync
+        run: |
+          python3 tools/build-catalog.py
+          python3 -c "import filecmp,sys; sys.exit(0 if filecmp.cmp('frontend/data/catalog.json','backend/wp-content/plugins/powpills-core/data/catalog.json',shallow=False) else 'catalogue copies differ')"
+          git diff --exit-code -- frontend/data/catalog.json \
+              backend/wp-content/plugins/powpills-core/data/catalog.json
+          echo "catalogue copies identical and up to date with the generator"
+
   build:
     name: Build and deploy storefront
     runs-on: ubuntu-latest

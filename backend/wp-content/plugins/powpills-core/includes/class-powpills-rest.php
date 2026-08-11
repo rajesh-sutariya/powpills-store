@@ -57,6 +57,40 @@ class PowPills_REST {
 
 		register_rest_route(
 			self::NAMESPACE_V1,
+			'/categories',
+			array(
+				'methods'             => WP_REST_Server::READABLE,
+				'callback'            => function () {
+					return rest_ensure_response( PowPills_Catalog::categories() );
+				},
+				'permission_callback' => '__return_true',
+			)
+		);
+
+		register_rest_route(
+			self::NAMESPACE_V1,
+			'/product/(?P<slug>[a-z0-9-]+)',
+			array(
+				'methods'             => WP_REST_Server::READABLE,
+				'callback'            => function ( $request ) {
+					$product = PowPills_Catalog::product( (string) $request['slug'] );
+
+					if ( ! $product ) {
+						return new WP_Error(
+							'powpills_product_not_found',
+							'Product not found.',
+							array( 'status' => 404 )
+						);
+					}
+
+					return rest_ensure_response( $product );
+				},
+				'permission_callback' => '__return_true',
+			)
+		);
+
+		register_rest_route(
+			self::NAMESPACE_V1,
 			'/newsletter',
 			array(
 				'methods'             => WP_REST_Server::CREATABLE,
@@ -112,6 +146,7 @@ class PowPills_REST {
 			'categorySection' => array(
 				'title'      => $titles['categoryTitle'],
 				'subtitle'   => $titles['categorySubtitle'],
+				'ctaLabel'   => $titles['categoryCta'],
 				'categories' => self::get_categories(),
 			),
 			'popularProducts' => array(
@@ -119,7 +154,7 @@ class PowPills_REST {
 				'viewAllLabel' => $titles['popularViewAll'],
 				'viewAllHref'  => $titles['popularViewAllHref'],
 				'tabs'         => $titles['popularTabs'],
-				'products'     => self::get_products( 'popular' ),
+				'products'     => self::get_products_by_slug( $titles['popularSlugs'] ),
 			),
 			'promos'          => self::get_promos(),
 			'stats'           => $settings['stats'],
@@ -170,20 +205,7 @@ class PowPills_REST {
 	 * @return array
 	 */
 	private static function get_categories() {
-		$posts = self::query( PowPills_Post_Types::CATEGORY );
-
-		return array_map(
-			function ( $post ) {
-				return array(
-					'name'     => $post->post_title,
-					'icon'     => PowPills_Post_Types::meta( $post->ID, 'icon', 'grid' ),
-					'tone'     => PowPills_Post_Types::meta( $post->ID, 'tone', 'soft' ),
-					'ctaLabel' => PowPills_Post_Types::meta( $post->ID, 'cta_label', 'View Products' ),
-					'href'     => PowPills_Post_Types::meta( $post->ID, 'href', '#' ),
-				);
-			},
-			$posts
-		);
+		return PowPills_Catalog::categories();
 	}
 
 	/**
@@ -193,51 +215,30 @@ class PowPills_REST {
 	 * @return array
 	 */
 	private static function get_products( $section = '' ) {
-		$posts   = self::query( PowPills_Post_Types::PRODUCT );
-		$results = array();
+		return PowPills_Catalog::products( $section );
+	}
 
-		foreach ( $posts as $post ) {
-			$sections = (array) PowPills_Post_Types::meta( $post->ID, 'sections', array() );
+	/**
+	 * Resolves an ordered list of product slugs for the curated homepage rail.
+	 *
+	 * @param array $slugs Product slugs.
+	 * @return array
+	 */
+	private static function get_products_by_slug( array $slugs ) {
+		$all      = array();
+		$resolved = array();
 
-			if ( $section && ! in_array( $section, $sections, true ) ) {
-				continue;
-			}
-
-			$badge_label = PowPills_Post_Types::meta( $post->ID, 'badge_label', '' );
-			$compare_at  = PowPills_Post_Types::meta( $post->ID, 'compare_at', '' );
-
-			$product = array(
-				'id'          => $post->post_name,
-				'name'        => $post->post_title,
-				'subtitle'    => PowPills_Post_Types::meta( $post->ID, 'subtitle', '' ),
-				'category'    => PowPills_Post_Types::meta( $post->ID, 'category', '' ),
-				'tabs'        => array_values( (array) PowPills_Post_Types::meta( $post->ID, 'tabs', array() ) ),
-				'rating'      => (float) PowPills_Post_Types::meta( $post->ID, 'rating', 0 ),
-				'reviewCount' => (int) PowPills_Post_Types::meta( $post->ID, 'review_count', 0 ),
-				'price'       => PowPills_Post_Types::meta( $post->ID, 'price', '' ),
-				'ctaLabel'    => PowPills_Post_Types::meta( $post->ID, 'cta_label', 'View Options' ),
-				'href'        => '/product/' . $post->post_name,
-				'image'       => array(
-					'src' => self::image_src( $post, 'image_src' ),
-					'alt' => PowPills_Post_Types::meta( $post->ID, 'image_alt', $post->post_title ),
-				),
-			);
-
-			if ( $badge_label ) {
-				$product['badge'] = array(
-					'label' => $badge_label,
-					'tone'  => PowPills_Post_Types::meta( $post->ID, 'badge_tone', 'sale' ),
-				);
-			}
-
-			if ( $compare_at ) {
-				$product['compareAtPrice'] = $compare_at;
-			}
-
-			$results[] = $product;
+		foreach ( PowPills_Catalog::products() as $product ) {
+			$all[ $product['slug'] ] = $product;
 		}
 
-		return $results;
+		foreach ( $slugs as $slug ) {
+			if ( isset( $all[ $slug ] ) ) {
+				$resolved[] = $all[ $slug ];
+			}
+		}
+
+		return $resolved;
 	}
 
 	/**

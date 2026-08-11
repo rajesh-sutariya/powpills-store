@@ -28,7 +28,15 @@ p = {s for s in php if is_display(s)}
 print("display strings — frontend:", len(t), " wordpress:", len(p))
 only_ts = sorted(t - p)
 only_php = sorted(p - t)
+# Module import specifiers are not copy.
+only_ts = [x for x in only_ts if not x.startswith('./')]
+only_php = [x for x in only_php if not x.startswith('./')]
+
 print("\nONLY IN FRONTEND (%d):" % len(only_ts))
 for s in only_ts: print("  -", s)
 print("\nONLY IN WORDPRESS (%d):" % len(only_php))
 for s in only_php: print("  -", s)
+
+if only_ts or only_php:
+    raise SystemExit("copy parity FAILED: frontend and WordPress differ")
+print("\ncopy parity OK")

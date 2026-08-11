@@ -1,10 +1,13 @@
 <?php
 /**
- * Canonical default content for the PowPills storefront.
+ * Homepage copy for the PowPills storefront.
  *
- * This is the single source of truth on the WordPress side and mirrors
- * frontend/lib/content.ts one-to-one. The seeder writes these values into
- * posts, post meta and options; the REST controller reads them back out.
+ * Mirrors frontend/lib/content.ts one-to-one; tools/check-copy-parity.py fails
+ * the build if the two drift apart.
+ *
+ * Products and categories are NOT defined here — they come from the shared
+ * catalogue (data/catalog.json) via PowPills_Catalog, so there is exactly one
+ * source of truth for the shop.
  *
  * @package PowPills
  */
@@ -14,9 +17,8 @@ defined( 'ABSPATH' ) || exit;
 class PowPills_Content {
 
 	/**
-	 * Relative path prefix for the dummy placeholder images that ship with the
-	 * Next.js frontend (frontend/public/images). Replace these with absolute
-	 * WordPress media URLs once real photography is uploaded.
+	 * Placeholder image folder shipped with the Next.js frontend.
+	 * Replace with absolute WordPress media URLs once real artwork is uploaded.
 	 */
 	const IMG = '/images';
 
@@ -29,7 +31,7 @@ class PowPills_Content {
 		$img = self::IMG;
 
 		return array(
-			'announcement' => array(
+			'announcement'  => array(
 				'items'  => array(
 					array( 'icon' => 'shield-check', 'label' => 'Genuine Packaging' ),
 					array( 'icon' => 'lock', 'label' => 'Secure Checkout' ),
@@ -42,7 +44,7 @@ class PowPills_Content {
 				),
 			),
 
-			'header'       => array(
+			'header'        => array(
 				'brand'   => array(
 					'name'    => 'PowPills',
 					'tagline' => 'Trusted · Affordable · Delivered',
@@ -64,21 +66,21 @@ class PowPills_Content {
 				),
 			),
 
-			'nav'          => array(
+			'nav'           => array(
 				'categoriesLabel' => 'Shop by Category',
 				'links'           => array(
-					array( 'label' => 'Best Sellers', 'href' => '/best-sellers' ),
-					array( 'label' => "Men's Health", 'href' => '/category/mens-health' ),
-					array( 'label' => "Women's Health", 'href' => '/category/womens-health' ),
-					array( 'label' => 'Pain Relief', 'href' => '/category/pain-relief' ),
-					array( 'label' => 'Hair Care', 'href' => '/category/hair-care' ),
-					array( 'label' => 'Skin Care', 'href' => '/category/skin-care' ),
-					array( 'label' => 'Vitamins & Supplements', 'href' => '/category/vitamins-supplements' ),
-					array( 'label' => 'All Categories', 'href' => '/categories' ),
+					array( 'label' => 'Best Sellers', 'href' => '/shop' ),
+					array( 'label' => 'Erectile Dysfunction', 'href' => '/product-category/erectile-dysfunction' ),
+					array( 'label' => 'Premature Ejaculation', 'href' => '/product-category/premature-ejaculation' ),
+					array( 'label' => 'Hair Loss', 'href' => '/product-category/hair-loss' ),
+					array( 'label' => 'Skin Care', 'href' => '/product-category/skin-care' ),
+					array( 'label' => "Women's Health", 'href' => '/product-category/womens-health' ),
+					array( 'label' => 'Pain Relief', 'href' => '/product-category/pain' ),
+					array( 'label' => 'All Categories', 'href' => '/all-categories' ),
 				),
 			),
 
-			'hero'         => array(
+			'hero'          => array(
 				'title'        => 'Your Trusted Online Pharmacy & Healthcare Store',
 				'description'  => 'Explore a wide range of quality medicines, health products and wellness essentials at unbeatable prices.',
 				'features'     => array(
@@ -88,14 +90,14 @@ class PowPills_Content {
 					array( 'icon' => 'headset', 'label' => '24/7 Support' ),
 				),
 				'primaryCta'   => array( 'label' => 'Shop All Meds', 'href' => '/shop' ),
-				'secondaryCta' => array( 'label' => 'Browse Categories', 'href' => '/categories' ),
+				'secondaryCta' => array( 'label' => 'Browse Categories', 'href' => '/all-categories' ),
 				'image'        => array(
 					'src' => $img . '/hero-products.svg',
 					'alt' => 'PowPills medicines, supplements and healthcare products',
 				),
 			),
 
-			'assurances'   => array(
+			'assurances'    => array(
 				array(
 					'icon'        => 'shield-check',
 					'title'       => 'Quality Assured',
@@ -126,37 +128,52 @@ class PowPills_Content {
 			'sectionTitles' => array(
 				'categoryTitle'      => 'Shop by Category',
 				'categorySubtitle'   => 'Find the right healthcare and wellness products for you',
+				'categoryCta'        => 'View Products',
 				'popularTitle'       => 'Popular Products Across Our Store',
 				'popularViewAll'     => 'View All Products',
 				'popularViewAllHref' => '/shop',
 				'popularTabs'        => array(
 					'All Products',
-					'Best Sellers',
-					'New Arrivals',
-					"Men's Health",
-					'Pain Relief',
+					'Erectile Dysfunction',
+					'Premature Ejaculation',
+					'Hair Loss',
 					'Skin Care',
-					'Wellness',
+					'Pain Relief',
+					'Diabetes',
+				),
+				'popularSlugs'       => array(
+					'cenforce-100-mg',
+					'vidalista-20-mg',
+					'super-vidalista',
+					'finpecia-1-mg',
+					'kz-cream',
+					'careprost-3-ml',
+					'zerodol-sp',
+					'cenforce-200-mg',
+					'tugain-5-solution',
+					'aziderm-20-cream',
+					'jardiance-10-mg',
+					'urimax-d',
 				),
 				'testimonialsTitle'  => 'What Our Customers Say',
 				'faqTitle'           => 'Frequently Asked Questions',
 				'rows'               => array(
 					array(
-						'section'     => 'mens_health',
-						'title'       => "Best Sellers in Men's Health",
+						'section'     => 'erectile-dysfunction',
+						'title'       => 'Best Sellers in Erectile Dysfunction',
 						'viewAll'     => 'View All',
-						'viewAllHref' => '/category/mens-health',
+						'viewAllHref' => '/product-category/erectile-dysfunction',
 					),
 					array(
-						'section'     => 'wellness',
-						'title'       => 'Wellness, Hair & Skin Essentials',
+						'section'     => 'skin-care',
+						'title'       => 'Hair & Skin Care Essentials',
 						'viewAll'     => 'View All',
-						'viewAllHref' => '/category/vitamins-supplements',
+						'viewAllHref' => '/product-category/skin-care',
 					),
 				),
 			),
 
-			'stats'        => array(
+			'stats'         => array(
 				'title' => 'Trusted by Thousands of Customers Worldwide',
 				'items' => array(
 					array( 'value' => '10,000+', 'label' => 'Happy Customers' ),
@@ -166,7 +183,7 @@ class PowPills_Content {
 				),
 			),
 
-			'reviewCard'   => array(
+			'reviewCard'    => array(
 				'score'      => '4.8',
 				'scoreLabel' => 'Excellent',
 				'quote'      => 'Excellent service, genuine products and very fast discreet delivery. Highly recommended!',
@@ -177,7 +194,7 @@ class PowPills_Content {
 				),
 			),
 
-			'howItWorks'   => array(
+			'howItWorks'    => array(
 				'title'    => 'How It Works',
 				'subtitle' => 'Getting your health essentials is simple and secure',
 				'steps'    => array(
@@ -222,14 +239,14 @@ class PowPills_Content {
 				),
 			),
 
-			'newsletter'   => array(
+			'newsletter'    => array(
 				'title'       => 'Stay Healthy, Stay Informed.',
 				'description' => 'Subscribe to our newsletter for exclusive offers, health tips and updates.',
 				'placeholder' => 'Enter your email address',
 				'buttonLabel' => 'Subscribe',
 			),
 
-			'footer'       => array(
+			'footer'        => array(
 				'brand'       => array(
 					'name'        => 'PowPills',
 					'tagline'     => 'Trusted. Affordable. Delivered.',
@@ -265,13 +282,13 @@ class PowPills_Content {
 					array(
 						'title' => 'Categories',
 						'links' => array(
-							array( 'label' => "Men's Health", 'href' => '/category/mens-health' ),
-							array( 'label' => "Women's Health", 'href' => '/category/womens-health' ),
-							array( 'label' => 'Pain Relief', 'href' => '/category/pain-relief' ),
-							array( 'label' => 'Hair Care', 'href' => '/category/hair-care' ),
-							array( 'label' => 'Skin Care', 'href' => '/category/skin-care' ),
-							array( 'label' => 'Vitamins & Supplements', 'href' => '/category/vitamins-supplements' ),
-							array( 'label' => 'All Categories', 'href' => '/categories' ),
+							array( 'label' => 'Erectile Dysfunction', 'href' => '/product-category/erectile-dysfunction' ),
+							array( 'label' => 'Premature Ejaculation', 'href' => '/product-category/premature-ejaculation' ),
+							array( 'label' => 'Hair Loss', 'href' => '/product-category/hair-loss' ),
+							array( 'label' => 'Skin Care', 'href' => '/product-category/skin-care' ),
+							array( 'label' => "Women's Health", 'href' => '/product-category/womens-health' ),
+							array( 'label' => 'Pain Relief', 'href' => '/product-category/pain' ),
+							array( 'label' => 'All Categories', 'href' => '/all-categories' ),
 						),
 					),
 					array(
@@ -300,391 +317,6 @@ class PowPills_Content {
 				),
 				'secureLabel' => '100% Secure Checkout',
 				'copyright'   => '© 2024 PowPills. All rights reserved.',
-			),
-		);
-	}
-
-	/**
-	 * Shop-by-category cards (powpills_category post type).
-	 *
-	 * @return array
-	 */
-	public static function categories() {
-		return array(
-			array(
-				'slug'     => 'mens-health',
-				'name'     => "Men's Health",
-				'icon'     => 'male',
-				'tone'     => 'sky',
-				'ctaLabel' => 'View Products',
-				'href'     => '/category/mens-health',
-			),
-			array(
-				'slug'     => 'womens-health',
-				'name'     => "Women's Health",
-				'icon'     => 'female',
-				'tone'     => 'rose',
-				'ctaLabel' => 'View Products',
-				'href'     => '/category/womens-health',
-			),
-			array(
-				'slug'     => 'pain-relief',
-				'name'     => 'Pain Relief',
-				'icon'     => 'bandage',
-				'tone'     => 'cream',
-				'ctaLabel' => 'View Products',
-				'href'     => '/category/pain-relief',
-			),
-			array(
-				'slug'     => 'hair-care',
-				'name'     => 'Hair Care',
-				'icon'     => 'hair',
-				'tone'     => 'mint',
-				'ctaLabel' => 'View Products',
-				'href'     => '/category/hair-care',
-			),
-			array(
-				'slug'     => 'skin-care',
-				'name'     => 'Skin Care',
-				'icon'     => 'skin',
-				'tone'     => 'sky',
-				'ctaLabel' => 'View Products',
-				'href'     => '/category/skin-care',
-			),
-			array(
-				'slug'     => 'vitamins-supplements',
-				'name'     => 'Vitamins & Supplements',
-				'icon'     => 'pill',
-				'tone'     => 'mint',
-				'ctaLabel' => 'View Products',
-				'href'     => '/category/vitamins-supplements',
-			),
-			array(
-				'slug'     => 'all-categories',
-				'name'     => 'All Categories',
-				'icon'     => 'grid',
-				'tone'     => 'soft',
-				'ctaLabel' => 'View Products',
-				'href'     => '/categories',
-			),
-		);
-	}
-
-	/**
-	 * Catalogue (powpills_product post type).
-	 *
-	 * `sections` decides which homepage rail a product appears in:
-	 * popular | mens_health | wellness.
-	 *
-	 * @return array
-	 */
-	public static function products() {
-		$img = self::IMG;
-
-		return array(
-			array(
-				'slug'         => 'tadapox-10mg',
-				'name'         => 'Tadapox 10 mg',
-				'subtitle'     => 'Tadalafil Tablets',
-				'category'     => "Men's Health",
-				'badgeLabel'   => 'Sale',
-				'badgeTone'    => 'sale',
-				'tabs'         => array( 'Best Sellers', "Men's Health" ),
-				'rating'       => 4.8,
-				'reviewCount'  => 126,
-				'price'        => '$32.00 – $148.00',
-				'compareAt'    => '$40.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'popular' ),
-				'image'        => array( 'src' => $img . '/product-tadapox.svg', 'alt' => 'Tadapox 10 mg tablets pack' ),
-			),
-			array(
-				'slug'         => 'minoxidil-5-solution',
-				'name'         => 'Minoxidil 5% Solution',
-				'subtitle'     => 'Hair Regrowth Treatment',
-				'category'     => 'Hair Care',
-				'badgeLabel'   => 'Sale',
-				'badgeTone'    => 'sale',
-				'tabs'         => array( 'Best Sellers', 'Wellness' ),
-				'rating'       => 4.7,
-				'reviewCount'  => 98,
-				'price'        => '$24.00 – $96.00',
-				'compareAt'    => '$30.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'popular' ),
-				'image'        => array( 'src' => $img . '/product-minoxidil.svg', 'alt' => 'Minoxidil 5% solution bottle' ),
-			),
-			array(
-				'slug'         => 'beto-400',
-				'name'         => 'Beto 400',
-				'subtitle'     => 'Paracetamol Tablets',
-				'category'     => 'Pain Relief',
-				'badgeLabel'   => 'Hot',
-				'badgeTone'    => 'hot',
-				'tabs'         => array( 'Best Sellers', 'Pain Relief' ),
-				'rating'       => 4.6,
-				'reviewCount'  => 204,
-				'price'        => '$12.00 – $58.00',
-				'compareAt'    => '$15.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'popular' ),
-				'image'        => array( 'src' => $img . '/product-beto.svg', 'alt' => 'Beto 400 tablets pack' ),
-			),
-			array(
-				'slug'         => 'biotin-tablets',
-				'name'         => 'Biotin Tablets',
-				'subtitle'     => 'Hair & Nail Support',
-				'category'     => 'Wellness',
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( 'New Arrivals', 'Wellness' ),
-				'rating'       => 4.9,
-				'reviewCount'  => 152,
-				'price'        => '$16.00 – $72.00',
-				'compareAt'    => '$20.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'popular' ),
-				'image'        => array( 'src' => $img . '/product-biotin.svg', 'alt' => 'Biotin tablets bottle' ),
-			),
-			array(
-				'slug'         => 'aceclofen-gel',
-				'name'         => 'Aceclofen Gel',
-				'subtitle'     => 'Topical Pain Relief',
-				'category'     => 'Pain Relief',
-				'badgeLabel'   => 'New',
-				'badgeTone'    => 'new',
-				'tabs'         => array( 'New Arrivals', 'Pain Relief' ),
-				'rating'       => 4.5,
-				'reviewCount'  => 76,
-				'price'        => '$9.00 – $42.00',
-				'compareAt'    => '$12.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'popular' ),
-				'image'        => array( 'src' => $img . '/product-aceclofen.svg', 'alt' => 'Aceclofen gel tube' ),
-			),
-			array(
-				'slug'         => 'vitamin-c-serum',
-				'name'         => 'Vitamin C Serum',
-				'subtitle'     => 'Brightening Face Serum',
-				'category'     => 'Skin Care',
-				'badgeLabel'   => 'New',
-				'badgeTone'    => 'new',
-				'tabs'         => array( 'New Arrivals', 'Skin Care' ),
-				'rating'       => 4.7,
-				'reviewCount'  => 88,
-				'price'        => '$18.00 – $64.00',
-				'compareAt'    => '',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'popular' ),
-				'image'        => array( 'src' => $img . '/product-serum.svg', 'alt' => 'Vitamin C serum bottle' ),
-			),
-			array(
-				'slug'         => 'salicylic-acid-face-wash',
-				'name'         => 'Salicylic Acid Face Wash',
-				'subtitle'     => 'Acne & Oil Control',
-				'category'     => 'Skin Care',
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( 'Skin Care', 'Wellness' ),
-				'rating'       => 4.6,
-				'reviewCount'  => 64,
-				'price'        => '$11.00 – $38.00',
-				'compareAt'    => '',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'popular' ),
-				'image'        => array( 'src' => $img . '/product-facewash.svg', 'alt' => 'Salicylic acid face wash bottle' ),
-			),
-			array(
-				'slug'         => 'ibuprofen-400mg',
-				'name'         => 'Ibuprofen 400 mg',
-				'subtitle'     => 'Anti-Inflammatory Tablets',
-				'category'     => 'Pain Relief',
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( 'Pain Relief', 'Best Sellers' ),
-				'rating'       => 4.6,
-				'reviewCount'  => 176,
-				'price'        => '$8.00 – $34.00',
-				'compareAt'    => '',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'popular' ),
-				'image'        => array( 'src' => $img . '/product-ibuprofen.svg', 'alt' => 'Ibuprofen 400 mg tablets pack' ),
-			),
-			array(
-				'slug'         => 'multivitamin-daily',
-				'name'         => 'Daily Multivitamin',
-				'subtitle'     => 'Complete Wellness Formula',
-				'category'     => 'Vitamins & Supplements',
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( 'Wellness', 'New Arrivals' ),
-				'rating'       => 4.8,
-				'reviewCount'  => 142,
-				'price'        => '$14.00 – $56.00',
-				'compareAt'    => '',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'popular' ),
-				'image'        => array( 'src' => $img . '/product-multivitamin.svg', 'alt' => 'Daily multivitamin bottle' ),
-			),
-			array(
-				'slug'         => 'sildenafil-100mg',
-				'name'         => 'Sildenafil 100 mg',
-				'subtitle'     => 'Erectile Dysfunction',
-				'category'     => "Men's Health",
-				'badgeLabel'   => 'Sale',
-				'badgeTone'    => 'sale',
-				'tabs'         => array( 'Best Sellers', "Men's Health" ),
-				'rating'       => 4.9,
-				'reviewCount'  => 318,
-				'price'        => '$28.00 – $132.00',
-				'compareAt'    => '$36.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'popular', 'mens_health' ),
-				'image'        => array( 'src' => $img . '/product-sildenafil.svg', 'alt' => 'Sildenafil 100 mg tablets pack' ),
-			),
-			array(
-				'slug'         => 'vardenafil-20mg',
-				'name'         => 'Vardenafil 20 mg',
-				'subtitle'     => 'Fast Acting Tablets',
-				'category'     => "Men's Health",
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( "Men's Health" ),
-				'rating'       => 4.7,
-				'reviewCount'  => 164,
-				'price'        => '$34.00 – $146.00',
-				'compareAt'    => '$42.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'mens_health' ),
-				'image'        => array( 'src' => $img . '/product-vardenafil.svg', 'alt' => 'Vardenafil 20 mg tablets pack' ),
-			),
-			array(
-				'slug'         => 'finasteride-1mg',
-				'name'         => 'Finasteride 1 mg',
-				'subtitle'     => 'Hair Loss Treatment',
-				'category'     => "Men's Health",
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( "Men's Health" ),
-				'rating'       => 4.6,
-				'reviewCount'  => 121,
-				'price'        => '$19.00 – $88.00',
-				'compareAt'    => '$24.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'mens_health' ),
-				'image'        => array( 'src' => $img . '/product-finasteride.svg', 'alt' => 'Finasteride 1 mg tablets pack' ),
-			),
-			array(
-				'slug'         => 'dapoxetine-60mg',
-				'name'         => 'Dapoxetine 60 mg',
-				'subtitle'     => 'Premature Ejaculation',
-				'category'     => "Men's Health",
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( "Men's Health" ),
-				'rating'       => 4.5,
-				'reviewCount'  => 96,
-				'price'        => '$26.00 – $118.00',
-				'compareAt'    => '$32.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'mens_health' ),
-				'image'        => array( 'src' => $img . '/product-dapoxetine.svg', 'alt' => 'Dapoxetine 60 mg tablets pack' ),
-			),
-			array(
-				'slug'         => 'testosterone-booster',
-				'name'         => 'Testosterone Booster',
-				'subtitle'     => 'Stamina & Strength',
-				'category'     => "Men's Health",
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( "Men's Health" ),
-				'rating'       => 4.7,
-				'reviewCount'  => 134,
-				'price'        => '$21.00 – $94.00',
-				'compareAt'    => '$26.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'mens_health' ),
-				'image'        => array( 'src' => $img . '/product-testosterone.svg', 'alt' => 'Testosterone booster jar' ),
-			),
-			array(
-				'slug'         => 'collagen-peptides',
-				'name'         => 'Collagen Peptides',
-				'subtitle'     => 'Skin, Hair & Nails',
-				'category'     => 'Vitamins & Supplements',
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( 'Wellness' ),
-				'rating'       => 4.8,
-				'reviewCount'  => 188,
-				'price'        => '$22.00 – $92.00',
-				'compareAt'    => '$28.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'wellness' ),
-				'image'        => array( 'src' => $img . '/product-collagen.svg', 'alt' => 'Collagen peptides tub' ),
-			),
-			array(
-				'slug'         => 'vitamin-d3-5000iu',
-				'name'         => 'Vitamin D3 5000 IU',
-				'subtitle'     => 'Bone & Immunity Support',
-				'category'     => 'Vitamins & Supplements',
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( 'Wellness' ),
-				'rating'       => 4.9,
-				'reviewCount'  => 246,
-				'price'        => '$13.00 – $52.00',
-				'compareAt'    => '$16.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'wellness' ),
-				'image'        => array( 'src' => $img . '/product-vitamind3.svg', 'alt' => 'Vitamin D3 5000 IU softgels bottle' ),
-			),
-			array(
-				'slug'         => 'omega-3-1000mg',
-				'name'         => 'Omega-3 1000 mg',
-				'subtitle'     => 'Heart Health',
-				'category'     => 'Vitamins & Supplements',
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( 'Wellness' ),
-				'rating'       => 4.7,
-				'reviewCount'  => 173,
-				'price'        => '$17.00 – $68.00',
-				'compareAt'    => '$21.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'wellness' ),
-				'image'        => array( 'src' => $img . '/product-omega3.svg', 'alt' => 'Omega-3 1000 mg softgels bottle' ),
-			),
-			array(
-				'slug'         => 'ketoconazole-shampoo',
-				'name'         => 'Ketoconazole Shampoo',
-				'subtitle'     => 'Anti-Dandruff Care',
-				'category'     => 'Hair Care',
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( 'Wellness' ),
-				'rating'       => 4.6,
-				'reviewCount'  => 112,
-				'price'        => '$15.00 – $58.00',
-				'compareAt'    => '$19.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'wellness' ),
-				'image'        => array( 'src' => $img . '/product-shampoo.svg', 'alt' => 'Ketoconazole shampoo bottle' ),
-			),
-			array(
-				'slug'         => 'niacinamide-serum',
-				'name'         => 'Niacinamide Serum',
-				'subtitle'     => 'Blemish & Pore Care',
-				'category'     => 'Skin Care',
-				'badgeLabel'   => '',
-				'badgeTone'    => '',
-				'tabs'         => array( 'Wellness', 'Skin Care' ),
-				'rating'       => 4.8,
-				'reviewCount'  => 129,
-				'price'        => '$18.00 – $64.00',
-				'compareAt'    => '$23.00',
-				'ctaLabel'     => 'View Options',
-				'sections'     => array( 'wellness' ),
-				'image'        => array( 'src' => $img . '/product-niacinamide.svg', 'alt' => 'Niacinamide serum bottle' ),
 			),
 		);
 	}
@@ -769,8 +401,7 @@ class PowPills_Content {
 	}
 
 	/**
-	 * FAQ entries (powpills_faq post type). Order matches the two-column layout:
-	 * left column takes 1, 3, 5 and the right column takes 2, 4, 6.
+	 * FAQ entries (powpills_faq post type).
 	 *
 	 * @return array
 	 */

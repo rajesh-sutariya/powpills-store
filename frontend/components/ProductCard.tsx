@@ -1,33 +1,39 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Stars } from './Icon';
-import type { Product } from '@/lib/types';
+import { categoryName } from '@/lib/catalog';
+import labels from '@/lib/ui-labels';
+import type { CatalogProduct } from '@/lib/catalog-types';
 
-const badgeTones = {
+const badgeTones: Record<string, string> = {
   sale: 'bg-brand-600 text-white',
   hot: 'bg-orange-500 text-white',
   new: 'bg-sky-600 text-white',
   save: 'bg-amber-500 text-white',
-} as const;
+};
 
 /**
  * Proportions: four cards per view (≈279px wide) with a 4:3 image well gives a
  * card of roughly 1:1.55 — five-up produced a 1:1.9 sliver that read as broken.
  *
- * The price block is pinned to the bottom with `mt-auto` so the buttons line up
- * across a row even when a product name wraps to two lines, and the price and
- * its strike-through stay on one line so cards don't jump between layouts.
+ * The price block is pinned to the bottom with `mt-auto` so buttons line up
+ * across a row even when a product name wraps, and the price range stays on one
+ * line so cards don't switch between layouts.
  */
-export function ProductCard({ product }: { product: Product }) {
+export function ProductCard({ product }: { product: CatalogProduct }) {
+  const badgeLabel = product.badge ? labels.card.badges[product.badge] : '';
+
   return (
     <article className="card-interactive group flex h-full flex-col overflow-hidden">
-      {/* Image well — 4:3 matches the placeholder artboard exactly, no letterboxing */}
+      {/* Image well — 4:3 matches the placeholder artboard exactly */}
       <div className="relative aspect-[4/3] shrink-0 border-b border-line bg-surface-soft p-4">
-        {product.badge && (
+        {badgeLabel && (
           <span
-            className={`absolute left-3 top-3 z-10 rounded-full px-2.5 py-1 text-2xs font-bold uppercase tracking-wide ${badgeTones[product.badge.tone]}`}
+            className={`absolute left-3 top-3 z-10 rounded-full px-2.5 py-1 text-2xs font-bold uppercase tracking-wide ${
+              badgeTones[product.badge] ?? badgeTones.sale
+            }`}
           >
-            {product.badge.label}
+            {badgeLabel}
           </span>
         )}
         <Link href={product.href} className="block h-full w-full">
@@ -43,7 +49,9 @@ export function ProductCard({ product }: { product: Product }) {
 
       {/* Body */}
       <div className="flex flex-1 flex-col p-4 sm:p-5">
-        <p className="text-xs font-medium text-ink-muted">{product.category}</p>
+        <p className="line-clamp-1 text-xs font-medium text-ink-muted">
+          {categoryName(product.primaryCategory)}
+        </p>
 
         <h3 className="mt-1.5">
           <Link
@@ -66,20 +74,13 @@ export function ProductCard({ product }: { product: Product }) {
         </div>
 
         <div className="mt-auto pt-4">
-          <div className="flex items-baseline gap-2">
-            <span className="whitespace-nowrap text-15 font-bold text-ink">{product.price}</span>
-            {product.compareAtPrice && (
-              <span className="whitespace-nowrap text-xs font-medium text-ink-muted line-through">
-                {product.compareAtPrice}
-              </span>
-            )}
-          </div>
+          <span className="block text-15 font-bold text-ink">{product.priceLabel}</span>
 
           <Link
             href={product.href}
             className="btn mt-3 w-full border border-brand-200 bg-brand-50 px-4 py-2.5 text-sm text-brand-700 hover:border-brand-600 hover:bg-brand-600 hover:text-white"
           >
-            {product.ctaLabel}
+            {labels.card.viewOptions}
           </Link>
         </div>
       </div>

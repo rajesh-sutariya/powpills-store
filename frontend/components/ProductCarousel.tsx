@@ -3,14 +3,14 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight } from './Icon';
 import { ProductCard } from './ProductCard';
-import type { Product } from '@/lib/types';
+import type { CatalogProduct } from '@/lib/catalog-types';
 
 /**
  * Four cards per view on desktop, three on tablet. The arrows fade out at each
  * end instead of sitting there greyed, and scrolling snaps so a card is never
  * left half-visible.
  */
-export function ProductCarousel({ products }: { products: Product[] }) {
+export function ProductCarousel({ products }: { products: CatalogProduct[] }) {
   const railRef = useRef<HTMLUListElement>(null);
   const [atStart, setAtStart] = useState(true);
   const [atEnd, setAtEnd] = useState(false);
@@ -57,7 +57,7 @@ export function ProductCarousel({ products }: { products: Product[] }) {
         className="grid snap-x snap-mandatory auto-cols-[minmax(240px,1fr)] grid-flow-col gap-5 overflow-x-auto scroll-smooth pb-2 no-scrollbar md:auto-cols-[calc((100%_-_2.5rem)/3)] lg:auto-cols-[calc((100%_-_3.75rem)/4)]"
       >
         {products.map((product) => (
-          <li key={product.id} className="min-w-0 snap-start">
+          <li key={product.slug} className="min-w-0 snap-start">
             <ProductCard product={product} />
           </li>
         ))}

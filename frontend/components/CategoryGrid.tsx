@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { ChevronRight, Icon } from './Icon';
 import { SectionHeading } from './SectionHeading';
-import type { CategorySection, Tone } from '@/lib/types';
+import type { Tone } from '@/lib/types';
+import type { CategorySection } from '@/lib/types';
 
 const toneClasses: Record<Tone, string> = {
   mint: 'bg-surface-mint text-brand-600',
@@ -37,7 +38,7 @@ export function CategoryGrid({ content }: { content: CategorySection }) {
               </span>
 
               <span className="mt-2.5 inline-flex items-center gap-0.5 text-xs font-semibold text-brand-600 transition-colors group-hover:text-brand-800">
-                {category.ctaLabel}
+                {content.ctaLabel}
                 <ChevronRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
               </span>
             </Link>

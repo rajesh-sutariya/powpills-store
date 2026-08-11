@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react';
 import { ProductCarousel } from './ProductCarousel';
 import { SectionHeading } from './SectionHeading';
+import { categorySlugByName } from '@/lib/catalog';
 import type { ProductSection } from '@/lib/types';
 
 const ALL_TAB_INDEX = 0;
@@ -11,11 +12,15 @@ export function PopularProducts({ content }: { content: ProductSection }) {
   const tabs = content.tabs ?? [];
   const [active, setActive] = useState(tabs[ALL_TAB_INDEX] ?? '');
 
+  // Tabs are category display names; resolve to a slug and match on the
+  // product's category list so a product can appear under several tabs.
   const visible = useMemo(() => {
     if (!tabs.length || active === tabs[ALL_TAB_INDEX]) return content.products;
-    return content.products.filter(
-      (product) => product.tabs?.includes(active) || product.category === active,
-    );
+
+    const slug = categorySlugByName(active);
+    if (!slug) return content.products;
+
+    return content.products.filter((product) => product.categories.includes(slug));
   }, [active, content.products, tabs]);
 
   return (

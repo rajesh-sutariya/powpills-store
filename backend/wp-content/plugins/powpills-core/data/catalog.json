@@ -1,0 +1,3983 @@
+{
+  "generatedBy": "tools/build-catalog.py",
+  "categories": [
+    {
+      "slug": "erectile-dysfunction",
+      "name": "Erectile Dysfunction",
+      "icon": "male",
+      "tone": "sky",
+      "description": "Generic sildenafil, tadalafil and vardenafil tablets for erectile dysfunction, in a range of strengths and pack sizes.",
+      "href": "/product-category/erectile-dysfunction",
+      "productCount": 15
+    },
+    {
+      "slug": "premature-ejaculation",
+      "name": "Premature Ejaculation",
+      "icon": "bolt",
+      "tone": "sky",
+      "description": "Dapoxetine tablets and combination tablets that pair an ED ingredient with dapoxetine in a single dose.",
+      "href": "/product-category/premature-ejaculation",
+      "productCount": 6
+    },
+    {
+      "slug": "hair-loss",
+      "name": "Hair Loss",
+      "icon": "hair",
+      "tone": "mint",
+      "description": "Finasteride tablets, minoxidil solutions and topical serums used to slow hair loss and support regrowth.",
+      "href": "/product-category/hair-loss",
+      "productCount": 5
+    },
+    {
+      "slug": "skin-care",
+      "name": "Skin Care",
+      "icon": "skin",
+      "tone": "rose",
+      "description": "Prescription creams, gels and tablets for acne, pigmentation and everyday skin concerns.",
+      "href": "/product-category/skin-care",
+      "productCount": 6
+    },
+    {
+      "slug": "womens-health",
+      "name": "Women's Health",
+      "icon": "female",
+      "tone": "rose",
+      "description": "Progesterone capsules, gels and injections along with other medicines prescribed in women's health.",
+      "href": "/product-category/womens-health",
+      "productCount": 6
+    },
+    {
+      "slug": "pain",
+      "name": "Pain Relief",
+      "icon": "bandage",
+      "tone": "cream",
+      "description": "Anti-inflammatory tablets, enzyme preparations and nerve pain medicines for joint, muscle and back pain.",
+      "href": "/product-category/pain",
+      "productCount": 4
+    },
+    {
+      "slug": "benign-prostatic-hyperplasia",
+      "name": "Benign Prostatic Hyperplasia",
+      "icon": "male",
+      "tone": "sky",
+      "description": "Alpha blockers and combination tablets used to relieve the urinary symptoms of an enlarged prostate.",
+      "href": "/product-category/benign-prostatic-hyperplasia",
+      "productCount": 5
+    },
+    {
+      "slug": "fungal-infections",
+      "name": "Fungal Infections",
+      "icon": "leaf",
+      "tone": "mint",
+      "description": "Oral antifungal tablets and topical creams for skin, scalp and nail fungal infections.",
+      "href": "/product-category/fungal-infections",
+      "productCount": 4
+    },
+    {
+      "slug": "diabetes",
+      "name": "Diabetes",
+      "icon": "pill",
+      "tone": "mint",
+      "description": "Metformin, gliptins and SGLT2 inhibitors used to control blood sugar in type 2 diabetes.",
+      "href": "/product-category/diabetes",
+      "productCount": 4
+    },
+    {
+      "slug": "anti-viral",
+      "name": "Anti Viral",
+      "icon": "shield-check",
+      "tone": "sky",
+      "description": "Antiviral tablets prescribed for herpes, shingles and other viral infections.",
+      "href": "/product-category/anti-viral",
+      "productCount": 4
+    },
+    {
+      "slug": "high-cholesterol",
+      "name": "High Cholesterol",
+      "icon": "heart",
+      "tone": "cream",
+      "description": "Statins and fibrates used to lower cholesterol and triglycerides.",
+      "href": "/product-category/high-cholesterol",
+      "productCount": 3
+    },
+    {
+      "slug": "eyes-ear-care",
+      "name": "Eyes & Ear Care",
+      "icon": "sparkles",
+      "tone": "sky",
+      "description": "Medicated eye and ear drops, including glaucoma and antibiotic preparations.",
+      "href": "/product-category/eyes-ear-care",
+      "productCount": 3
+    }
+  ],
+  "products": [
+    {
+      "slug": "cenforce-100-mg",
+      "name": "Cenforce 100 Mg (Sildenafil)",
+      "subtitle": "Sildenafil Citrate",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 77.0,
+      "priceMax": 363.0,
+      "priceLabel": "$77.00 – $363.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 77.0,
+          "priceLabel": "$77.00",
+          "unitLabel": "$0.86 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 97.0,
+          "priceLabel": "$97.00",
+          "unitLabel": "$0.81 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 117.0,
+          "priceLabel": "$117.00",
+          "unitLabel": "$0.78 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 206.0,
+          "priceLabel": "$206.00",
+          "unitLabel": "$0.69 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 363.0,
+          "priceLabel": "$363.00",
+          "unitLabel": "$0.60 / unit"
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 466,
+      "badge": "sale",
+      "description": "Cenforce 100 Mg contains Sildenafil Citrate and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Sildenafil Citrate",
+        "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "100 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Cenforce 100 Mg"
+      },
+      "href": "/product/cenforce-100-mg",
+      "image": {
+        "src": "/images/form-box-c.svg",
+        "alt": "Cenforce 100 Mg (Sildenafil) pack"
+      }
+    },
+    {
+      "slug": "cenforce-120-mg",
+      "name": "Cenforce 120 Mg (Sildenafil)",
+      "subtitle": "Sildenafil Citrate",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 88.0,
+      "priceMax": 226.0,
+      "priceLabel": "$88.00 – $226.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 88.0,
+          "priceLabel": "$88.00",
+          "unitLabel": "$0.98 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 102.0,
+          "priceLabel": "$102.00",
+          "unitLabel": "$0.85 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 113.0,
+          "priceLabel": "$113.00",
+          "unitLabel": "$0.75 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 160.0,
+          "priceLabel": "$160.00",
+          "unitLabel": "$0.53 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 226.0,
+          "priceLabel": "$226.00",
+          "unitLabel": "$0.38 / unit"
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 44,
+      "badge": "",
+      "description": "Cenforce 120 Mg contains Sildenafil Citrate and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 120 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Sildenafil Citrate",
+        "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "120 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Cenforce 120 Mg"
+      },
+      "href": "/product/cenforce-120-mg",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Cenforce 120 Mg (Sildenafil) pack"
+      }
+    },
+    {
+      "slug": "cenforce-200-mg",
+      "name": "Cenforce 200 Mg (Sildenafil)",
+      "subtitle": "Sildenafil Citrate",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 96.0,
+      "priceMax": 384.0,
+      "priceLabel": "$96.00 – $384.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 96.0,
+          "priceLabel": "$96.00",
+          "unitLabel": "$1.07 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 118.0,
+          "priceLabel": "$118.00",
+          "unitLabel": "$0.98 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 139.0,
+          "priceLabel": "$139.00",
+          "unitLabel": "$0.93 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 231.0,
+          "priceLabel": "$231.00",
+          "unitLabel": "$0.77 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 384.0,
+          "priceLabel": "$384.00",
+          "unitLabel": "$0.64 / unit"
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 145,
+      "badge": "hot",
+      "description": "Cenforce 200 Mg contains Sildenafil Citrate and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Sildenafil Citrate",
+        "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "200 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Cenforce 200 Mg"
+      },
+      "href": "/product/cenforce-200-mg",
+      "image": {
+        "src": "/images/form-box-c.svg",
+        "alt": "Cenforce 200 Mg (Sildenafil) pack"
+      }
+    },
+    {
+      "slug": "fildena-150-mg",
+      "name": "Fildena 150 Mg (Sildenafil)",
+      "subtitle": "Sildenafil Citrate",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 82.0,
+      "priceMax": 410.0,
+      "priceLabel": "$82.00 – $410.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 82.0,
+          "priceLabel": "$82.00",
+          "unitLabel": "$0.91 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 105.0,
+          "priceLabel": "$105.00",
+          "unitLabel": "$0.88 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 126.0,
+          "priceLabel": "$126.00",
+          "unitLabel": "$0.84 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 228.0,
+          "priceLabel": "$228.00",
+          "unitLabel": "$0.76 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 410.0,
+          "priceLabel": "$410.00",
+          "unitLabel": "$0.68 / unit"
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 230,
+      "badge": "",
+      "description": "Fildena 150 Mg contains Sildenafil Citrate and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 150 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Sildenafil Citrate",
+        "Manufacturer": "Fortune Healthcare Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "150 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Fildena 150 Mg"
+      },
+      "href": "/product/fildena-150-mg",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Fildena 150 Mg (Sildenafil) pack"
+      }
+    },
+    {
+      "slug": "vidalista-10-mg",
+      "name": "Vidalista 10 Mg (Tadalafil)",
+      "subtitle": "Tadalafil",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 70.0,
+      "priceMax": 178.0,
+      "priceLabel": "$70.00 – $178.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 70.0,
+          "priceLabel": "$70.00",
+          "unitLabel": "$0.78 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 81.0,
+          "priceLabel": "$81.00",
+          "unitLabel": "$0.68 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 90.0,
+          "priceLabel": "$90.00",
+          "unitLabel": "$0.60 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 127.0,
+          "priceLabel": "$127.00",
+          "unitLabel": "$0.42 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 178.0,
+          "priceLabel": "$178.00",
+          "unitLabel": "$0.30 / unit"
+        }
+      ],
+      "rating": 4.4,
+      "reviewCount": 154,
+      "badge": "",
+      "description": "Vidalista 10 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 10 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tadalafil",
+        "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "10 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Vidalista 10 Mg"
+      },
+      "href": "/product/vidalista-10-mg",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Vidalista 10 Mg (Tadalafil) pack"
+      }
+    },
+    {
+      "slug": "vidalista-20-mg",
+      "name": "Vidalista 20 Mg (Tadalafil)",
+      "subtitle": "Tadalafil",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 83.0,
+      "priceMax": 400.0,
+      "priceLabel": "$83.00 – $400.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 83.0,
+          "priceLabel": "$83.00",
+          "unitLabel": "$0.92 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 105.0,
+          "priceLabel": "$105.00",
+          "unitLabel": "$0.88 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 127.0,
+          "priceLabel": "$127.00",
+          "unitLabel": "$0.85 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 225.0,
+          "priceLabel": "$225.00",
+          "unitLabel": "$0.75 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 400.0,
+          "priceLabel": "$400.00",
+          "unitLabel": "$0.67 / unit"
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 400,
+      "badge": "sale",
+      "description": "Vidalista 20 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 20 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tadalafil",
+        "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "20 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Vidalista 20 Mg"
+      },
+      "href": "/product/vidalista-20-mg",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Vidalista 20 Mg (Tadalafil) pack"
+      }
+    },
+    {
+      "slug": "vidalista-40-mg",
+      "name": "Vidalista 40 Mg (Tadalafil)",
+      "subtitle": "Tadalafil",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 89.0,
+      "priceMax": 306.0,
+      "priceLabel": "$89.00 – $306.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 89.0,
+          "priceLabel": "$89.00",
+          "unitLabel": "$0.99 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 107.0,
+          "priceLabel": "$107.00",
+          "unitLabel": "$0.89 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 124.0,
+          "priceLabel": "$124.00",
+          "unitLabel": "$0.83 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 195.0,
+          "priceLabel": "$195.00",
+          "unitLabel": "$0.65 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 306.0,
+          "priceLabel": "$306.00",
+          "unitLabel": "$0.51 / unit"
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 435,
+      "badge": "",
+      "description": "Vidalista 40 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 40 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tadalafil",
+        "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "40 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Vidalista 40 Mg"
+      },
+      "href": "/product/vidalista-40-mg",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Vidalista 40 Mg (Tadalafil) pack"
+      }
+    },
+    {
+      "slug": "vidalista-60-mg",
+      "name": "Vidalista 60 Mg (Tadalafil)",
+      "subtitle": "Tadalafil",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 110.0,
+      "priceMax": 330.0,
+      "priceLabel": "$110.00 – $330.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 110.0,
+          "priceLabel": "$110.00",
+          "unitLabel": "$1.22 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 130.0,
+          "priceLabel": "$130.00",
+          "unitLabel": "$1.08 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 148.0,
+          "priceLabel": "$148.00",
+          "unitLabel": "$0.99 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 221.0,
+          "priceLabel": "$221.00",
+          "unitLabel": "$0.74 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 330.0,
+          "priceLabel": "$330.00",
+          "unitLabel": "$0.55 / unit"
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 470,
+      "badge": "",
+      "description": "Vidalista 60 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 60 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tadalafil",
+        "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "60 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Vidalista 60 Mg"
+      },
+      "href": "/product/vidalista-60-mg",
+      "image": {
+        "src": "/images/form-box-c.svg",
+        "alt": "Vidalista 60 Mg (Tadalafil) pack"
+      }
+    },
+    {
+      "slug": "vidalista-black-80-mg",
+      "name": "Vidalista Black 80 Mg (Tadalafil)",
+      "subtitle": "Tadalafil",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 133.0,
+      "priceMax": 356.0,
+      "priceLabel": "$133.00 – $356.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 133.0,
+          "priceLabel": "$133.00",
+          "unitLabel": "$1.48 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 154.0,
+          "priceLabel": "$154.00",
+          "unitLabel": "$1.28 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 173.0,
+          "priceLabel": "$173.00",
+          "unitLabel": "$1.15 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 248.0,
+          "priceLabel": "$248.00",
+          "unitLabel": "$0.83 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 356.0,
+          "priceLabel": "$356.00",
+          "unitLabel": "$0.59 / unit"
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 165,
+      "badge": "",
+      "description": "Vidalista Black 80 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 80 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tadalafil",
+        "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "80 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Vidalista Black 80 Mg"
+      },
+      "href": "/product/vidalista-black-80-mg",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Vidalista Black 80 Mg (Tadalafil) pack"
+      }
+    },
+    {
+      "slug": "vidalista-professional",
+      "name": "Vidalista Professional (Tadalafil)",
+      "subtitle": "Tadalafil",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 84.0,
+      "priceMax": 216.0,
+      "priceLabel": "$84.00 – $216.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 84.0,
+          "priceLabel": "$84.00",
+          "unitLabel": "$0.93 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 97.0,
+          "priceLabel": "$97.00",
+          "unitLabel": "$0.81 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 108.0,
+          "priceLabel": "$108.00",
+          "unitLabel": "$0.72 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 153.0,
+          "priceLabel": "$153.00",
+          "unitLabel": "$0.51 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 216.0,
+          "priceLabel": "$216.00",
+          "unitLabel": "$0.36 / unit"
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 231,
+      "badge": "",
+      "description": "Vidalista Professional contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 20 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tadalafil",
+        "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "20 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Vidalista Professional"
+      },
+      "href": "/product/vidalista-professional",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Vidalista Professional (Tadalafil) pack"
+      }
+    },
+    {
+      "slug": "tadalista-20-mg",
+      "name": "Tadalista 20 Mg (Tadalafil)",
+      "subtitle": "Tadalafil",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 61.0,
+      "priceMax": 314.0,
+      "priceLabel": "$61.00 – $314.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 61.0,
+          "priceLabel": "$61.00",
+          "unitLabel": "$0.68 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 78.0,
+          "priceLabel": "$78.00",
+          "unitLabel": "$0.65 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 95.0,
+          "priceLabel": "$95.00",
+          "unitLabel": "$0.63 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 173.0,
+          "priceLabel": "$173.00",
+          "unitLabel": "$0.58 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 314.0,
+          "priceLabel": "$314.00",
+          "unitLabel": "$0.52 / unit"
+        }
+      ],
+      "rating": 4.3,
+      "reviewCount": 116,
+      "badge": "",
+      "description": "Tadalista 20 Mg contains Tadalafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of 20 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tadalafil",
+        "Manufacturer": "Fortune Healthcare Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "20 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Tadalista 20 Mg"
+      },
+      "href": "/product/tadalista-20-mg",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Tadalista 20 Mg (Tadalafil) pack"
+      }
+    },
+    {
+      "slug": "ed-trial-pack",
+      "name": "ED Trial Pack (Sildenafil/Tadalafil/Vardenafil)",
+      "subtitle": "Sildenafil, Tadalafil and Vardenafil",
+      "form": "tablet",
+      "categories": [
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "erectile-dysfunction",
+      "priceMin": 49.0,
+      "priceMax": 138.0,
+      "priceLabel": "$49.00 – $138.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 49.0,
+          "priceLabel": "$49.00",
+          "unitLabel": "$0.54 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 57.0,
+          "priceLabel": "$57.00",
+          "unitLabel": "$0.47 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 65.0,
+          "priceLabel": "$65.00",
+          "unitLabel": "$0.43 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 95.0,
+          "priceLabel": "$95.00",
+          "unitLabel": "$0.32 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 138.0,
+          "priceLabel": "$138.00",
+          "unitLabel": "$0.23 / unit"
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 270,
+      "badge": "new",
+      "description": "ED Trial Pack contains Sildenafil, Tadalafil and Vardenafil and is used in the treatment of erectile dysfunction. Supplied as 10 tablets in 1 strip in a strength of Mixed. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Sildenafil, Tadalafil and Vardenafil",
+        "Manufacturer": "Assorted",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "Mixed",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "ED Trial Pack"
+      },
+      "href": "/product/ed-trial-pack",
+      "image": {
+        "src": "/images/form-box-c.svg",
+        "alt": "ED Trial Pack (Sildenafil/Tadalafil/Vardenafil) pack"
+      }
+    },
+    {
+      "slug": "super-vidalista",
+      "name": "Super Vidalista (Tadalafil/Dapoxetine)",
+      "subtitle": "Tadalafil and Dapoxetine",
+      "form": "tablet",
+      "categories": [
+        "premature-ejaculation",
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "premature-ejaculation",
+      "priceMin": 92.0,
+      "priceMax": 280.0,
+      "priceLabel": "$92.00 – $280.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 92.0,
+          "priceLabel": "$92.00",
+          "unitLabel": "$1.02 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 109.0,
+          "priceLabel": "$109.00",
+          "unitLabel": "$0.91 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 124.0,
+          "priceLabel": "$124.00",
+          "unitLabel": "$0.83 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 186.0,
+          "priceLabel": "$186.00",
+          "unitLabel": "$0.62 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 280.0,
+          "priceLabel": "$280.00",
+          "unitLabel": "$0.47 / unit"
+        }
+      ],
+      "rating": 4.3,
+      "reviewCount": 34,
+      "badge": "hot",
+      "description": "Super Vidalista contains Tadalafil and Dapoxetine and is used in the treatment of erectile dysfunction with premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 20 mg + 60 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tadalafil and Dapoxetine",
+        "Manufacturer": "Centurion Laboratories Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "20 mg + 60 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Super Vidalista"
+      },
+      "href": "/product/super-vidalista",
+      "image": {
+        "src": "/images/form-box-c.svg",
+        "alt": "Super Vidalista (Tadalafil/Dapoxetine) pack"
+      }
+    },
+    {
+      "slug": "super-fildena",
+      "name": "Super Fildena (Sildenafil/Dapoxetine)",
+      "subtitle": "Sildenafil Citrate and Dapoxetine",
+      "form": "tablet",
+      "categories": [
+        "premature-ejaculation",
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "premature-ejaculation",
+      "priceMin": 88.0,
+      "priceMax": 264.0,
+      "priceLabel": "$88.00 – $264.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 88.0,
+          "priceLabel": "$88.00",
+          "unitLabel": "$0.98 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 104.0,
+          "priceLabel": "$104.00",
+          "unitLabel": "$0.87 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 118.0,
+          "priceLabel": "$118.00",
+          "unitLabel": "$0.79 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 177.0,
+          "priceLabel": "$177.00",
+          "unitLabel": "$0.59 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 264.0,
+          "priceLabel": "$264.00",
+          "unitLabel": "$0.44 / unit"
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 434,
+      "badge": "",
+      "description": "Super Fildena contains Sildenafil Citrate and Dapoxetine and is used in the treatment of erectile dysfunction with premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 100 mg + 60 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Sildenafil Citrate and Dapoxetine",
+        "Manufacturer": "Fortune Healthcare Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "100 mg + 60 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Super Fildena"
+      },
+      "href": "/product/super-fildena",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Super Fildena (Sildenafil/Dapoxetine) pack"
+      }
+    },
+    {
+      "slug": "super-vardalast",
+      "name": "Super Vardalast (Vardenafil/Dapoxetine)",
+      "subtitle": "Vardenafil and Dapoxetine",
+      "form": "tablet",
+      "categories": [
+        "premature-ejaculation",
+        "erectile-dysfunction"
+      ],
+      "primaryCategory": "premature-ejaculation",
+      "priceMin": 115.0,
+      "priceMax": 360.0,
+      "priceLabel": "$115.00 – $360.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 115.0,
+          "priceLabel": "$115.00",
+          "unitLabel": "$1.28 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 137.0,
+          "priceLabel": "$137.00",
+          "unitLabel": "$1.14 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 156.0,
+          "priceLabel": "$156.00",
+          "unitLabel": "$1.04 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 237.0,
+          "priceLabel": "$237.00",
+          "unitLabel": "$0.79 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 360.0,
+          "priceLabel": "$360.00",
+          "unitLabel": "$0.60 / unit"
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 270,
+      "badge": "",
+      "description": "Super Vardalast contains Vardenafil and Dapoxetine and is used in the treatment of erectile dysfunction with premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 20 mg + 60 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Vardenafil and Dapoxetine",
+        "Manufacturer": "Sunrise Remedies Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "20 mg + 60 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Super Vardalast"
+      },
+      "href": "/product/super-vardalast",
+      "image": {
+        "src": "/images/form-box-c.svg",
+        "alt": "Super Vardalast (Vardenafil/Dapoxetine) pack"
+      }
+    },
+    {
+      "slug": "extra-super-nitfire-100-mg",
+      "name": "Extra Super Nitfire 100 Mg (Tadalafil/Dapoxetine)",
+      "subtitle": "Tadalafil and Dapoxetine",
+      "form": "tablet",
+      "categories": [
+        "premature-ejaculation"
+      ],
+      "primaryCategory": "premature-ejaculation",
+      "priceMin": 93.0,
+      "priceMax": 147.0,
+      "priceLabel": "$93.00 – $147.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 93.0,
+          "priceLabel": "$93.00",
+          "unitLabel": "$1.03 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 100.0,
+          "priceLabel": "$100.00",
+          "unitLabel": "$0.83 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 105.0,
+          "priceLabel": "$105.00",
+          "unitLabel": "$0.70 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 124.0,
+          "priceLabel": "$124.00",
+          "unitLabel": "$0.41 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 147.0,
+          "priceLabel": "$147.00",
+          "unitLabel": "$0.24 / unit"
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 272,
+      "badge": "",
+      "description": "Extra Super Nitfire 100 Mg contains Tadalafil and Dapoxetine and is used in the treatment of premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 100 mg + 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tadalafil and Dapoxetine",
+        "Manufacturer": "Aurochem Laboratories",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "100 mg + 100 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Extra Super Nitfire 100 Mg"
+      },
+      "href": "/product/extra-super-nitfire-100-mg",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Extra Super Nitfire 100 Mg (Tadalafil/Dapoxetine) pack"
+      }
+    },
+    {
+      "slug": "sildalip-gold",
+      "name": "Sildalip Gold Tablet (Sildenafil/Dapoxetine)",
+      "subtitle": "Sildenafil Citrate and Dapoxetine",
+      "form": "tablet",
+      "categories": [
+        "premature-ejaculation"
+      ],
+      "primaryCategory": "premature-ejaculation",
+      "priceMin": 90.0,
+      "priceMax": 252.0,
+      "priceLabel": "$90.00 – $252.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 90.0,
+          "priceLabel": "$90.00",
+          "unitLabel": "$1.00 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 105.0,
+          "priceLabel": "$105.00",
+          "unitLabel": "$0.88 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 119.0,
+          "priceLabel": "$119.00",
+          "unitLabel": "$0.79 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 173.0,
+          "priceLabel": "$173.00",
+          "unitLabel": "$0.58 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 252.0,
+          "priceLabel": "$252.00",
+          "unitLabel": "$0.42 / unit"
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 27,
+      "badge": "",
+      "description": "Sildalip Gold Tablet contains Sildenafil Citrate and Dapoxetine and is used in the treatment of premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 100 mg + 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Sildenafil Citrate and Dapoxetine",
+        "Manufacturer": "Aurochem Laboratories",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "100 mg + 100 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Sildalip Gold Tablet"
+      },
+      "href": "/product/sildalip-gold",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Sildalip Gold Tablet (Sildenafil/Dapoxetine) pack"
+      }
+    },
+    {
+      "slug": "duratia-60-mg",
+      "name": "Duratia 60 Mg (Dapoxetine)",
+      "subtitle": "Dapoxetine",
+      "form": "tablet",
+      "categories": [
+        "premature-ejaculation"
+      ],
+      "primaryCategory": "premature-ejaculation",
+      "priceMin": 58.0,
+      "priceMax": 174.0,
+      "priceLabel": "$58.00 – $174.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 58.0,
+          "priceLabel": "$58.00",
+          "unitLabel": "$0.64 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 69.0,
+          "priceLabel": "$69.00",
+          "unitLabel": "$0.57 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 78.0,
+          "priceLabel": "$78.00",
+          "unitLabel": "$0.52 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 116.0,
+          "priceLabel": "$116.00",
+          "unitLabel": "$0.39 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 174.0,
+          "priceLabel": "$174.00",
+          "unitLabel": "$0.29 / unit"
+        }
+      ],
+      "rating": 4.2,
+      "reviewCount": 121,
+      "badge": "",
+      "description": "Duratia 60 Mg contains Dapoxetine and is used in the treatment of premature ejaculation. Supplied as 10 tablets in 1 strip in a strength of 60 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Dapoxetine",
+        "Manufacturer": "Fortune Healthcare Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "60 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Duratia 60 Mg"
+      },
+      "href": "/product/duratia-60-mg",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Duratia 60 Mg (Dapoxetine) pack"
+      }
+    },
+    {
+      "slug": "xgain-hair-serum",
+      "name": "Xgain Hair Serum (Herbal)",
+      "subtitle": "Herbal actives",
+      "form": "dropper",
+      "categories": [
+        "hair-loss"
+      ],
+      "primaryCategory": "hair-loss",
+      "priceMin": 24.0,
+      "priceMax": 108.0,
+      "priceLabel": "$24.00 – $108.00",
+      "packs": [
+        {
+          "label": "1 bottles",
+          "units": 1,
+          "price": 24.0,
+          "priceLabel": "$24.00",
+          "unitLabel": "$24.00 / unit"
+        },
+        {
+          "label": "3 bottles",
+          "units": 3,
+          "price": 51.0,
+          "priceLabel": "$51.00",
+          "unitLabel": "$17.00 / unit"
+        },
+        {
+          "label": "6 bottles",
+          "units": 6,
+          "price": 82.0,
+          "priceLabel": "$82.00",
+          "unitLabel": "$13.67 / unit"
+        },
+        {
+          "label": "9 bottles",
+          "units": 9,
+          "price": 108.0,
+          "priceLabel": "$108.00",
+          "unitLabel": "$12.00 / unit"
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 250,
+      "badge": "new",
+      "description": "Xgain Hair Serum contains Herbal actives and is used in the treatment of thinning hair and hair fall. Supplied as 1 bottle in 1 carton in a strength of 60 ml. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Herbal actives",
+        "Manufacturer": "Zydus Wellness",
+        "Packaging": "1 bottle in 1 carton",
+        "Strength": "60 ml",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Xgain Hair Serum"
+      },
+      "href": "/product/xgain-hair-serum",
+      "image": {
+        "src": "/images/form-dropper-a.svg",
+        "alt": "Xgain Hair Serum (Herbal) pack"
+      }
+    },
+    {
+      "slug": "finpecia-1-mg",
+      "name": "Finpecia 1 Mg (Finasteride)",
+      "subtitle": "Finasteride",
+      "form": "tablet",
+      "categories": [
+        "hair-loss"
+      ],
+      "primaryCategory": "hair-loss",
+      "priceMin": 21.0,
+      "priceMax": 96.0,
+      "priceLabel": "$21.00 – $96.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 21.0,
+          "priceLabel": "$21.00",
+          "unitLabel": "$0.23 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 26.0,
+          "priceLabel": "$26.00",
+          "unitLabel": "$0.22 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 32.0,
+          "priceLabel": "$32.00",
+          "unitLabel": "$0.21 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 55.0,
+          "priceLabel": "$55.00",
+          "unitLabel": "$0.18 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 96.0,
+          "priceLabel": "$96.00",
+          "unitLabel": "$0.16 / unit"
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 403,
+      "badge": "sale",
+      "description": "Finpecia 1 Mg contains Finasteride and is used in the treatment of androgenetic alopecia in men. Supplied as 10 tablets in 1 strip in a strength of 1 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Finasteride",
+        "Manufacturer": "Cipla Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "1 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Finpecia 1 Mg"
+      },
+      "href": "/product/finpecia-1-mg",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Finpecia 1 Mg (Finasteride) pack"
+      }
+    },
+    {
+      "slug": "tugain-5-solution",
+      "name": "Tugain 5% Solution (Minoxidil)",
+      "subtitle": "Minoxidil",
+      "form": "dropper",
+      "categories": [
+        "hair-loss"
+      ],
+      "primaryCategory": "hair-loss",
+      "priceMin": 26.0,
+      "priceMax": 118.0,
+      "priceLabel": "$26.00 – $118.00",
+      "packs": [
+        {
+          "label": "1 bottles",
+          "units": 1,
+          "price": 26.0,
+          "priceLabel": "$26.00",
+          "unitLabel": "$26.00 / unit"
+        },
+        {
+          "label": "3 bottles",
+          "units": 3,
+          "price": 55.0,
+          "priceLabel": "$55.00",
+          "unitLabel": "$18.33 / unit"
+        },
+        {
+          "label": "6 bottles",
+          "units": 6,
+          "price": 89.0,
+          "priceLabel": "$89.00",
+          "unitLabel": "$14.83 / unit"
+        },
+        {
+          "label": "9 bottles",
+          "units": 9,
+          "price": 118.0,
+          "priceLabel": "$118.00",
+          "unitLabel": "$13.11 / unit"
+        }
+      ],
+      "rating": 4.4,
+      "reviewCount": 180,
+      "badge": "",
+      "description": "Tugain 5% Solution contains Minoxidil and is used in the treatment of pattern hair loss. Supplied as 1 bottle in 1 carton in a strength of 5% w/v. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Minoxidil",
+        "Manufacturer": "Cipla Ltd.",
+        "Packaging": "1 bottle in 1 carton",
+        "Strength": "5% w/v",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Tugain 5% Solution"
+      },
+      "href": "/product/tugain-5-solution",
+      "image": {
+        "src": "/images/form-dropper-c.svg",
+        "alt": "Tugain 5% Solution (Minoxidil) pack"
+      }
+    },
+    {
+      "slug": "tugain-10-solution",
+      "name": "Tugain 10% Solution (Minoxidil)",
+      "subtitle": "Minoxidil",
+      "form": "dropper",
+      "categories": [
+        "hair-loss"
+      ],
+      "primaryCategory": "hair-loss",
+      "priceMin": 32.0,
+      "priceMax": 142.0,
+      "priceLabel": "$32.00 – $142.00",
+      "packs": [
+        {
+          "label": "1 bottles",
+          "units": 1,
+          "price": 32.0,
+          "priceLabel": "$32.00",
+          "unitLabel": "$32.00 / unit"
+        },
+        {
+          "label": "3 bottles",
+          "units": 3,
+          "price": 67.0,
+          "priceLabel": "$67.00",
+          "unitLabel": "$22.33 / unit"
+        },
+        {
+          "label": "6 bottles",
+          "units": 6,
+          "price": 108.0,
+          "priceLabel": "$108.00",
+          "unitLabel": "$18.00 / unit"
+        },
+        {
+          "label": "9 bottles",
+          "units": 9,
+          "price": 142.0,
+          "priceLabel": "$142.00",
+          "unitLabel": "$15.78 / unit"
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 211,
+      "badge": "",
+      "description": "Tugain 10% Solution contains Minoxidil and is used in the treatment of pattern hair loss. Supplied as 1 bottle in 1 carton in a strength of 10% w/v. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Minoxidil",
+        "Manufacturer": "Cipla Ltd.",
+        "Packaging": "1 bottle in 1 carton",
+        "Strength": "10% w/v",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Tugain 10% Solution"
+      },
+      "href": "/product/tugain-10-solution",
+      "image": {
+        "src": "/images/form-dropper-c.svg",
+        "alt": "Tugain 10% Solution (Minoxidil) pack"
+      }
+    },
+    {
+      "slug": "dutas-0-5-mg",
+      "name": "Dutas 0.5 Mg (Dutasteride)",
+      "subtitle": "Dutasteride",
+      "form": "tablet",
+      "categories": [
+        "hair-loss",
+        "benign-prostatic-hyperplasia"
+      ],
+      "primaryCategory": "hair-loss",
+      "priceMin": 28.0,
+      "priceMax": 124.0,
+      "priceLabel": "$28.00 – $124.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 28.0,
+          "priceLabel": "$28.00",
+          "unitLabel": "$0.31 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 35.0,
+          "priceLabel": "$35.00",
+          "unitLabel": "$0.29 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 42.0,
+          "priceLabel": "$42.00",
+          "unitLabel": "$0.28 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 72.0,
+          "priceLabel": "$72.00",
+          "unitLabel": "$0.24 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 124.0,
+          "priceLabel": "$124.00",
+          "unitLabel": "$0.21 / unit"
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 469,
+      "badge": "",
+      "description": "Dutas 0.5 Mg contains Dutasteride and is used in the treatment of hair loss and enlarged prostate. Supplied as 10 tablets in 1 strip in a strength of 0.5 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Dutasteride",
+        "Manufacturer": "Dr. Reddy's Laboratories",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "0.5 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Dutas 0.5 Mg"
+      },
+      "href": "/product/dutas-0-5-mg",
+      "image": {
+        "src": "/images/form-box-c.svg",
+        "alt": "Dutas 0.5 Mg (Dutasteride) pack"
+      }
+    },
+    {
+      "slug": "papulex-cream",
+      "name": "Papulex Cream (Nicotinamide/Zinc)",
+      "subtitle": "Nicotinamide and Zinc",
+      "form": "tube",
+      "categories": [
+        "skin-care"
+      ],
+      "primaryCategory": "skin-care",
+      "priceMin": 18.0,
+      "priceMax": 82.0,
+      "priceLabel": "$18.00 – $82.00",
+      "packs": [
+        {
+          "label": "1 tubes",
+          "units": 1,
+          "price": 18.0,
+          "priceLabel": "$18.00",
+          "unitLabel": "$18.00 / unit"
+        },
+        {
+          "label": "3 tubes",
+          "units": 3,
+          "price": 38.0,
+          "priceLabel": "$38.00",
+          "unitLabel": "$12.67 / unit"
+        },
+        {
+          "label": "6 tubes",
+          "units": 6,
+          "price": 62.0,
+          "priceLabel": "$62.00",
+          "unitLabel": "$10.33 / unit"
+        },
+        {
+          "label": "9 tubes",
+          "units": 9,
+          "price": 82.0,
+          "priceLabel": "$82.00",
+          "unitLabel": "$9.11 / unit"
+        }
+      ],
+      "rating": 4.4,
+      "reviewCount": 413,
+      "badge": "",
+      "description": "Papulex Cream contains Nicotinamide and Zinc and is used in the treatment of acne-prone skin. Supplied as 1 tube in 1 carton in a strength of 30 g. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Nicotinamide and Zinc",
+        "Manufacturer": "Menarini India Pvt. Ltd.",
+        "Packaging": "1 tube in 1 carton",
+        "Strength": "30 g",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Papulex Cream"
+      },
+      "href": "/product/papulex-cream",
+      "image": {
+        "src": "/images/form-tube-a.svg",
+        "alt": "Papulex Cream (Nicotinamide/Zinc) pack"
+      }
+    },
+    {
+      "slug": "aziderm-20-cream",
+      "name": "Aziderm 20% Cream (Azelaic Acid)",
+      "subtitle": "Azelaic Acid",
+      "form": "tube",
+      "categories": [
+        "skin-care"
+      ],
+      "primaryCategory": "skin-care",
+      "priceMin": 16.0,
+      "priceMax": 74.0,
+      "priceLabel": "$16.00 – $74.00",
+      "packs": [
+        {
+          "label": "1 tubes",
+          "units": 1,
+          "price": 16.0,
+          "priceLabel": "$16.00",
+          "unitLabel": "$16.00 / unit"
+        },
+        {
+          "label": "3 tubes",
+          "units": 3,
+          "price": 34.0,
+          "priceLabel": "$34.00",
+          "unitLabel": "$11.33 / unit"
+        },
+        {
+          "label": "6 tubes",
+          "units": 6,
+          "price": 56.0,
+          "priceLabel": "$56.00",
+          "unitLabel": "$9.33 / unit"
+        },
+        {
+          "label": "9 tubes",
+          "units": 9,
+          "price": 74.0,
+          "priceLabel": "$74.00",
+          "unitLabel": "$8.22 / unit"
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 25,
+      "badge": "sale",
+      "description": "Aziderm 20% Cream contains Azelaic Acid and is used in the treatment of acne and post-acne marks. Supplied as 1 tube in 1 carton in a strength of 15 g. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Azelaic Acid",
+        "Manufacturer": "Micro Labs Ltd.",
+        "Packaging": "1 tube in 1 carton",
+        "Strength": "15 g",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Aziderm 20% Cream"
+      },
+      "href": "/product/aziderm-20-cream",
+      "image": {
+        "src": "/images/form-tube-a.svg",
+        "alt": "Aziderm 20% Cream (Azelaic Acid) pack"
+      }
+    },
+    {
+      "slug": "melalite-forte-cream",
+      "name": "Melalite Forte Cream (Hydroquinone)",
+      "subtitle": "Hydroquinone",
+      "form": "tube",
+      "categories": [
+        "skin-care"
+      ],
+      "primaryCategory": "skin-care",
+      "priceMin": 15.0,
+      "priceMax": 68.0,
+      "priceLabel": "$15.00 – $68.00",
+      "packs": [
+        {
+          "label": "1 tubes",
+          "units": 1,
+          "price": 15.0,
+          "priceLabel": "$15.00",
+          "unitLabel": "$15.00 / unit"
+        },
+        {
+          "label": "3 tubes",
+          "units": 3,
+          "price": 32.0,
+          "priceLabel": "$32.00",
+          "unitLabel": "$10.67 / unit"
+        },
+        {
+          "label": "6 tubes",
+          "units": 6,
+          "price": 51.0,
+          "priceLabel": "$51.00",
+          "unitLabel": "$8.50 / unit"
+        },
+        {
+          "label": "9 tubes",
+          "units": 9,
+          "price": 68.0,
+          "priceLabel": "$68.00",
+          "unitLabel": "$7.56 / unit"
+        }
+      ],
+      "rating": 4.3,
+      "reviewCount": 292,
+      "badge": "",
+      "description": "Melalite Forte Cream contains Hydroquinone and is used in the treatment of melasma and pigmentation. Supplied as 1 tube in 1 carton in a strength of 30 g. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Hydroquinone",
+        "Manufacturer": "Abbott India Ltd.",
+        "Packaging": "1 tube in 1 carton",
+        "Strength": "30 g",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Melalite Forte Cream"
+      },
+      "href": "/product/melalite-forte-cream",
+      "image": {
+        "src": "/images/form-tube-c.svg",
+        "alt": "Melalite Forte Cream (Hydroquinone) pack"
+      }
+    },
+    {
+      "slug": "a-ret-gel-0-025",
+      "name": "A-Ret Gel 0.025% (Tretinoin)",
+      "subtitle": "Tretinoin",
+      "form": "tube",
+      "categories": [
+        "skin-care"
+      ],
+      "primaryCategory": "skin-care",
+      "priceMin": 17.0,
+      "priceMax": 78.0,
+      "priceLabel": "$17.00 – $78.00",
+      "packs": [
+        {
+          "label": "1 tubes",
+          "units": 1,
+          "price": 17.0,
+          "priceLabel": "$17.00",
+          "unitLabel": "$17.00 / unit"
+        },
+        {
+          "label": "3 tubes",
+          "units": 3,
+          "price": 36.0,
+          "priceLabel": "$36.00",
+          "unitLabel": "$12.00 / unit"
+        },
+        {
+          "label": "6 tubes",
+          "units": 6,
+          "price": 59.0,
+          "priceLabel": "$59.00",
+          "unitLabel": "$9.83 / unit"
+        },
+        {
+          "label": "9 tubes",
+          "units": 9,
+          "price": 78.0,
+          "priceLabel": "$78.00",
+          "unitLabel": "$8.67 / unit"
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 342,
+      "badge": "",
+      "description": "A-Ret Gel 0.025% contains Tretinoin and is used in the treatment of acne and skin texture. Supplied as 1 tube in 1 carton in a strength of 20 g. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tretinoin",
+        "Manufacturer": "Menarini India Pvt. Ltd.",
+        "Packaging": "1 tube in 1 carton",
+        "Strength": "20 g",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "A-Ret Gel 0.025%"
+      },
+      "href": "/product/a-ret-gel-0-025",
+      "image": {
+        "src": "/images/form-tube-b.svg",
+        "alt": "A-Ret Gel 0.025% (Tretinoin) pack"
+      }
+    },
+    {
+      "slug": "cephalexin-250-mg",
+      "name": "Cephalexin Dispersible 250 Mg (Generic)",
+      "subtitle": "Cephalexin",
+      "form": "tablet",
+      "categories": [
+        "skin-care",
+        "anti-viral"
+      ],
+      "primaryCategory": "skin-care",
+      "priceMin": 22.0,
+      "priceMax": 96.0,
+      "priceLabel": "$22.00 – $96.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 22.0,
+          "priceLabel": "$22.00",
+          "unitLabel": "$0.24 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 28.0,
+          "priceLabel": "$28.00",
+          "unitLabel": "$0.23 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 33.0,
+          "priceLabel": "$33.00",
+          "unitLabel": "$0.22 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 56.0,
+          "priceLabel": "$56.00",
+          "unitLabel": "$0.19 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 96.0,
+          "priceLabel": "$96.00",
+          "unitLabel": "$0.16 / unit"
+        }
+      ],
+      "rating": 4.4,
+      "reviewCount": 447,
+      "badge": "",
+      "description": "Cephalexin Dispersible 250 Mg contains Cephalexin and is used in the treatment of bacterial skin infections. Supplied as 10 tablets in 1 strip in a strength of 250 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Cephalexin",
+        "Manufacturer": "Alkem Laboratories Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "250 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Cephalexin Dispersible 250 Mg"
+      },
+      "href": "/product/cephalexin-250-mg",
+      "image": {
+        "src": "/images/form-box-c.svg",
+        "alt": "Cephalexin Dispersible 250 Mg (Generic) pack"
+      }
+    },
+    {
+      "slug": "progesterone-100-mg",
+      "name": "Progesterone 100 Mg (Generic)",
+      "subtitle": "Progesterone",
+      "form": "capsule",
+      "categories": [
+        "womens-health"
+      ],
+      "primaryCategory": "womens-health",
+      "priceMin": 24.0,
+      "priceMax": 51.25,
+      "priceLabel": "$24.00 – $51.25",
+      "packs": [
+        {
+          "label": "30 capsules",
+          "units": 30,
+          "price": 24.0,
+          "priceLabel": "$24.00",
+          "unitLabel": "$0.80 / unit"
+        },
+        {
+          "label": "60 capsules",
+          "units": 60,
+          "price": 30.0,
+          "priceLabel": "$30.00",
+          "unitLabel": "$0.50 / unit"
+        },
+        {
+          "label": "90 capsules",
+          "units": 90,
+          "price": 34.0,
+          "priceLabel": "$34.00",
+          "unitLabel": "$0.38 / unit"
+        },
+        {
+          "label": "180 capsules",
+          "units": 180,
+          "price": 41.0,
+          "priceLabel": "$41.00",
+          "unitLabel": "$0.23 / unit"
+        },
+        {
+          "label": "360 capsules",
+          "units": 360,
+          "price": 51.25,
+          "priceLabel": "$51.25",
+          "unitLabel": "$0.14 / unit"
+        }
+      ],
+      "rating": 4.4,
+      "reviewCount": 354,
+      "badge": "",
+      "description": "Progesterone 100 Mg contains Progesterone and is used in the treatment of progesterone support. Supplied as 10 capsules in 1 strip in a strength of 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Progesterone",
+        "Manufacturer": "Sun Pharmaceutical Industries Ltd.",
+        "Packaging": "10 capsules in 1 strip",
+        "Strength": "100 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Progesterone 100 Mg"
+      },
+      "href": "/product/progesterone-100-mg",
+      "image": {
+        "src": "/images/form-blister-a.svg",
+        "alt": "Progesterone 100 Mg (Generic) pack"
+      }
+    },
+    {
+      "slug": "progesterone-200-mg",
+      "name": "Progesterone 200 Mg (Generic)",
+      "subtitle": "Progesterone",
+      "form": "capsule",
+      "categories": [
+        "womens-health"
+      ],
+      "primaryCategory": "womens-health",
+      "priceMin": 45.0,
+      "priceMax": 101.25,
+      "priceLabel": "$45.00 – $101.25",
+      "packs": [
+        {
+          "label": "30 capsules",
+          "units": 30,
+          "price": 45.0,
+          "priceLabel": "$45.00",
+          "unitLabel": "$1.50 / unit"
+        },
+        {
+          "label": "60 capsules",
+          "units": 60,
+          "price": 56.0,
+          "priceLabel": "$56.00",
+          "unitLabel": "$0.93 / unit"
+        },
+        {
+          "label": "90 capsules",
+          "units": 90,
+          "price": 64.0,
+          "priceLabel": "$64.00",
+          "unitLabel": "$0.71 / unit"
+        },
+        {
+          "label": "180 capsules",
+          "units": 180,
+          "price": 81.0,
+          "priceLabel": "$81.00",
+          "unitLabel": "$0.45 / unit"
+        },
+        {
+          "label": "360 capsules",
+          "units": 360,
+          "price": 101.25,
+          "priceLabel": "$101.25",
+          "unitLabel": "$0.28 / unit"
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 440,
+      "badge": "",
+      "description": "Progesterone 200 Mg contains Progesterone and is used in the treatment of progesterone support. Supplied as 10 capsules in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Progesterone",
+        "Manufacturer": "Sun Pharmaceutical Industries Ltd.",
+        "Packaging": "10 capsules in 1 strip",
+        "Strength": "200 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Progesterone 200 Mg"
+      },
+      "href": "/product/progesterone-200-mg",
+      "image": {
+        "src": "/images/form-blister-b.svg",
+        "alt": "Progesterone 200 Mg (Generic) pack"
+      }
+    },
+    {
+      "slug": "progesterone-100-mg-injection",
+      "name": "Progesterone 100 Mg Injection (Generic)",
+      "subtitle": "Progesterone",
+      "form": "injection",
+      "categories": [
+        "womens-health"
+      ],
+      "primaryCategory": "womens-health",
+      "priceMin": 48.0,
+      "priceMax": 112.5,
+      "priceLabel": "$48.00 – $112.50",
+      "packs": [
+        {
+          "label": "1 vials",
+          "units": 1,
+          "price": 48.0,
+          "priceLabel": "$48.00",
+          "unitLabel": "$48.00 / unit"
+        },
+        {
+          "label": "3 vials",
+          "units": 3,
+          "price": 72.0,
+          "priceLabel": "$72.00",
+          "unitLabel": "$24.00 / unit"
+        },
+        {
+          "label": "5 vials",
+          "units": 5,
+          "price": 87.0,
+          "priceLabel": "$87.00",
+          "unitLabel": "$17.40 / unit"
+        },
+        {
+          "label": "10 vials",
+          "units": 10,
+          "price": 112.5,
+          "priceLabel": "$112.50",
+          "unitLabel": "$11.25 / unit"
+        }
+      ],
+      "rating": 4.2,
+      "reviewCount": 354,
+      "badge": "",
+      "description": "Progesterone 100 Mg Injection contains Progesterone and is used in the treatment of progesterone support. Supplied as 1 vial in 1 carton in a strength of 100 mg/2 ml. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Progesterone",
+        "Manufacturer": "Emcure Pharmaceuticals Ltd.",
+        "Packaging": "1 vial in 1 carton",
+        "Strength": "100 mg/2 ml",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Progesterone 100 Mg Injection"
+      },
+      "href": "/product/progesterone-100-mg-injection",
+      "image": {
+        "src": "/images/form-jar-a.svg",
+        "alt": "Progesterone 100 Mg Injection (Generic) pack"
+      }
+    },
+    {
+      "slug": "progesterone-vaginal-gel",
+      "name": "Progesterone Vaginal Gel 1.125 g (Generic)",
+      "subtitle": "Progesterone",
+      "form": "tube",
+      "categories": [
+        "womens-health"
+      ],
+      "primaryCategory": "womens-health",
+      "priceMin": 52.0,
+      "priceMax": 118.0,
+      "priceLabel": "$52.00 – $118.00",
+      "packs": [
+        {
+          "label": "1 tubes",
+          "units": 1,
+          "price": 52.0,
+          "priceLabel": "$52.00",
+          "unitLabel": "$52.00 / unit"
+        },
+        {
+          "label": "3 tubes",
+          "units": 3,
+          "price": 78.0,
+          "priceLabel": "$78.00",
+          "unitLabel": "$26.00 / unit"
+        },
+        {
+          "label": "6 tubes",
+          "units": 6,
+          "price": 101.0,
+          "priceLabel": "$101.00",
+          "unitLabel": "$16.83 / unit"
+        },
+        {
+          "label": "9 tubes",
+          "units": 9,
+          "price": 118.0,
+          "priceLabel": "$118.00",
+          "unitLabel": "$13.11 / unit"
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 152,
+      "badge": "",
+      "description": "Progesterone Vaginal Gel 1.125 g contains Progesterone and is used in the treatment of progesterone support. Supplied as 1 tube in 1 carton in a strength of 1.125 g. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Progesterone",
+        "Manufacturer": "Emcure Pharmaceuticals Ltd.",
+        "Packaging": "1 tube in 1 carton",
+        "Strength": "1.125 g",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Progesterone Vaginal Gel 1.125 g"
+      },
+      "href": "/product/progesterone-vaginal-gel",
+      "image": {
+        "src": "/images/form-tube-b.svg",
+        "alt": "Progesterone Vaginal Gel 1.125 g (Generic) pack"
+      }
+    },
+    {
+      "slug": "ulipristal-acetate-5-mg",
+      "name": "Ulipristal Acetate 5 Mg (Generic)",
+      "subtitle": "Ulipristal Acetate",
+      "form": "tablet",
+      "categories": [
+        "womens-health"
+      ],
+      "primaryCategory": "womens-health",
+      "priceMin": 75.0,
+      "priceMax": 177.5,
+      "priceLabel": "$75.00 – $177.50",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 75.0,
+          "priceLabel": "$75.00",
+          "unitLabel": "$0.83 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 85.0,
+          "priceLabel": "$85.00",
+          "unitLabel": "$0.71 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 95.0,
+          "priceLabel": "$95.00",
+          "unitLabel": "$0.63 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 130.0,
+          "priceLabel": "$130.00",
+          "unitLabel": "$0.43 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 177.5,
+          "priceLabel": "$177.50",
+          "unitLabel": "$0.30 / unit"
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 333,
+      "badge": "",
+      "description": "Ulipristal Acetate 5 Mg contains Ulipristal Acetate and is used in the treatment of uterine fibroids. Supplied as 10 tablets in 1 strip in a strength of 5 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Ulipristal Acetate",
+        "Manufacturer": "Torrent Pharmaceuticals Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "5 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Ulipristal Acetate 5 Mg"
+      },
+      "href": "/product/ulipristal-acetate-5-mg",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Ulipristal Acetate 5 Mg (Generic) pack"
+      }
+    },
+    {
+      "slug": "gestone-capsules",
+      "name": "Gestone Capsules USA (Progesterone)",
+      "subtitle": "Progesterone",
+      "form": "capsule",
+      "categories": [
+        "womens-health"
+      ],
+      "primaryCategory": "womens-health",
+      "priceMin": 38.0,
+      "priceMax": 92.0,
+      "priceLabel": "$38.00 – $92.00",
+      "packs": [
+        {
+          "label": "30 capsules",
+          "units": 30,
+          "price": 38.0,
+          "priceLabel": "$38.00",
+          "unitLabel": "$1.27 / unit"
+        },
+        {
+          "label": "60 capsules",
+          "units": 60,
+          "price": 49.0,
+          "priceLabel": "$49.00",
+          "unitLabel": "$0.82 / unit"
+        },
+        {
+          "label": "90 capsules",
+          "units": 90,
+          "price": 56.0,
+          "priceLabel": "$56.00",
+          "unitLabel": "$0.62 / unit"
+        },
+        {
+          "label": "180 capsules",
+          "units": 180,
+          "price": 72.0,
+          "priceLabel": "$72.00",
+          "unitLabel": "$0.40 / unit"
+        },
+        {
+          "label": "360 capsules",
+          "units": 360,
+          "price": 92.0,
+          "priceLabel": "$92.00",
+          "unitLabel": "$0.26 / unit"
+        }
+      ],
+      "rating": 4.2,
+      "reviewCount": 133,
+      "badge": "",
+      "description": "Gestone Capsules USA contains Progesterone and is used in the treatment of progesterone support. Supplied as 10 capsules in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Progesterone",
+        "Manufacturer": "Ferring Pharmaceuticals",
+        "Packaging": "10 capsules in 1 strip",
+        "Strength": "200 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Gestone Capsules USA"
+      },
+      "href": "/product/gestone-capsules",
+      "image": {
+        "src": "/images/form-blister-c.svg",
+        "alt": "Gestone Capsules USA (Progesterone) pack"
+      }
+    },
+    {
+      "slug": "chymoral-forte",
+      "name": "Chymoral Forte 100000 AU (Trypsin/Chymotrypsin)",
+      "subtitle": "Trypsin and Chymotrypsin",
+      "form": "tablet",
+      "categories": [
+        "pain"
+      ],
+      "primaryCategory": "pain",
+      "priceMin": 19.0,
+      "priceMax": 86.0,
+      "priceLabel": "$19.00 – $86.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 19.0,
+          "priceLabel": "$19.00",
+          "unitLabel": "$0.21 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 24.0,
+          "priceLabel": "$24.00",
+          "unitLabel": "$0.20 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 29.0,
+          "priceLabel": "$29.00",
+          "unitLabel": "$0.19 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 50.0,
+          "priceLabel": "$50.00",
+          "unitLabel": "$0.17 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 86.0,
+          "priceLabel": "$86.00",
+          "unitLabel": "$0.14 / unit"
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 402,
+      "badge": "",
+      "description": "Chymoral Forte 100000 AU contains Trypsin and Chymotrypsin and is used in the treatment of swelling and post-operative inflammation. Supplied as 10 tablets in 1 strip in a strength of 100000 AU. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Trypsin and Chymotrypsin",
+        "Manufacturer": "Torrent Pharmaceuticals Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "100000 AU",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Chymoral Forte 100000 AU"
+      },
+      "href": "/product/chymoral-forte",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Chymoral Forte 100000 AU (Trypsin/Chymotrypsin) pack"
+      }
+    },
+    {
+      "slug": "zerodol-sp",
+      "name": "Zerodol SP (Aceclofenac/Paracetamol/Serratiopeptidase)",
+      "subtitle": "Aceclofenac, Paracetamol and Serratiopeptidase",
+      "form": "tablet",
+      "categories": [
+        "pain"
+      ],
+      "primaryCategory": "pain",
+      "priceMin": 14.0,
+      "priceMax": 62.0,
+      "priceLabel": "$14.00 – $62.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 14.0,
+          "priceLabel": "$14.00",
+          "unitLabel": "$0.16 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 18.0,
+          "priceLabel": "$18.00",
+          "unitLabel": "$0.15 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 21.0,
+          "priceLabel": "$21.00",
+          "unitLabel": "$0.14 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 36.0,
+          "priceLabel": "$36.00",
+          "unitLabel": "$0.12 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 62.0,
+          "priceLabel": "$62.00",
+          "unitLabel": "$0.10 / unit"
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 439,
+      "badge": "hot",
+      "description": "Zerodol SP contains Aceclofenac, Paracetamol and Serratiopeptidase and is used in the treatment of joint and muscle pain. Supplied as 10 tablets in 1 strip in a strength of 100 mg + 325 mg + 15 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Aceclofenac, Paracetamol and Serratiopeptidase",
+        "Manufacturer": "Ipca Laboratories Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "100 mg + 325 mg + 15 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Zerodol SP"
+      },
+      "href": "/product/zerodol-sp",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Zerodol SP (Aceclofenac/Paracetamol/Serratiopeptidase) pack"
+      }
+    },
+    {
+      "slug": "pregeb-75-mg",
+      "name": "Pregeb 75 Mg (Pregabalin)",
+      "subtitle": "Pregabalin",
+      "form": "capsule",
+      "categories": [
+        "pain"
+      ],
+      "primaryCategory": "pain",
+      "priceMin": 17.0,
+      "priceMax": 74.0,
+      "priceLabel": "$17.00 – $74.00",
+      "packs": [
+        {
+          "label": "30 capsules",
+          "units": 30,
+          "price": 17.0,
+          "priceLabel": "$17.00",
+          "unitLabel": "$0.57 / unit"
+        },
+        {
+          "label": "60 capsules",
+          "units": 60,
+          "price": 26.0,
+          "priceLabel": "$26.00",
+          "unitLabel": "$0.43 / unit"
+        },
+        {
+          "label": "90 capsules",
+          "units": 90,
+          "price": 33.0,
+          "priceLabel": "$33.00",
+          "unitLabel": "$0.37 / unit"
+        },
+        {
+          "label": "180 capsules",
+          "units": 180,
+          "price": 49.0,
+          "priceLabel": "$49.00",
+          "unitLabel": "$0.27 / unit"
+        },
+        {
+          "label": "360 capsules",
+          "units": 360,
+          "price": 74.0,
+          "priceLabel": "$74.00",
+          "unitLabel": "$0.21 / unit"
+        }
+      ],
+      "rating": 4.3,
+      "reviewCount": 432,
+      "badge": "",
+      "description": "Pregeb 75 Mg contains Pregabalin and is used in the treatment of nerve pain. Supplied as 10 capsules in 1 strip in a strength of 75 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Pregabalin",
+        "Manufacturer": "Systopic Laboratories Pvt. Ltd.",
+        "Packaging": "10 capsules in 1 strip",
+        "Strength": "75 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Pregeb 75 Mg"
+      },
+      "href": "/product/pregeb-75-mg",
+      "image": {
+        "src": "/images/form-blister-a.svg",
+        "alt": "Pregeb 75 Mg (Pregabalin) pack"
+      }
+    },
+    {
+      "slug": "hifenac-mr",
+      "name": "Hifenac MR (Aceclofenac/Paracetamol)",
+      "subtitle": "Aceclofenac and Paracetamol",
+      "form": "tablet",
+      "categories": [
+        "pain"
+      ],
+      "primaryCategory": "pain",
+      "priceMin": 15.0,
+      "priceMax": 66.0,
+      "priceLabel": "$15.00 – $66.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 15.0,
+          "priceLabel": "$15.00",
+          "unitLabel": "$0.17 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 19.0,
+          "priceLabel": "$19.00",
+          "unitLabel": "$0.16 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 22.0,
+          "priceLabel": "$22.00",
+          "unitLabel": "$0.15 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 38.0,
+          "priceLabel": "$38.00",
+          "unitLabel": "$0.13 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 66.0,
+          "priceLabel": "$66.00",
+          "unitLabel": "$0.11 / unit"
+        }
+      ],
+      "rating": 4.4,
+      "reviewCount": 40,
+      "badge": "",
+      "description": "Hifenac MR contains Aceclofenac and Paracetamol and is used in the treatment of back and muscular pain. Supplied as 10 tablets in 1 strip in a strength of 100 mg + 325 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Aceclofenac and Paracetamol",
+        "Manufacturer": "Intas Pharmaceuticals Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "100 mg + 325 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Hifenac MR"
+      },
+      "href": "/product/hifenac-mr",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Hifenac MR (Aceclofenac/Paracetamol) pack"
+      }
+    },
+    {
+      "slug": "urimax-0-2-mg",
+      "name": "Urimax 0.2 Mg (Tamsulosin)",
+      "subtitle": "Tamsulosin",
+      "form": "capsule",
+      "categories": [
+        "benign-prostatic-hyperplasia"
+      ],
+      "primaryCategory": "benign-prostatic-hyperplasia",
+      "priceMin": 18.0,
+      "priceMax": 47.0,
+      "priceLabel": "$18.00 – $47.00",
+      "packs": [
+        {
+          "label": "30 capsules",
+          "units": 30,
+          "price": 18.0,
+          "priceLabel": "$18.00",
+          "unitLabel": "$0.60 / unit"
+        },
+        {
+          "label": "60 capsules",
+          "units": 60,
+          "price": 24.0,
+          "priceLabel": "$24.00",
+          "unitLabel": "$0.40 / unit"
+        },
+        {
+          "label": "90 capsules",
+          "units": 90,
+          "price": 28.0,
+          "priceLabel": "$28.00",
+          "unitLabel": "$0.31 / unit"
+        },
+        {
+          "label": "180 capsules",
+          "units": 180,
+          "price": 36.0,
+          "priceLabel": "$36.00",
+          "unitLabel": "$0.20 / unit"
+        },
+        {
+          "label": "360 capsules",
+          "units": 360,
+          "price": 47.0,
+          "priceLabel": "$47.00",
+          "unitLabel": "$0.13 / unit"
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 388,
+      "badge": "",
+      "description": "Urimax 0.2 Mg contains Tamsulosin and is used in the treatment of an enlarged prostate. Supplied as 10 capsules in 1 strip in a strength of 0.2 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tamsulosin",
+        "Manufacturer": "Cipla Ltd.",
+        "Packaging": "10 capsules in 1 strip",
+        "Strength": "0.2 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Urimax 0.2 Mg"
+      },
+      "href": "/product/urimax-0-2-mg",
+      "image": {
+        "src": "/images/form-blister-b.svg",
+        "alt": "Urimax 0.2 Mg (Tamsulosin) pack"
+      }
+    },
+    {
+      "slug": "urimax-d",
+      "name": "Urimax D (Tamsulosin/Dutasteride)",
+      "subtitle": "Tamsulosin and Dutasteride",
+      "form": "tablet",
+      "categories": [
+        "benign-prostatic-hyperplasia"
+      ],
+      "primaryCategory": "benign-prostatic-hyperplasia",
+      "priceMin": 20.0,
+      "priceMax": 56.0,
+      "priceLabel": "$20.00 – $56.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 20.0,
+          "priceLabel": "$20.00",
+          "unitLabel": "$0.22 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 23.0,
+          "priceLabel": "$23.00",
+          "unitLabel": "$0.19 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 26.0,
+          "priceLabel": "$26.00",
+          "unitLabel": "$0.17 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 38.0,
+          "priceLabel": "$38.00",
+          "unitLabel": "$0.13 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 56.0,
+          "priceLabel": "$56.00",
+          "unitLabel": "$0.09 / unit"
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 192,
+      "badge": "",
+      "description": "Urimax D contains Tamsulosin and Dutasteride and is used in the treatment of an enlarged prostate. Supplied as 10 tablets in 1 strip in a strength of 0.4 mg + 0.5 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tamsulosin and Dutasteride",
+        "Manufacturer": "Cipla Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "0.4 mg + 0.5 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Urimax D"
+      },
+      "href": "/product/urimax-d",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Urimax D (Tamsulosin/Dutasteride) pack"
+      }
+    },
+    {
+      "slug": "veltam-plus",
+      "name": "Veltam Plus (Tamsulosin/Dutasteride)",
+      "subtitle": "Tamsulosin and Dutasteride",
+      "form": "tablet",
+      "categories": [
+        "benign-prostatic-hyperplasia"
+      ],
+      "primaryCategory": "benign-prostatic-hyperplasia",
+      "priceMin": 17.0,
+      "priceMax": 46.0,
+      "priceLabel": "$17.00 – $46.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 17.0,
+          "priceLabel": "$17.00",
+          "unitLabel": "$0.19 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 20.0,
+          "priceLabel": "$20.00",
+          "unitLabel": "$0.17 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 22.0,
+          "priceLabel": "$22.00",
+          "unitLabel": "$0.15 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 32.0,
+          "priceLabel": "$32.00",
+          "unitLabel": "$0.11 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 46.0,
+          "priceLabel": "$46.00",
+          "unitLabel": "$0.08 / unit"
+        }
+      ],
+      "rating": 4.2,
+      "reviewCount": 234,
+      "badge": "",
+      "description": "Veltam Plus contains Tamsulosin and Dutasteride and is used in the treatment of an enlarged prostate. Supplied as 10 tablets in 1 strip in a strength of 0.4 mg + 0.5 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tamsulosin and Dutasteride",
+        "Manufacturer": "Intas Pharmaceuticals Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "0.4 mg + 0.5 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Veltam Plus"
+      },
+      "href": "/product/veltam-plus",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Veltam Plus (Tamsulosin/Dutasteride) pack"
+      }
+    },
+    {
+      "slug": "veltam-f",
+      "name": "Veltam F (Tamsulosin/Finasteride)",
+      "subtitle": "Tamsulosin and Finasteride",
+      "form": "tablet",
+      "categories": [
+        "benign-prostatic-hyperplasia"
+      ],
+      "primaryCategory": "benign-prostatic-hyperplasia",
+      "priceMin": 16.0,
+      "priceMax": 45.0,
+      "priceLabel": "$16.00 – $45.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 16.0,
+          "priceLabel": "$16.00",
+          "unitLabel": "$0.18 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 19.0,
+          "priceLabel": "$19.00",
+          "unitLabel": "$0.16 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 21.0,
+          "priceLabel": "$21.00",
+          "unitLabel": "$0.14 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 31.0,
+          "priceLabel": "$31.00",
+          "unitLabel": "$0.10 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 45.0,
+          "priceLabel": "$45.00",
+          "unitLabel": "$0.07 / unit"
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 299,
+      "badge": "",
+      "description": "Veltam F contains Tamsulosin and Finasteride and is used in the treatment of an enlarged prostate. Supplied as 10 tablets in 1 strip in a strength of 0.4 mg + 5 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Tamsulosin and Finasteride",
+        "Manufacturer": "Intas Pharmaceuticals Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "0.4 mg + 5 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Veltam F"
+      },
+      "href": "/product/veltam-f",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Veltam F (Tamsulosin/Finasteride) pack"
+      }
+    },
+    {
+      "slug": "zocon-dt-100-mg",
+      "name": "Zocon DT 100 Mg (Fluconazole)",
+      "subtitle": "Fluconazole",
+      "form": "tablet",
+      "categories": [
+        "fungal-infections"
+      ],
+      "primaryCategory": "fungal-infections",
+      "priceMin": 16.0,
+      "priceMax": 72.0,
+      "priceLabel": "$16.00 – $72.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 16.0,
+          "priceLabel": "$16.00",
+          "unitLabel": "$0.18 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 20.0,
+          "priceLabel": "$20.00",
+          "unitLabel": "$0.17 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 24.0,
+          "priceLabel": "$24.00",
+          "unitLabel": "$0.16 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 42.0,
+          "priceLabel": "$42.00",
+          "unitLabel": "$0.14 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 72.0,
+          "priceLabel": "$72.00",
+          "unitLabel": "$0.12 / unit"
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 389,
+      "badge": "",
+      "description": "Zocon DT 100 Mg contains Fluconazole and is used in the treatment of fungal infections. Supplied as 10 tablets in 1 strip in a strength of 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Fluconazole",
+        "Manufacturer": "FDC Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "100 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Zocon DT 100 Mg"
+      },
+      "href": "/product/zocon-dt-100-mg",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Zocon DT 100 Mg (Fluconazole) pack"
+      }
+    },
+    {
+      "slug": "kz-cream",
+      "name": "KZ Cream (Ketoconazole)",
+      "subtitle": "Ketoconazole",
+      "form": "tube",
+      "categories": [
+        "fungal-infections",
+        "skin-care"
+      ],
+      "primaryCategory": "fungal-infections",
+      "priceMin": 27.32,
+      "priceMax": 81.84,
+      "priceLabel": "$27.32 – $81.84",
+      "packs": [
+        {
+          "label": "1 tubes",
+          "units": 1,
+          "price": 27.32,
+          "priceLabel": "$27.32",
+          "unitLabel": "$27.32 / unit"
+        },
+        {
+          "label": "3 tubes",
+          "units": 3,
+          "price": 47.0,
+          "priceLabel": "$47.00",
+          "unitLabel": "$15.67 / unit"
+        },
+        {
+          "label": "6 tubes",
+          "units": 6,
+          "price": 67.0,
+          "priceLabel": "$67.00",
+          "unitLabel": "$11.17 / unit"
+        },
+        {
+          "label": "9 tubes",
+          "units": 9,
+          "price": 81.84,
+          "priceLabel": "$81.84",
+          "unitLabel": "$9.09 / unit"
+        }
+      ],
+      "rating": 4.2,
+      "reviewCount": 196,
+      "badge": "sale",
+      "description": "KZ Cream contains Ketoconazole and is used in the treatment of fungal skin infections. Supplied as 1 tube in 1 carton in a strength of 2% w/w. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Ketoconazole",
+        "Manufacturer": "Glenmark Pharmaceuticals Ltd.",
+        "Packaging": "1 tube in 1 carton",
+        "Strength": "2% w/w",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "KZ Cream"
+      },
+      "href": "/product/kz-cream",
+      "image": {
+        "src": "/images/form-tube-a.svg",
+        "alt": "KZ Cream (Ketoconazole) pack"
+      }
+    },
+    {
+      "slug": "vorier-200-mg",
+      "name": "Vorier 200 Mg (Voriconazole)",
+      "subtitle": "Voriconazole",
+      "form": "tablet",
+      "categories": [
+        "fungal-infections"
+      ],
+      "primaryCategory": "fungal-infections",
+      "priceMin": 10.0,
+      "priceMax": 60.0,
+      "priceLabel": "$10.00 – $60.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 10.0,
+          "priceLabel": "$10.00",
+          "unitLabel": "$0.11 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 13.0,
+          "priceLabel": "$13.00",
+          "unitLabel": "$0.11 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 16.0,
+          "priceLabel": "$16.00",
+          "unitLabel": "$0.11 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 31.0,
+          "priceLabel": "$31.00",
+          "unitLabel": "$0.10 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 60.0,
+          "priceLabel": "$60.00",
+          "unitLabel": "$0.10 / unit"
+        }
+      ],
+      "rating": 4.3,
+      "reviewCount": 251,
+      "badge": "",
+      "description": "Vorier 200 Mg contains Voriconazole and is used in the treatment of serious fungal infections. Supplied as 10 tablets in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Voriconazole",
+        "Manufacturer": "Cipla Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "200 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Vorier 200 Mg"
+      },
+      "href": "/product/vorier-200-mg",
+      "image": {
+        "src": "/images/form-box-c.svg",
+        "alt": "Vorier 200 Mg (Voriconazole) pack"
+      }
+    },
+    {
+      "slug": "candiforce-200-mg",
+      "name": "Candiforce 200 Mg (Itraconazole)",
+      "subtitle": "Itraconazole",
+      "form": "capsule",
+      "categories": [
+        "fungal-infections"
+      ],
+      "primaryCategory": "fungal-infections",
+      "priceMin": 23.0,
+      "priceMax": 104.0,
+      "priceLabel": "$23.00 – $104.00",
+      "packs": [
+        {
+          "label": "30 capsules",
+          "units": 30,
+          "price": 23.0,
+          "priceLabel": "$23.00",
+          "unitLabel": "$0.77 / unit"
+        },
+        {
+          "label": "60 capsules",
+          "units": 60,
+          "price": 35.0,
+          "priceLabel": "$35.00",
+          "unitLabel": "$0.58 / unit"
+        },
+        {
+          "label": "90 capsules",
+          "units": 90,
+          "price": 45.0,
+          "priceLabel": "$45.00",
+          "unitLabel": "$0.50 / unit"
+        },
+        {
+          "label": "180 capsules",
+          "units": 180,
+          "price": 68.0,
+          "priceLabel": "$68.00",
+          "unitLabel": "$0.38 / unit"
+        },
+        {
+          "label": "360 capsules",
+          "units": 360,
+          "price": 104.0,
+          "priceLabel": "$104.00",
+          "unitLabel": "$0.29 / unit"
+        }
+      ],
+      "rating": 4.2,
+      "reviewCount": 126,
+      "badge": "",
+      "description": "Candiforce 200 Mg contains Itraconazole and is used in the treatment of fungal infections of the skin and nails. Supplied as 10 capsules in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Itraconazole",
+        "Manufacturer": "Mankind Pharma Ltd.",
+        "Packaging": "10 capsules in 1 strip",
+        "Strength": "200 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Candiforce 200 Mg"
+      },
+      "href": "/product/candiforce-200-mg",
+      "image": {
+        "src": "/images/form-blister-c.svg",
+        "alt": "Candiforce 200 Mg (Itraconazole) pack"
+      }
+    },
+    {
+      "slug": "glycomet-500-mg",
+      "name": "Glycomet 500 Mg (Metformin)",
+      "subtitle": "Metformin",
+      "form": "tablet",
+      "categories": [
+        "diabetes"
+      ],
+      "primaryCategory": "diabetes",
+      "priceMin": 12.0,
+      "priceMax": 54.0,
+      "priceLabel": "$12.00 – $54.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 12.0,
+          "priceLabel": "$12.00",
+          "unitLabel": "$0.13 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 15.0,
+          "priceLabel": "$15.00",
+          "unitLabel": "$0.12 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 18.0,
+          "priceLabel": "$18.00",
+          "unitLabel": "$0.12 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 31.0,
+          "priceLabel": "$31.00",
+          "unitLabel": "$0.10 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 54.0,
+          "priceLabel": "$54.00",
+          "unitLabel": "$0.09 / unit"
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 206,
+      "badge": "",
+      "description": "Glycomet 500 Mg contains Metformin and is used in the treatment of type 2 diabetes. Supplied as 10 tablets in 1 strip in a strength of 500 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Metformin",
+        "Manufacturer": "USV Pvt. Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "500 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Glycomet 500 Mg"
+      },
+      "href": "/product/glycomet-500-mg",
+      "image": {
+        "src": "/images/form-box-c.svg",
+        "alt": "Glycomet 500 Mg (Metformin) pack"
+      }
+    },
+    {
+      "slug": "januvia-100-mg",
+      "name": "Januvia 100 Mg (Sitagliptin)",
+      "subtitle": "Sitagliptin",
+      "form": "tablet",
+      "categories": [
+        "diabetes"
+      ],
+      "primaryCategory": "diabetes",
+      "priceMin": 34.0,
+      "priceMax": 148.0,
+      "priceLabel": "$34.00 – $148.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 34.0,
+          "priceLabel": "$34.00",
+          "unitLabel": "$0.38 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 42.0,
+          "priceLabel": "$42.00",
+          "unitLabel": "$0.35 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 51.0,
+          "priceLabel": "$51.00",
+          "unitLabel": "$0.34 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 86.0,
+          "priceLabel": "$86.00",
+          "unitLabel": "$0.29 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 148.0,
+          "priceLabel": "$148.00",
+          "unitLabel": "$0.25 / unit"
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 477,
+      "badge": "",
+      "description": "Januvia 100 Mg contains Sitagliptin and is used in the treatment of type 2 diabetes. Supplied as 10 tablets in 1 strip in a strength of 100 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Sitagliptin",
+        "Manufacturer": "MSD Pharmaceuticals",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "100 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Januvia 100 Mg"
+      },
+      "href": "/product/januvia-100-mg",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Januvia 100 Mg (Sitagliptin) pack"
+      }
+    },
+    {
+      "slug": "jardiance-10-mg",
+      "name": "Jardiance 10 Mg (Empagliflozin)",
+      "subtitle": "Empagliflozin",
+      "form": "tablet",
+      "categories": [
+        "diabetes"
+      ],
+      "primaryCategory": "diabetes",
+      "priceMin": 38.0,
+      "priceMax": 164.0,
+      "priceLabel": "$38.00 – $164.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 38.0,
+          "priceLabel": "$38.00",
+          "unitLabel": "$0.42 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 47.0,
+          "priceLabel": "$47.00",
+          "unitLabel": "$0.39 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 56.0,
+          "priceLabel": "$56.00",
+          "unitLabel": "$0.37 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 96.0,
+          "priceLabel": "$96.00",
+          "unitLabel": "$0.32 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 164.0,
+          "priceLabel": "$164.00",
+          "unitLabel": "$0.27 / unit"
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 169,
+      "badge": "new",
+      "description": "Jardiance 10 Mg contains Empagliflozin and is used in the treatment of type 2 diabetes. Supplied as 10 tablets in 1 strip in a strength of 10 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Empagliflozin",
+        "Manufacturer": "Boehringer Ingelheim",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "10 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Jardiance 10 Mg"
+      },
+      "href": "/product/jardiance-10-mg",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Jardiance 10 Mg (Empagliflozin) pack"
+      }
+    },
+    {
+      "slug": "glimepiride-2-mg",
+      "name": "Glimepiride 2 Mg (Generic)",
+      "subtitle": "Glimepiride",
+      "form": "tablet",
+      "categories": [
+        "diabetes"
+      ],
+      "primaryCategory": "diabetes",
+      "priceMin": 11.0,
+      "priceMax": 48.0,
+      "priceLabel": "$11.00 – $48.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 11.0,
+          "priceLabel": "$11.00",
+          "unitLabel": "$0.12 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 14.0,
+          "priceLabel": "$14.00",
+          "unitLabel": "$0.12 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 16.0,
+          "priceLabel": "$16.00",
+          "unitLabel": "$0.11 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 28.0,
+          "priceLabel": "$28.00",
+          "unitLabel": "$0.09 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 48.0,
+          "priceLabel": "$48.00",
+          "unitLabel": "$0.08 / unit"
+        }
+      ],
+      "rating": 4.3,
+      "reviewCount": 202,
+      "badge": "",
+      "description": "Glimepiride 2 Mg contains Glimepiride and is used in the treatment of type 2 diabetes. Supplied as 10 tablets in 1 strip in a strength of 2 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Glimepiride",
+        "Manufacturer": "Sanofi India Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "2 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Glimepiride 2 Mg"
+      },
+      "href": "/product/glimepiride-2-mg",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Glimepiride 2 Mg (Generic) pack"
+      }
+    },
+    {
+      "slug": "acivir-400-dt",
+      "name": "Acivir 400 DT (Acyclovir)",
+      "subtitle": "Acyclovir",
+      "form": "tablet",
+      "categories": [
+        "anti-viral"
+      ],
+      "primaryCategory": "anti-viral",
+      "priceMin": 18.0,
+      "priceMax": 78.0,
+      "priceLabel": "$18.00 – $78.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 18.0,
+          "priceLabel": "$18.00",
+          "unitLabel": "$0.20 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 22.0,
+          "priceLabel": "$22.00",
+          "unitLabel": "$0.18 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 27.0,
+          "priceLabel": "$27.00",
+          "unitLabel": "$0.18 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 46.0,
+          "priceLabel": "$46.00",
+          "unitLabel": "$0.15 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 78.0,
+          "priceLabel": "$78.00",
+          "unitLabel": "$0.13 / unit"
+        }
+      ],
+      "rating": 4.4,
+      "reviewCount": 295,
+      "badge": "",
+      "description": "Acivir 400 DT contains Acyclovir and is used in the treatment of herpes simplex infections. Supplied as 10 tablets in 1 strip in a strength of 400 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Acyclovir",
+        "Manufacturer": "Cipla Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "400 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Acivir 400 DT"
+      },
+      "href": "/product/acivir-400-dt",
+      "image": {
+        "src": "/images/form-box-a.svg",
+        "alt": "Acivir 400 DT (Acyclovir) pack"
+      }
+    },
+    {
+      "slug": "valcivir-500-mg",
+      "name": "Valcivir 500 Mg (Valacyclovir)",
+      "subtitle": "Valacyclovir",
+      "form": "tablet",
+      "categories": [
+        "anti-viral"
+      ],
+      "primaryCategory": "anti-viral",
+      "priceMin": 42.0,
+      "priceMax": 182.0,
+      "priceLabel": "$42.00 – $182.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 42.0,
+          "priceLabel": "$42.00",
+          "unitLabel": "$0.47 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 52.0,
+          "priceLabel": "$52.00",
+          "unitLabel": "$0.43 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 62.0,
+          "priceLabel": "$62.00",
+          "unitLabel": "$0.41 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 107.0,
+          "priceLabel": "$107.00",
+          "unitLabel": "$0.36 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 182.0,
+          "priceLabel": "$182.00",
+          "unitLabel": "$0.30 / unit"
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 154,
+      "badge": "",
+      "description": "Valcivir 500 Mg contains Valacyclovir and is used in the treatment of herpes zoster and genital herpes. Supplied as 10 tablets in 1 strip in a strength of 500 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Valacyclovir",
+        "Manufacturer": "Cipla Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "500 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Valcivir 500 Mg"
+      },
+      "href": "/product/valcivir-500-mg",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Valcivir 500 Mg (Valacyclovir) pack"
+      }
+    },
+    {
+      "slug": "molnupiravir-200-mg",
+      "name": "Molnupiravir 200 Mg (Generic)",
+      "subtitle": "Molnupiravir",
+      "form": "capsule",
+      "categories": [
+        "anti-viral"
+      ],
+      "primaryCategory": "anti-viral",
+      "priceMin": 56.0,
+      "priceMax": 214.0,
+      "priceLabel": "$56.00 – $214.00",
+      "packs": [
+        {
+          "label": "30 capsules",
+          "units": 30,
+          "price": 56.0,
+          "priceLabel": "$56.00",
+          "unitLabel": "$1.87 / unit"
+        },
+        {
+          "label": "60 capsules",
+          "units": 60,
+          "price": 81.0,
+          "priceLabel": "$81.00",
+          "unitLabel": "$1.35 / unit"
+        },
+        {
+          "label": "90 capsules",
+          "units": 90,
+          "price": 101.0,
+          "priceLabel": "$101.00",
+          "unitLabel": "$1.12 / unit"
+        },
+        {
+          "label": "180 capsules",
+          "units": 180,
+          "price": 147.0,
+          "priceLabel": "$147.00",
+          "unitLabel": "$0.82 / unit"
+        },
+        {
+          "label": "360 capsules",
+          "units": 360,
+          "price": 214.0,
+          "priceLabel": "$214.00",
+          "unitLabel": "$0.59 / unit"
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 309,
+      "badge": "",
+      "description": "Molnupiravir 200 Mg contains Molnupiravir and is used in the treatment of mild to moderate viral infection. Supplied as 10 capsules in 1 strip in a strength of 200 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Molnupiravir",
+        "Manufacturer": "Hetero Drugs Ltd.",
+        "Packaging": "10 capsules in 1 strip",
+        "Strength": "200 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Molnupiravir 200 Mg"
+      },
+      "href": "/product/molnupiravir-200-mg",
+      "image": {
+        "src": "/images/form-blister-b.svg",
+        "alt": "Molnupiravir 200 Mg (Generic) pack"
+      }
+    },
+    {
+      "slug": "lipicard-160-mg",
+      "name": "Lipicard 160 Mg (Fenofibrate)",
+      "subtitle": "Fenofibrate",
+      "form": "capsule",
+      "categories": [
+        "high-cholesterol"
+      ],
+      "primaryCategory": "high-cholesterol",
+      "priceMin": 20.0,
+      "priceMax": 88.0,
+      "priceLabel": "$20.00 – $88.00",
+      "packs": [
+        {
+          "label": "30 capsules",
+          "units": 30,
+          "price": 20.0,
+          "priceLabel": "$20.00",
+          "unitLabel": "$0.67 / unit"
+        },
+        {
+          "label": "60 capsules",
+          "units": 60,
+          "price": 30.0,
+          "priceLabel": "$30.00",
+          "unitLabel": "$0.50 / unit"
+        },
+        {
+          "label": "90 capsules",
+          "units": 90,
+          "price": 39.0,
+          "priceLabel": "$39.00",
+          "unitLabel": "$0.43 / unit"
+        },
+        {
+          "label": "180 capsules",
+          "units": 180,
+          "price": 58.0,
+          "priceLabel": "$58.00",
+          "unitLabel": "$0.32 / unit"
+        },
+        {
+          "label": "360 capsules",
+          "units": 360,
+          "price": 88.0,
+          "priceLabel": "$88.00",
+          "unitLabel": "$0.24 / unit"
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 352,
+      "badge": "",
+      "description": "Lipicard 160 Mg contains Fenofibrate and is used in the treatment of high triglycerides. Supplied as 10 capsules in 1 strip in a strength of 160 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Fenofibrate",
+        "Manufacturer": "USV Pvt. Ltd.",
+        "Packaging": "10 capsules in 1 strip",
+        "Strength": "160 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Lipicard 160 Mg"
+      },
+      "href": "/product/lipicard-160-mg",
+      "image": {
+        "src": "/images/form-blister-b.svg",
+        "alt": "Lipicard 160 Mg (Fenofibrate) pack"
+      }
+    },
+    {
+      "slug": "rosuvas-10-mg",
+      "name": "Rosuvas 10 Mg (Rosuvastatin)",
+      "subtitle": "Rosuvastatin",
+      "form": "tablet",
+      "categories": [
+        "high-cholesterol"
+      ],
+      "primaryCategory": "high-cholesterol",
+      "priceMin": 18.0,
+      "priceMax": 80.0,
+      "priceLabel": "$18.00 – $80.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 18.0,
+          "priceLabel": "$18.00",
+          "unitLabel": "$0.20 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 23.0,
+          "priceLabel": "$23.00",
+          "unitLabel": "$0.19 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 27.0,
+          "priceLabel": "$27.00",
+          "unitLabel": "$0.18 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 46.0,
+          "priceLabel": "$46.00",
+          "unitLabel": "$0.15 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 80.0,
+          "priceLabel": "$80.00",
+          "unitLabel": "$0.13 / unit"
+        }
+      ],
+      "rating": 4.2,
+      "reviewCount": 86,
+      "badge": "",
+      "description": "Rosuvas 10 Mg contains Rosuvastatin and is used in the treatment of high cholesterol. Supplied as 10 tablets in 1 strip in a strength of 10 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Rosuvastatin",
+        "Manufacturer": "Sun Pharmaceutical Industries Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "10 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Rosuvas 10 Mg"
+      },
+      "href": "/product/rosuvas-10-mg",
+      "image": {
+        "src": "/images/form-box-b.svg",
+        "alt": "Rosuvas 10 Mg (Rosuvastatin) pack"
+      }
+    },
+    {
+      "slug": "atorlip-10-mg",
+      "name": "Atorlip 10 Mg (Atorvastatin)",
+      "subtitle": "Atorvastatin",
+      "form": "tablet",
+      "categories": [
+        "high-cholesterol"
+      ],
+      "primaryCategory": "high-cholesterol",
+      "priceMin": 15.0,
+      "priceMax": 68.0,
+      "priceLabel": "$15.00 – $68.00",
+      "packs": [
+        {
+          "label": "90 tablets",
+          "units": 90,
+          "price": 15.0,
+          "priceLabel": "$15.00",
+          "unitLabel": "$0.17 / unit"
+        },
+        {
+          "label": "120 tablets",
+          "units": 120,
+          "price": 19.0,
+          "priceLabel": "$19.00",
+          "unitLabel": "$0.16 / unit"
+        },
+        {
+          "label": "150 tablets",
+          "units": 150,
+          "price": 23.0,
+          "priceLabel": "$23.00",
+          "unitLabel": "$0.15 / unit"
+        },
+        {
+          "label": "300 tablets",
+          "units": 300,
+          "price": 39.0,
+          "priceLabel": "$39.00",
+          "unitLabel": "$0.13 / unit"
+        },
+        {
+          "label": "600 tablets",
+          "units": 600,
+          "price": 68.0,
+          "priceLabel": "$68.00",
+          "unitLabel": "$0.11 / unit"
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 44,
+      "badge": "",
+      "description": "Atorlip 10 Mg contains Atorvastatin and is used in the treatment of high cholesterol. Supplied as 10 tablets in 1 strip in a strength of 10 mg. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Atorvastatin",
+        "Manufacturer": "Cipla Ltd.",
+        "Packaging": "10 tablets in 1 strip",
+        "Strength": "10 mg",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Atorlip 10 Mg"
+      },
+      "href": "/product/atorlip-10-mg",
+      "image": {
+        "src": "/images/form-box-c.svg",
+        "alt": "Atorlip 10 Mg (Atorvastatin) pack"
+      }
+    },
+    {
+      "slug": "9-pm-eye-drop",
+      "name": "9 PM Eye Drop (Latanoprost)",
+      "subtitle": "Latanoprost",
+      "form": "dropper",
+      "categories": [
+        "eyes-ear-care"
+      ],
+      "primaryCategory": "eyes-ear-care",
+      "priceMin": 22.0,
+      "priceMax": 96.0,
+      "priceLabel": "$22.00 – $96.00",
+      "packs": [
+        {
+          "label": "1 bottles",
+          "units": 1,
+          "price": 22.0,
+          "priceLabel": "$22.00",
+          "unitLabel": "$22.00 / unit"
+        },
+        {
+          "label": "3 bottles",
+          "units": 3,
+          "price": 46.0,
+          "priceLabel": "$46.00",
+          "unitLabel": "$15.33 / unit"
+        },
+        {
+          "label": "6 bottles",
+          "units": 6,
+          "price": 73.0,
+          "priceLabel": "$73.00",
+          "unitLabel": "$12.17 / unit"
+        },
+        {
+          "label": "9 bottles",
+          "units": 9,
+          "price": 96.0,
+          "priceLabel": "$96.00",
+          "unitLabel": "$10.67 / unit"
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 43,
+      "badge": "",
+      "description": "9 PM Eye Drop contains Latanoprost and is used in the treatment of raised eye pressure in glaucoma. Supplied as 1 bottle in 1 carton in a strength of 0.005% w/v. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Latanoprost",
+        "Manufacturer": "Intas Pharmaceuticals Ltd.",
+        "Packaging": "1 bottle in 1 carton",
+        "Strength": "0.005% w/v",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "9 PM Eye Drop"
+      },
+      "href": "/product/9-pm-eye-drop",
+      "image": {
+        "src": "/images/form-dropper-c.svg",
+        "alt": "9 PM Eye Drop (Latanoprost) pack"
+      }
+    },
+    {
+      "slug": "careprost-3-ml",
+      "name": "Careprost 3 ml (Bimatoprost)",
+      "subtitle": "Bimatoprost",
+      "form": "dropper",
+      "categories": [
+        "eyes-ear-care"
+      ],
+      "primaryCategory": "eyes-ear-care",
+      "priceMin": 26.0,
+      "priceMax": 118.0,
+      "priceLabel": "$26.00 – $118.00",
+      "packs": [
+        {
+          "label": "1 bottles",
+          "units": 1,
+          "price": 26.0,
+          "priceLabel": "$26.00",
+          "unitLabel": "$26.00 / unit"
+        },
+        {
+          "label": "3 bottles",
+          "units": 3,
+          "price": 55.0,
+          "priceLabel": "$55.00",
+          "unitLabel": "$18.33 / unit"
+        },
+        {
+          "label": "6 bottles",
+          "units": 6,
+          "price": 89.0,
+          "priceLabel": "$89.00",
+          "unitLabel": "$14.83 / unit"
+        },
+        {
+          "label": "9 bottles",
+          "units": 9,
+          "price": 118.0,
+          "priceLabel": "$118.00",
+          "unitLabel": "$13.11 / unit"
+        }
+      ],
+      "rating": 4.3,
+      "reviewCount": 199,
+      "badge": "hot",
+      "description": "Careprost 3 ml contains Bimatoprost and is used in the treatment of raised eye pressure and lash growth. Supplied as 1 bottle in 1 carton in a strength of 0.03% w/v. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Bimatoprost",
+        "Manufacturer": "Sun Pharmaceutical Industries Ltd.",
+        "Packaging": "1 bottle in 1 carton",
+        "Strength": "0.03% w/v",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Careprost 3 ml"
+      },
+      "href": "/product/careprost-3-ml",
+      "image": {
+        "src": "/images/form-dropper-b.svg",
+        "alt": "Careprost 3 ml (Bimatoprost) pack"
+      }
+    },
+    {
+      "slug": "ciplox-eye-ear-drops",
+      "name": "Ciplox Eye/Ear Drops (Ciprofloxacin)",
+      "subtitle": "Ciprofloxacin",
+      "form": "dropper",
+      "categories": [
+        "eyes-ear-care"
+      ],
+      "primaryCategory": "eyes-ear-care",
+      "priceMin": 14.0,
+      "priceMax": 60.0,
+      "priceLabel": "$14.00 – $60.00",
+      "packs": [
+        {
+          "label": "1 bottles",
+          "units": 1,
+          "price": 14.0,
+          "priceLabel": "$14.00",
+          "unitLabel": "$14.00 / unit"
+        },
+        {
+          "label": "3 bottles",
+          "units": 3,
+          "price": 29.0,
+          "priceLabel": "$29.00",
+          "unitLabel": "$9.67 / unit"
+        },
+        {
+          "label": "6 bottles",
+          "units": 6,
+          "price": 46.0,
+          "priceLabel": "$46.00",
+          "unitLabel": "$7.67 / unit"
+        },
+        {
+          "label": "9 bottles",
+          "units": 9,
+          "price": 60.0,
+          "priceLabel": "$60.00",
+          "unitLabel": "$6.67 / unit"
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 427,
+      "badge": "",
+      "description": "Ciplox Eye/Ear Drops contains Ciprofloxacin and is used in the treatment of bacterial eye and ear infections. Supplied as 1 bottle in 1 carton in a strength of 0.3% w/v. Choose a pack size below — the price per unit falls on larger packs.",
+      "specs": {
+        "Active Ingredient": "Ciprofloxacin",
+        "Manufacturer": "Cipla Ltd.",
+        "Packaging": "1 bottle in 1 carton",
+        "Strength": "0.3% w/v",
+        "Delivery Time": "6 to 15 days",
+        "SKU": "Ciplox Eye/Ear Drops"
+      },
+      "href": "/product/ciplox-eye-ear-drops",
+      "image": {
+        "src": "/images/form-dropper-b.svg",
+        "alt": "Ciplox Eye/Ear Drops (Ciprofloxacin) pack"
+      }
+    }
+  ]
+}

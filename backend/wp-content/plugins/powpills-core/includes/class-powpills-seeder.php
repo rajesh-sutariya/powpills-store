@@ -61,7 +61,7 @@ class PowPills_Seeder {
 	private static function seed_categories( $force ) {
 		$count = 0;
 
-		foreach ( PowPills_Content::categories() as $index => $category ) {
+		foreach ( PowPills_Catalog::json()['categories'] as $index => $category ) {
 			$post_id = self::upsert(
 				PowPills_Post_Types::CATEGORY,
 				$category['slug'],
@@ -78,10 +78,9 @@ class PowPills_Seeder {
 			self::save_meta(
 				$post_id,
 				array(
-					'icon'      => $category['icon'],
-					'tone'      => $category['tone'],
-					'cta_label' => $category['ctaLabel'],
-					'href'      => $category['href'],
+					'icon'        => $category['icon'],
+					'tone'        => $category['tone'],
+					'description' => $category['description'],
 				)
 			);
 
@@ -98,7 +97,7 @@ class PowPills_Seeder {
 	private static function seed_products( $force ) {
 		$count = 0;
 
-		foreach ( PowPills_Content::products() as $index => $product ) {
+		foreach ( PowPills_Catalog::json()['products'] as $index => $product ) {
 			$post_id = self::upsert(
 				PowPills_Post_Types::PRODUCT,
 				$product['slug'],
@@ -116,16 +115,17 @@ class PowPills_Seeder {
 				$post_id,
 				array(
 					'subtitle'     => $product['subtitle'],
-					'category'     => $product['category'],
-					'badge_label'  => $product['badgeLabel'],
-					'badge_tone'   => $product['badgeTone'],
-					'tabs'         => $product['tabs'],
+					'form'         => $product['form'],
+					'categories'   => $product['categories'],
+					'price_min'    => $product['priceMin'],
+					'price_max'    => $product['priceMax'],
+					'price_label'  => $product['priceLabel'],
+					'packs'        => wp_json_encode( $product['packs'] ),
+					'specs'        => wp_json_encode( $product['specs'] ),
 					'rating'       => $product['rating'],
 					'review_count' => $product['reviewCount'],
-					'price'        => $product['price'],
-					'compare_at'   => $product['compareAt'],
-					'cta_label'    => $product['ctaLabel'],
-					'sections'     => $product['sections'],
+					'badge'        => $product['badge'],
+					'description'  => $product['description'],
 					'image_src'    => $product['image']['src'],
 					'image_alt'    => $product['image']['alt'],
 				)

@@ -19,6 +19,7 @@ define( 'POWPILLS_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 require_once POWPILLS_PLUGIN_DIR . 'includes/class-powpills-content.php';
 require_once POWPILLS_PLUGIN_DIR . 'includes/class-powpills-post-types.php';
+require_once POWPILLS_PLUGIN_DIR . 'includes/class-powpills-catalog.php';
 require_once POWPILLS_PLUGIN_DIR . 'includes/class-powpills-seeder.php';
 require_once POWPILLS_PLUGIN_DIR . 'includes/class-powpills-rest.php';
 require_once POWPILLS_PLUGIN_DIR . 'includes/class-powpills-admin.php';
