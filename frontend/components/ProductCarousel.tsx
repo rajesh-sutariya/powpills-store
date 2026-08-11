@@ -53,7 +53,7 @@ export function ProductCarousel({ products }: { products: Product[] }) {
 
       <ul
         ref={railRef}
-        className="grid auto-cols-[minmax(200px,1fr)] grid-flow-col gap-4 overflow-x-auto scroll-smooth pb-1 no-scrollbar sm:auto-cols-[minmax(220px,1fr)] lg:auto-cols-[calc((100%-4rem)/5)]"
+        className="grid auto-cols-[minmax(200px,1fr)] grid-flow-col gap-4 overflow-x-auto scroll-smooth pb-1 no-scrollbar sm:auto-cols-[minmax(220px,1fr)] lg:auto-cols-[calc((100%_-_4rem)/5)]"
       >
         {products.map((product) => (
           <li key={product.id} className="min-w-0">

@@ -10,7 +10,9 @@ import type { HomepageContent, Product } from './types';
  * everywhere on the page.
  */
 
-const IMG = '/images';
+// Placeholder image folder. NEXT_PUBLIC_BASE_PATH is only set when the site is
+// served from a sub-path (the GitHub Pages preview); locally it resolves to /images.
+const IMG = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/images`;
 
 const popularProducts: Product[] = [
   {

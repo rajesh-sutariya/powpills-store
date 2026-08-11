@@ -1,0 +1,82 @@
+name: Build and publish preview
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    name: Backend lint and copy parity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+
+      - name: Lint the WordPress plugin
+        run: |
+          for file in backend/wp-content/plugins/powpills-core/powpills-core.php \
+                      backend/wp-content/plugins/powpills-core/includes/*.php; do
+            php -l "$file"
+          done
+
+      - name: Frontend and WordPress copy must match word for word
+        run: |
+          php tools/dump-wp-copy.php
+          python3 tools/check-copy-parity.py
+
+  build:
+    name: Build storefront
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      # `next build` type checks as part of the build; the explicit tsc pass runs
+      # afterwards because it needs the next-env.d.ts that the build generates.
+      - name: Build static site
+        run: npm run build
+        env:
+          STATIC_EXPORT: '1'
+          NEXT_PUBLIC_BASE_PATH: /powpills-store
+
+      - name: Type check
+        run: npm run typecheck
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/out
+
+  deploy:
+    name: Publish preview
+    needs: [checks, build]
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

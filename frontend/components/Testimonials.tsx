@@ -53,7 +53,7 @@ export function Testimonials({ content }: { content: TestimonialSection }) {
 
           <ul
             ref={railRef}
-            className="grid auto-cols-[minmax(240px,1fr)] grid-flow-col gap-4 overflow-x-auto scroll-smooth pb-1 no-scrollbar lg:auto-cols-[calc((100%-3rem)/4)]"
+            className="grid auto-cols-[minmax(240px,1fr)] grid-flow-col gap-4 overflow-x-auto scroll-smooth pb-1 no-scrollbar lg:auto-cols-[calc((100%_-_3rem)/4)]"
           >
             {content.items.map((item) => (
               <li key={item.name} className="min-w-0">
