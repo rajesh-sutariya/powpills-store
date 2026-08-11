@@ -29,7 +29,9 @@ export function SupportBanner({ content }: { content: SupportBannerContent }) {
                     <span className="block text-[0.8125rem] font-bold text-ink">
                       {channel.title}
                     </span>
-                    <span className="mt-0.5 block truncate text-xs text-ink-muted">
+                    {/* Never truncate — a clipped support email or phone number
+                        is worse than a line wrap. */}
+                    <span className="mt-0.5 block break-words text-xs text-ink-muted">
                       {channel.detail}
                     </span>
                   </span>

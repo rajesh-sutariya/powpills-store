@@ -30,7 +30,11 @@ export function CategoryGrid({ content }: { content: CategorySection }) {
                 <Icon name={category.icon} className="h-7 w-7" strokeWidth={1.6} />
               </span>
 
-              <span className="mt-4 text-sm font-bold leading-snug text-ink">{category.name}</span>
+              {/* Fixed two-line box keeps every card the same height whether the
+                  label is "Skin Care" or "Vitamins & Supplements". */}
+              <span className="mt-4 flex min-h-[2.5rem] items-start justify-center text-sm font-bold leading-snug text-ink">
+                {category.name}
+              </span>
 
               <span className="mt-2.5 inline-flex items-center gap-0.5 text-xs font-semibold text-brand-600 transition-colors group-hover:text-brand-800">
                 {category.ctaLabel}

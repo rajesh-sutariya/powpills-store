@@ -18,7 +18,9 @@ export function StatsAndReview({
       <div className="shell grid items-center gap-8 lg:grid-cols-[1.55fr_1fr] lg:gap-10">
         {/* Stats */}
         <div>
-          <h2 className="h-panel text-center lg:text-left">{stats.title}</h2>
+          {/* Same size as every other section heading — this is a section
+              heading, and shrinking it broke the page's hierarchy. */}
+          <h2 className="h-section text-center lg:text-left">{stats.title}</h2>
 
           <dl className="mt-7 grid grid-cols-2 gap-y-7 sm:grid-cols-4">
             {stats.items.map((item, index) => (

@@ -2,9 +2,15 @@
 """
 Generates the dummy placeholder SVG images used across the storefront.
 
-They are intentionally text-free geometric placeholders so that no wording is
-introduced into the design. Swap the files in public/images for real product
-photography (or point the WordPress featured images at real media) later.
+Design rules, learned the hard way:
+  1. TRANSPARENT backgrounds. An opaque rect inside a tinted card shows up as a
+     visible box, and "almost but not quite" matching tints look like a bug.
+  2. Fill the canvas. The product should occupy ~90% of the artboard, otherwise
+     it floats in dead space inside the card's image well.
+  3. Products use a 4:3 artboard to match the card image well, so `object-contain`
+     fills it exactly with no letterboxing.
+
+They are deliberately text-free so no wording is introduced into the design.
 
 Usage:  python3 scripts/generate-placeholders.py
 """
@@ -13,13 +19,15 @@ import os
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "public", "images")
 
-BG = "#f1f5f4"
-INK = "#cbd5d3"
-INK2 = "#dbe4e2"
-GREEN = "#17805a"
-GREEN_SOFT = "#b9dfcb"
-GREEN_MID = "#57b287"
+INK = "#c3d0cc"          # outline
+INK_SOFT = "#dde5e2"     # detail lines
+GREEN = "#177050"        # brand
+GREEN_MID = "#4fa27e"
+GREEN_SOFT = "#aed8c4"
 WHITE = "#ffffff"
+
+# Product artboard: 4:3, matching the card image well.
+PW, PH = 400, 300
 
 
 def write(name, body):
@@ -29,27 +37,32 @@ def write(name, body):
     print("wrote", os.path.relpath(path))
 
 
-def frame(w, h, inner, bg=BG, radius=16):
+def svg(w, h, inner):
+    """Transparent-background SVG wrapper."""
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" '
-        f'width="{w}" height="{h}" role="img">'
-        f'<rect width="{w}" height="{h}" rx="{radius}" fill="{bg}"/>'
-        f"{inner}"
-        f"</svg>\n"
+        f'width="{w}" height="{h}" fill="none" role="img">{inner}</svg>\n'
     )
 
 
+def shadow(cx, cy, rx):
+    """Soft contact shadow so the product sits on a surface."""
+    return f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="9" fill="{INK}" opacity="0.30"/>'
+
+
 # --------------------------------------------------------------------------
-# product placeholders (400 x 400)
+# product shapes — each fills roughly 400x300
 # --------------------------------------------------------------------------
 
 def shape_box():
     return (
-        f'<rect x="118" y="132" width="164" height="150" rx="10" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="118" y="132" width="164" height="44" rx="10" fill="{GREEN_SOFT}"/>'
-        f'<rect x="140" y="196" width="120" height="10" rx="5" fill="{INK2}"/>'
-        f'<rect x="140" y="218" width="86" height="10" rx="5" fill="{INK2}"/>'
-        f'<rect x="140" y="246" width="54" height="18" rx="9" fill="{GREEN_MID}"/>'
+        shadow(200, 279, 92)
+        + f'<rect x="122" y="24" width="156" height="252" rx="12" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        + f'<path d="M122 36a12 12 0 0 1 12-12h132a12 12 0 0 1 12 12v58H122z" fill="{GREEN_SOFT}"/>'
+        + f'<rect x="146" y="118" width="108" height="12" rx="6" fill="{INK_SOFT}"/>'
+        + f'<rect x="146" y="146" width="76" height="12" rx="6" fill="{INK_SOFT}"/>'
+        + f'<rect x="146" y="188" width="62" height="24" rx="12" fill="{GREEN_MID}"/>'
+        + f'<rect x="146" y="230" width="94" height="10" rx="5" fill="{INK_SOFT}"/>'
     )
 
 
@@ -57,53 +70,61 @@ def shape_blister():
     cells = ""
     for row in range(3):
         for col in range(4):
-            cx = 150 + col * 34
-            cy = 160 + row * 42
-            cells += f'<circle cx="{cx}" cy="{cy}" r="12" fill="{GREEN_SOFT}" stroke="{INK}" stroke-width="2"/>'
+            cx = 130 + col * 47
+            cy = 86 + row * 62
+            cells += (
+                f'<circle cx="{cx}" cy="{cy}" r="19" fill="{GREEN_SOFT}" stroke="{INK}" stroke-width="2.5"/>'
+            )
     return (
-        f'<rect x="122" y="132" width="156" height="140" rx="12" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f"{cells}"
+        shadow(200, 279, 100)
+        + f'<rect x="98" y="34" width="204" height="238" rx="16" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        + cells
     )
 
 
 def shape_bottle():
     return (
-        f'<rect x="176" y="104" width="48" height="30" rx="6" fill="{GREEN}"/>'
-        f'<rect x="164" y="132" width="72" height="18" rx="6" fill="{INK}"/>'
-        f'<rect x="152" y="148" width="96" height="140" rx="16" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="152" y="188" width="96" height="62" fill="{GREEN_SOFT}"/>'
-        f'<rect x="170" y="208" width="60" height="8" rx="4" fill="{WHITE}"/>'
-        f'<rect x="170" y="224" width="40" height="8" rx="4" fill="{WHITE}"/>'
+        shadow(200, 279, 78)
+        + f'<rect x="168" y="16" width="64" height="34" rx="9" fill="{GREEN}"/>'
+        + f'<rect x="152" y="50" width="96" height="22" rx="8" fill="{INK}"/>'
+        + f'<rect x="134" y="70" width="132" height="204" rx="22" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        + f'<rect x="134" y="124" width="132" height="94" fill="{GREEN_SOFT}"/>'
+        + f'<rect x="158" y="150" width="84" height="12" rx="6" fill="{WHITE}"/>'
+        + f'<rect x="158" y="174" width="56" height="12" rx="6" fill="{WHITE}"/>'
     )
 
 
 def shape_tube():
     return (
-        f'<rect x="180" y="98" width="40" height="26" rx="6" fill="{GREEN}"/>'
-        f'<path d="M162 126h76l10 150a14 14 0 0 1-14 15h-68a14 14 0 0 1-14-15z" '
-        f'fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="166" y="176" width="68" height="46" fill="{GREEN_SOFT}"/>'
-        f'<rect x="182" y="192" width="36" height="8" rx="4" fill="{WHITE}"/>'
+        shadow(200, 279, 68)
+        + f'<rect x="174" y="12" width="52" height="32" rx="9" fill="{GREEN}"/>'
+        + f'<path d="M148 44h104l14 214a16 16 0 0 1-16 17H150a16 16 0 0 1-16-17z" '
+          f'fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        + f'<rect x="141" y="112" width="118" height="82" fill="{GREEN_SOFT}"/>'
+        + f'<rect x="164" y="138" width="72" height="12" rx="6" fill="{WHITE}"/>'
+        + f'<rect x="164" y="162" width="46" height="12" rx="6" fill="{WHITE}"/>'
     )
 
 
 def shape_jar():
     return (
-        f'<rect x="146" y="118" width="108" height="26" rx="8" fill="{GREEN}"/>'
-        f'<rect x="136" y="144" width="128" height="132" rx="18" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="136" y="184" width="128" height="58" fill="{GREEN_SOFT}"/>'
-        f'<rect x="160" y="204" width="80" height="8" rx="4" fill="{WHITE}"/>'
-        f'<rect x="160" y="220" width="52" height="8" rx="4" fill="{WHITE}"/>'
+        shadow(200, 279, 96)
+        + f'<rect x="122" y="34" width="156" height="40" rx="12" fill="{GREEN}"/>'
+        + f'<rect x="106" y="74" width="188" height="200" rx="24" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        + f'<rect x="106" y="132" width="188" height="88" fill="{GREEN_SOFT}"/>'
+        + f'<rect x="140" y="158" width="120" height="12" rx="6" fill="{WHITE}"/>'
+        + f'<rect x="140" y="182" width="78" height="12" rx="6" fill="{WHITE}"/>'
     )
 
 
 def shape_dropper():
     return (
-        f'<rect x="184" y="86" width="32" height="44" rx="8" fill="{GREEN}"/>'
-        f'<rect x="170" y="128" width="60" height="16" rx="6" fill="{INK}"/>'
-        f'<rect x="166" y="142" width="68" height="146" rx="14" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="166" y="186" width="68" height="56" fill="{GREEN_SOFT}"/>'
-        f'<rect x="180" y="204" width="40" height="8" rx="4" fill="{WHITE}"/>'
+        shadow(200, 279, 66)
+        + f'<rect x="176" y="10" width="48" height="58" rx="11" fill="{GREEN}"/>'
+        + f'<rect x="158" y="68" width="84" height="22" rx="8" fill="{INK}"/>'
+        + f'<rect x="146" y="90" width="108" height="184" rx="20" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        + f'<rect x="146" y="140" width="108" height="82" fill="{GREEN_SOFT}"/>'
+        + f'<rect x="168" y="166" width="64" height="12" rx="6" fill="{WHITE}"/>'
     )
 
 
@@ -132,114 +153,114 @@ PRODUCT_SHAPES = {
 
 def build_products():
     for name, shape in PRODUCT_SHAPES.items():
-        write(name, frame(400, 400, shape(), bg="#ffffff", radius=0))
+        write(name, svg(PW, PH, shape()))
 
 
 # --------------------------------------------------------------------------
-# hero image
+# hero — a group of products, transparent so the tinted band shows through
 # --------------------------------------------------------------------------
 
 def build_hero():
     inner = (
-        f'<ellipse cx="360" cy="470" rx="290" ry="26" fill="#e2eee8"/>'
-        # tall box back left
-        f'<rect x="96" y="188" width="126" height="266" rx="12" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="96" y="188" width="126" height="60" rx="12" fill="{GREEN_SOFT}"/>'
-        f'<rect x="120" y="278" width="78" height="10" rx="5" fill="{INK2}"/>'
-        f'<rect x="120" y="300" width="56" height="10" rx="5" fill="{INK2}"/>'
-        # centre carton
-        f'<rect x="238" y="140" width="168" height="314" rx="14" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="238" y="140" width="168" height="86" rx="14" fill="{GREEN}"/>'
-        f'<rect x="266" y="252" width="112" height="12" rx="6" fill="{INK2}"/>'
-        f'<rect x="266" y="280" width="78" height="12" rx="6" fill="{INK2}"/>'
-        f'<rect x="266" y="322" width="66" height="24" rx="12" fill="{GREEN_MID}"/>'
-        # bottle right
-        f'<rect x="452" y="196" width="52" height="30" rx="8" fill="{GREEN}"/>'
-        f'<rect x="438" y="224" width="80" height="20" rx="7" fill="{INK}"/>'
-        f'<rect x="428" y="242" width="100" height="212" rx="18" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="428" y="296" width="100" height="82" fill="{GREEN_SOFT}"/>'
-        f'<rect x="450" y="322" width="58" height="10" rx="5" fill="{WHITE}"/>'
-        f'<rect x="450" y="342" width="38" height="10" rx="5" fill="{WHITE}"/>'
-        # small jar far right
-        f'<rect x="552" y="300" width="96" height="22" rx="8" fill="{GREEN}"/>'
-        f'<rect x="544" y="322" width="112" height="132" rx="16" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="544" y="358" width="112" height="52" fill="{GREEN_SOFT}"/>'
+        f'<ellipse cx="360" cy="466" rx="286" ry="26" fill="{INK}" opacity="0.35"/>'
+        # tall carton, back left
+        f'<rect x="74" y="150" width="150" height="312" rx="14" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        f'<path d="M74 164a14 14 0 0 1 14-14h122a14 14 0 0 1 14 14v66H74z" fill="{GREEN_SOFT}"/>'
+        f'<rect x="100" y="256" width="94" height="12" rx="6" fill="{INK_SOFT}"/>'
+        f'<rect x="100" y="282" width="66" height="12" rx="6" fill="{INK_SOFT}"/>'
+        f'<rect x="100" y="322" width="58" height="22" rx="11" fill="{GREEN_MID}"/>'
+        # hero carton, centre
+        f'<rect x="240" y="86" width="196" height="376" rx="16" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        f'<path d="M240 102a16 16 0 0 1 16-16h164a16 16 0 0 1 16 16v96H240z" fill="{GREEN}"/>'
+        f'<rect x="272" y="230" width="132" height="14" rx="7" fill="{INK_SOFT}"/>'
+        f'<rect x="272" y="262" width="94" height="14" rx="7" fill="{INK_SOFT}"/>'
+        f'<rect x="272" y="306" width="78" height="28" rx="14" fill="{GREEN_MID}"/>'
+        f'<rect x="272" y="356" width="112" height="12" rx="6" fill="{INK_SOFT}"/>'
+        # bottle, right
+        f'<rect x="474" y="160" width="62" height="34" rx="9" fill="{GREEN}"/>'
+        f'<rect x="458" y="194" width="94" height="22" rx="8" fill="{INK}"/>'
+        f'<rect x="440" y="216" width="130" height="246" rx="24" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        f'<rect x="440" y="280" width="130" height="104" fill="{GREEN_SOFT}"/>'
+        f'<rect x="466" y="310" width="80" height="12" rx="6" fill="{WHITE}"/>'
+        f'<rect x="466" y="334" width="52" height="12" rx="6" fill="{WHITE}"/>'
+        # small jar, far right
+        f'<rect x="580" y="286" width="116" height="30" rx="10" fill="{GREEN}"/>'
+        f'<rect x="568" y="316" width="140" height="146" rx="18" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        f'<rect x="568" y="360" width="140" height="60" fill="{GREEN_SOFT}"/>'
         # loose tablets
-        f'<circle cx="180" cy="466" r="16" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<circle cx="216" cy="472" r="12" fill="{GREEN_SOFT}" stroke="{INK}" stroke-width="2"/>'
-        f'<rect x="470" y="452" width="42" height="22" rx="11" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        f'<circle cx="150" cy="470" r="18" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        f'<circle cx="192" cy="478" r="13" fill="{GREEN_SOFT}" stroke="{INK}" stroke-width="2.5"/>'
+        f'<rect x="486" y="452" width="48" height="24" rx="12" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
     )
-    write("hero-products.svg", frame(720, 520, inner, bg="#f6faf8", radius=24))
+    write("hero-products.svg", svg(720, 500, inner))
 
 
 # --------------------------------------------------------------------------
-# promo images
+# promo art — transparent, sits on the promo card's own tint
 # --------------------------------------------------------------------------
 
 def build_promos():
     delivery = (
-        f'<path d="M60 96l84-42 84 42-84 42z" fill="{GREEN_SOFT}" stroke="{INK}" stroke-width="3"/>'
-        f'<path d="M60 96v78l84 42V138z" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<path d="M228 96v78l-84 42V138z" fill="#eef4f2" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="96" y="128" width="46" height="30" rx="6" fill="{GREEN}" opacity="0.75"/>'
+        f'<path d="M46 92l100-50 100 50-100 50z" fill="{GREEN_SOFT}" stroke="{INK}" stroke-width="3"/>'
+        f'<path d="M46 92v92l100 50v-92z" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        f'<path d="M246 92v92l-100 50v-92z" fill="{GREEN_SOFT}" opacity="0.45" stroke="{INK}" stroke-width="3"/>'
+        f'<rect x="88" y="132" width="54" height="34" rx="7" fill="{GREEN}" opacity="0.8"/>'
     )
-    write("promo-delivery.svg", frame(300, 240, delivery, bg="#e9f5ef", radius=16))
+    write("promo-delivery.svg", svg(292, 240, delivery))
 
     packs = (
-        f'<rect x="42" y="104" width="60" height="104" rx="10" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="42" y="104" width="60" height="26" rx="10" fill="#f7c9d2"/>'
-        f'<rect x="118" y="76" width="72" height="132" rx="10" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="118" y="76" width="72" height="32" rx="10" fill="#f3a9b8"/>'
-        f'<rect x="206" y="112" width="56" height="96" rx="10" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
-        f'<rect x="206" y="112" width="56" height="24" rx="10" fill="#f7c9d2"/>'
+        f'<rect x="24" y="106" width="72" height="118" rx="11" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        f'<path d="M24 117a11 11 0 0 1 11-11h50a11 11 0 0 1 11 11v21H24z" fill="#f4b8c5"/>'
+        f'<rect x="108" y="60" width="86" height="164" rx="12" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        f'<path d="M108 72a12 12 0 0 1 12-12h62a12 12 0 0 1 12 12v34h-86z" fill="#ee94a9"/>'
+        f'<rect x="206" y="126" width="66" height="98" rx="11" fill="{WHITE}" stroke="{INK}" stroke-width="3"/>'
+        f'<path d="M206 137a11 11 0 0 1 11-11h44a11 11 0 0 1 11 11v18h-66z" fill="#f4b8c5"/>'
     )
-    write("promo-packs.svg", frame(300, 240, packs, bg="#fdeef0", radius=16))
+    write("promo-packs.svg", svg(292, 240, packs))
 
     support = (
-        f'<path d="M74 148v-16a76 76 0 0 1 152 0v16" fill="none" stroke="{GREEN}" stroke-width="14" stroke-linecap="round"/>'
-        f'<rect x="52" y="140" width="42" height="66" rx="18" fill="{GREEN}"/>'
-        f'<rect x="206" y="140" width="42" height="66" rx="18" fill="{GREEN}"/>'
-        f'<rect x="132" y="196" width="36" height="10" rx="5" fill="{INK}"/>'
+        f'<path d="M60 150v-22a86 86 0 0 1 172 0v22" fill="none" stroke="{GREEN}" stroke-width="16" stroke-linecap="round"/>'
+        f'<rect x="34" y="140" width="48" height="76" rx="20" fill="{GREEN}"/>'
+        f'<rect x="210" y="140" width="48" height="76" rx="20" fill="{GREEN}"/>'
+        f'<path d="M232 216v6a20 20 0 0 1-20 20h-24" fill="none" stroke="{GREEN}" stroke-width="10" stroke-linecap="round"/>'
     )
-    write("promo-support.svg", frame(300, 240, support, bg="#fdf4e7", radius=16))
+    write("promo-support.svg", svg(292, 240, support))
 
 
 # --------------------------------------------------------------------------
-# people placeholders
+# people
 # --------------------------------------------------------------------------
 
 def build_people():
     for name, tint in [
-        ("avatar-michael.svg", "#cfe3f7"),
-        ("avatar-daniel.svg", "#d5e8dc"),
-        ("avatar-sarah.svg", "#f7d9e0"),
-        ("avatar-james.svg", "#e3ddf7"),
-        ("avatar-priya.svg", "#fbe4c9"),
+        ("avatar-michael.svg", "#cfe0f5"),
+        ("avatar-daniel.svg", "#cfe4d8"),
+        ("avatar-sarah.svg", "#f6d3dc"),
+        ("avatar-james.svg", "#ded8f4"),
+        ("avatar-priya.svg", "#f9dfc2"),
     ]:
         inner = (
             f'<circle cx="48" cy="48" r="48" fill="{tint}"/>'
-            f'<circle cx="48" cy="38" r="16" fill="{WHITE}"/>'
-            f'<path d="M16 88a32 32 0 0 1 64 0z" fill="{WHITE}"/>'
+            f'<circle cx="48" cy="37" r="17" fill="{WHITE}"/>'
+            f'<path d="M14 90a34 34 0 0 1 68 0z" fill="{WHITE}"/>'
         )
-        body = (
-            f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" '
-            f'height="96" role="img">{inner}</svg>\n'
-        )
-        write(name, body)
+        write(name, svg(96, 96, inner))
 
     agent = (
-        f'<circle cx="210" cy="150" r="118" fill="#dcefe5"/>'
-        f'<path d="M136 148v-12a74 74 0 0 1 148 0v12" fill="none" stroke="{GREEN}" '
-        f'stroke-width="12" stroke-linecap="round"/>'
-        f'<rect x="120" y="140" width="34" height="54" rx="15" fill="{GREEN}"/>'
-        f'<rect x="266" y="140" width="34" height="54" rx="15" fill="{GREEN}"/>'
-        f'<circle cx="210" cy="176" r="52" fill="{WHITE}"/>'
-        f'<path d="M112 360a98 98 0 0 1 196 0z" fill="{WHITE}"/>'
-        f'<path d="M112 360a98 98 0 0 1 40-79l58 79z" fill="{GREEN_SOFT}"/>'
-        f'<path d="M308 360a98 98 0 0 0-40-79l-58 79z" fill="{GREEN_SOFT}"/>'
-        f'<rect x="196" y="214" width="28" height="24" rx="8" fill="#f6e0cd"/>'
+        f'<circle cx="210" cy="152" r="124" fill="{WHITE}" opacity="0.55"/>'
+        f'<path d="M132 150v-14a78 78 0 0 1 156 0v14" fill="none" stroke="{GREEN}" '
+        f'stroke-width="13" stroke-linecap="round"/>'
+        f'<rect x="114" y="142" width="38" height="60" rx="17" fill="{GREEN}"/>'
+        f'<rect x="268" y="142" width="38" height="60" rx="17" fill="{GREEN}"/>'
+        f'<path d="M286 202v8a22 22 0 0 1-22 22h-26" fill="none" stroke="{GREEN}" '
+        f'stroke-width="9" stroke-linecap="round"/>'
+        f'<circle cx="210" cy="178" r="54" fill="{WHITE}"/>'
+        f'<rect x="194" y="220" width="32" height="26" rx="9" fill="#f3ddc8"/>'
+        f'<path d="M106 360a104 104 0 0 1 208 0z" fill="{WHITE}"/>'
+        f'<path d="M106 360a104 104 0 0 1 42-83l62 83z" fill="{GREEN_SOFT}"/>'
+        f'<path d="M314 360a104 104 0 0 0-42-83l-62 83z" fill="{GREEN_SOFT}"/>'
     )
-    write("support-agent.svg", frame(420, 360, agent, bg="#eaf5ef", radius=0))
+    write("support-agent.svg", svg(420, 360, agent))
 
 
 if __name__ == "__main__":
@@ -248,4 +269,4 @@ if __name__ == "__main__":
     build_hero()
     build_promos()
     build_people()
-    print("done")
+    print("done — all artboards transparent, products fill a 4:3 canvas")

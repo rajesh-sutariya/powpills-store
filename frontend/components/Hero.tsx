@@ -56,7 +56,7 @@ export function Hero({ content }: { content: HeroContent }) {
               src={content.image.src}
               alt={content.image.alt}
               width={720}
-              height={520}
+              height={500}
               priority
               className="h-auto w-full drop-shadow-[0_24px_40px_rgba(10,51,39,0.10)]"
             />

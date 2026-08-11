@@ -23,9 +23,7 @@ export function PromoCards({ cards }: { cards: PromoCard[] }) {
             <div className="flex min-w-0 flex-col self-stretch">
               <h3 className="text-base font-bold leading-snug text-ink">{card.title}</h3>
 
-              <p className="mt-2.5 text-[0.8125rem] leading-relaxed text-ink-soft">
-                {card.description}
-              </p>
+              <p className="mt-2.5 text-sm leading-relaxed text-ink-soft">{card.description}</p>
 
               {card.ctaLabel && card.href && (
                 <Link

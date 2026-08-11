@@ -6,8 +6,9 @@ import { ProductCard } from './ProductCard';
 import type { Product } from '@/lib/types';
 
 /**
- * Five cards per view on desktop. The arrows fade out at each end instead of
- * sitting there greyed, and scrolling snaps so a card is never half-visible.
+ * Four cards per view on desktop, three on tablet. The arrows fade out at each
+ * end instead of sitting there greyed, and scrolling snaps so a card is never
+ * left half-visible.
  */
 export function ProductCarousel({ products }: { products: Product[] }) {
   const railRef = useRef<HTMLUListElement>(null);
@@ -53,7 +54,7 @@ export function ProductCarousel({ products }: { products: Product[] }) {
 
       <ul
         ref={railRef}
-        className="grid snap-x snap-mandatory auto-cols-[minmax(210px,1fr)] grid-flow-col gap-5 overflow-x-auto scroll-smooth pb-2 no-scrollbar sm:auto-cols-[minmax(230px,1fr)] lg:auto-cols-[calc((100%_-_5rem)/5)]"
+        className="grid snap-x snap-mandatory auto-cols-[minmax(240px,1fr)] grid-flow-col gap-5 overflow-x-auto scroll-smooth pb-2 no-scrollbar md:auto-cols-[calc((100%_-_2.5rem)/3)] lg:auto-cols-[calc((100%_-_3.75rem)/4)]"
       >
         {products.map((product) => (
           <li key={product.id} className="min-w-0 snap-start">
