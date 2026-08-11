@@ -20,15 +20,16 @@ export const HOMEPAGE_ENDPOINT = `${WP_URL}/wp-json/powpills/v1/homepage`;
 function mergeWithFallback(remote: Partial<HomepageContent> | null): HomepageContent {
   if (!remote) return homepageContent;
 
-  const merged = { ...homepageContent } as Record<string, unknown>;
+  const merged: HomepageContent = { ...homepageContent };
+  const writable = merged as unknown as Record<string, unknown>;
 
   for (const [key, value] of Object.entries(remote)) {
     const isEmptyArray = Array.isArray(value) && value.length === 0;
     if (value === null || value === undefined || isEmptyArray) continue;
-    merged[key] = value;
+    writable[key] = value;
   }
 
-  return merged as HomepageContent;
+  return merged;
 }
 
 export async function getHomepageContent(): Promise<{
